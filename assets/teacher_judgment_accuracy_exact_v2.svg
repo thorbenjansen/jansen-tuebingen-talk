@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1308" height="724" viewBox="0 0 1308 724">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+    <style><![CDATA[
+      .stroke { fill: none; stroke: #000; stroke-width: 3.2; stroke-linecap: butt; stroke-linejoin: miter; }
+      .solid { fill: none; stroke: #000; stroke-width: 4.2; stroke-linecap: round; stroke-linejoin: round; }
+      .dash  { fill: none; stroke: #000; stroke-width: 4.2; stroke-dasharray: 18 14; stroke-linecap: butt; }
+      .labelSmall { font-family: Arial, Helvetica, sans-serif; fill: #000; font-size: 25px; text-anchor: middle; dominant-baseline: middle; }
+      .labelBig { font-family: Arial, Helvetica, sans-serif; font-weight: 700; fill: #000; font-size: 34px; text-anchor: middle; dominant-baseline: middle; }
+    ]]></style>
+  </defs>
+
+  <!-- top row -->
+  <ellipse class="solid" cx="212" cy="71" rx="183" ry="58"/>
+  <text class="labelSmall" x="212" y="55">teacher</text>
+  <text class="labelSmall" x="212" y="92">characteristics</text>
+
+  <rect class="solid" x="495" y="15" width="347" height="127"/>
+  <text class="labelSmall" x="668.5" y="79">teachers’ judgment</text>
+
+  <ellipse class="solid" cx="1124" cy="71" rx="183" ry="58"/>
+  <text class="labelSmall" x="1124" y="55">judgment</text>
+  <text class="labelSmall" x="1124" y="92">characteristics</text>
+
+  <!-- direct arrows into top box -->
+  <path class="stroke" d="M395 71 H495" marker-end="url(#arrow)"/>
+  <path class="stroke" d="M941 71 H842" marker-end="url(#arrow)"/>
+
+  <!-- center accuracy box -->
+  <rect class="solid" x="401" y="297" width="507" height="126"/>
+  <text class="labelBig" x="654.5" y="360">Teacher Judgment Accuracy</text>
+
+  <!-- top middle down block arrow touching both boxes -->
+  <path class="solid" d="M632 142 H709 V227 H748 L670.5 297 L593 227 H632 Z"/>
+
+  <!-- one continuous dashed side lines -->
+  <path class="dash" d="M121 129 V543"/>
+  <path class="dash" d="M1158 129 V543"/>
+
+  <!-- dashed horizontal arrows to accuracy box -->
+  <path class="dash" d="M121 360 H401" marker-end="url(#arrow)"/>
+  <path class="dash" d="M1158 360 H908" marker-end="url(#arrow)"/>
+
+  <!-- curved solid arrows from top ellipses to accuracy box -->
+  <path class="solid" d="M243 129 V179 C243 248 288 302 401 333" marker-end="url(#arrow)"/>
+  <path class="solid" d="M1093 129 V179 C1093 248 1046 302 908 333" marker-end="url(#arrow)"/>
+
+  <!-- bottom row -->
+  <ellipse class="solid" cx="212" cy="615" rx="192" ry="72"/>
+  <text class="labelSmall" x="212" y="597">student</text>
+  <text class="labelSmall" x="212" y="638">characteristics</text>
+
+  <rect class="solid" x="496" y="538" width="347" height="127"/>
+  <text class="labelSmall" x="669.5" y="591">students’</text>
+  <text class="labelSmall" x="669.5" y="631">test performance</text>
+
+  <ellipse class="solid" cx="1124" cy="615" rx="184" ry="72"/>
+  <text class="labelSmall" x="1124" y="597">test</text>
+  <text class="labelSmall" x="1124" y="638">characteristics</text>
+
+  <!-- direct arrows into bottom box -->
+  <path class="stroke" d="M404 615 H496" marker-end="url(#arrow)"/>
+  <path class="stroke" d="M940 615 H843" marker-end="url(#arrow)"/>
+
+  <!-- bottom middle up block arrow touching both boxes -->
+  <path class="solid" d="M632 538 H709 V493 H748 L670.5 423 L593 493 H632 Z"/>
+
+  <!-- curved solid arrows from bottom ellipses to accuracy box -->
+  <path class="solid" d="M246 543 V490 C246 445 275 408 401 387" marker-end="url(#arrow)"/>
+  <path class="solid" d="M1094 543 V490 C1094 445 1063 408 908 387" marker-end="url(#arrow)"/>
+</svg>
