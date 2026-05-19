@@ -6,10 +6,22 @@
   --tertiary: #a59f97;
   --line: #e5e5e5;
   --pale: #f5f3f1;
+  --card: #ffffff;
   --blue: #0447ff;
-  --blue-soft: #f5f3f1;
+  --cyan: #29c7d8;
+  --blue-soft: #eef6ff;
   --coral: #ff4704;
+  --coral-soft: #fff2ec;
   --gold: #f1b44c;
+  --gold-soft: #fff8e8;
+  --green: #168a4a;
+  --green-soft: #eef8f0;
+  --type-row: 24px;
+  --type-row-lg: 26px;
+  --type-card-title: 23px;
+  --type-card-body: 17px;
+  --weight-heading-ui: 760;
+  --weight-label-ui: 720;
   --shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.075) inset, 0 2px 4px rgba(0, 0, 0, 0.04);
   --content: min(1040px, calc(max(1180px, 100vw) - 240px));
   --display: "Cormorant Garamond", "Libre Baskerville", Georgia, "Times New Roman", serif;
@@ -25,7 +37,7 @@ body {
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: linear-gradient(180deg, rgba(253, 252, 252, 1), rgba(250, 249, 247, 0.95));
   color: var(--ink);
   font-family: var(--ui);
   font-size: 18px;
@@ -219,6 +231,7 @@ img { max-width: 100%; display: block; }
 }
 
 .slide {
+  position: relative;
   min-height: 720px;
   height: 100vh;
   padding: 76px 150px 46px 58px;
@@ -232,6 +245,8 @@ img { max-width: 100%; display: block; }
 }
 
 .slide > * {
+  position: relative;
+  z-index: 1;
   width: var(--content);
 }
 
@@ -623,12 +638,12 @@ ul {
   width: max-content;
   max-width: 100%;
   padding: 6px 10px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(4, 71, 255, 0.12);
   border-radius: 999px;
-  background: var(--powder);
-  color: var(--muted);
+  background: rgba(238, 246, 255, 0.9);
+  color: #57534f;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 560;
 }
 
 .triad {
@@ -736,6 +751,14 @@ ul {
   margin-top: 0;
 }
 
+.structure,
+.interim,
+.pisa-process {
+  background:
+    radial-gradient(circle at 76% 26%, rgba(210, 235, 238, 0.24), transparent 32%),
+    var(--paper);
+}
+
 .structure-list article {
   display: grid;
   gap: 8px;
@@ -743,9 +766,9 @@ ul {
 
 .structure-list h2 {
   font-family: var(--ui);
-  font-size: 25px;
-  font-weight: 850;
-  line-height: 1.12;
+  font-size: var(--type-card-title);
+  font-weight: var(--weight-heading-ui);
+  line-height: 1.16;
 }
 
 .structure-row {
@@ -760,8 +783,8 @@ ul {
   position: relative;
   margin: 0;
   padding-left: 24px;
-  font-size: 27px;
-  line-height: 1.12;
+  font-size: var(--type-row);
+  line-height: 1.16;
   color: var(--ink);
 }
 
@@ -792,6 +815,10 @@ ul {
 .efficiency-feedback-cycle {
   align-content: center;
   gap: 14px;
+  background:
+    radial-gradient(circle at 72% 50%, rgba(210, 235, 238, 0.34), transparent 36%),
+    radial-gradient(circle at 18% 84%, rgba(245, 243, 241, 0.9), transparent 30%),
+    var(--paper);
 }
 
 .efficiency-feedback-cycle h1 {
@@ -870,7 +897,7 @@ ul {
   color: var(--muted);
   font-family: var(--ui);
   font-size: 13px;
-  font-weight: 850;
+  font-weight: var(--weight-label-ui);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -879,16 +906,16 @@ ul {
   max-width: 330px;
   margin: 0;
   font-family: var(--ui);
-  font-size: clamp(34px, 3.2vw, 48px);
-  font-weight: 850;
-  line-height: 1;
+  font-size: clamp(28px, 2.65vw, 38px);
+  font-weight: 650;
+  line-height: 1.05;
 }
 
 .feedback-cycle-cards p {
   margin: 0;
   color: var(--muted);
   font-size: 17px;
-  font-weight: 650;
+  font-weight: 500;
   line-height: 1.18;
 }
 
@@ -989,9 +1016,9 @@ ul {
 .needs-group h2 {
   max-width: 100%;
   font-family: var(--ui);
-  font-size: 25px;
-  font-weight: 850;
-  line-height: 1.12;
+  font-size: var(--type-card-title);
+  font-weight: var(--weight-heading-ui);
+  line-height: 1.16;
   letter-spacing: -0.01em;
 }
 
@@ -1007,8 +1034,8 @@ ul {
   position: relative;
   margin: 0;
   padding-left: 24px;
-  font-size: 27px;
-  line-height: 1.12;
+  font-size: var(--type-row);
+  line-height: 1.16;
   font-weight: 500;
 }
 
@@ -1059,9 +1086,9 @@ ul {
 .basis-heading h2 {
   max-width: 100%;
   font-family: var(--ui);
-  font-size: 28px;
-  font-weight: 850;
-  line-height: 1.12;
+  font-size: var(--type-row);
+  font-weight: var(--weight-heading-ui);
+  line-height: 1.16;
   letter-spacing: -0.01em;
 }
 
@@ -1069,8 +1096,8 @@ ul {
   position: relative;
   margin: 0;
   padding-left: 24px;
-  font-size: 29px;
-  line-height: 1.14;
+  font-size: var(--type-row);
+  line-height: 1.16;
   font-weight: 500;
 }
 
@@ -1127,7 +1154,7 @@ ul {
 .project-grid p,
 .theory-grid p {
   color: var(--muted);
-  font-size: 17px;
+  font-size: var(--type-card-body);
   line-height: 1.42;
 }
 
@@ -1251,12 +1278,12 @@ button.corpus-card {
   width: max-content;
   max-width: 100%;
   padding: 5px 9px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(4, 71, 255, 0.12);
   border-radius: 999px;
-  background: rgba(245, 243, 241, 0.86);
-  color: var(--muted);
+  background: rgba(238, 246, 255, 0.9);
+  color: #57534f;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 560;
   line-height: 1.2;
   box-shadow: var(--shadow);
 }
@@ -2465,10 +2492,10 @@ button.corpus-card {
   left: 0;
   width: min(292px, 100%);
   padding: 7px 10px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(4, 71, 255, 0.12);
   border-radius: 18px;
-  background: var(--powder);
-  color: var(--muted);
+  background: rgba(238, 246, 255, 0.9);
+  color: #57534f;
   box-shadow: var(--shadow);
 }
 
@@ -2789,8 +2816,8 @@ button.corpus-card {
   box-shadow: var(--shadow);
   cursor: zoom-in;
   font: inherit;
-  font-size: 17px;
-  font-weight: 800;
+  font-size: var(--type-card-body);
+  font-weight: var(--weight-label-ui);
 }
 
 .pisa-result-actions button:hover {
@@ -3019,6 +3046,41 @@ button.corpus-card {
 .team-grid section + section {
   border-left: 1px solid var(--line);
   padding-left: 26px;
+}
+
+.references-slide {
+  justify-items: start;
+  align-content: start;
+  padding-top: 96px;
+  gap: 14px;
+}
+
+.references-slide h1 {
+  max-width: 980px;
+}
+
+.apa-list {
+  width: min(1040px, 100%);
+  margin: 8px 0 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 34px;
+  list-style: none;
+  color: #4b4843;
+  font-size: clamp(12px, 1.02vw, 14px);
+  line-height: 1.32;
+}
+
+.apa-list li {
+  break-inside: avoid;
+  margin: 0 0 10px;
+  padding-left: 18px;
+  text-indent: -18px;
+}
+
+.apa-list em {
+  font-style: italic;
+  color: #111;
 }
 
 .logo-grid {
@@ -3294,7 +3356,7 @@ button.corpus-card {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--blue);
+  background: #000;
 }
 
 .corpora .corpus-card .reference-line {

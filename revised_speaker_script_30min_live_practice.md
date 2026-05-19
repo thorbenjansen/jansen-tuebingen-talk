@@ -2,25 +2,6 @@
 
 ## Revision Summary: Changes from Live Practice
 
-This version incorporates the revisions made during rehearsal:
-
-1. The talk is framed more explicitly as **use-inspired basic research**: it starts from theory, builds interventions, tests them, and returns to theory development.
-2. The structure slide now distinguishes **efficacy as internal validity** and **effectiveness as external validity**, with the overall goal of building evidence-based teaching and learning arrangements.
-3. The teacher-judgment slide now connects more clearly to **40 years of teacher judgment accuracy research**, where teacher judgments are compared with correct or criterion-based student performance.
-4. The teacher-judgment contribution is sharpened: the specific contribution is applying this tradition to **argumentative writing**, where judgment is difficult because content, structure, evidence, reasoning, and language interact.
-5. Teacher judgment biases are made more explicit.
-6. The motivation and self-belief meta-analysis section now emphasizes that students’ motivation and self-beliefs depend strongly on whether they **experience that they are learning** and see that their actions improve competence.
-7. The intervention-development transition now says that the intervention is designed to **make learning and progress visible**.
-8. The argumentation learning progression is reformulated as a progression from understanding the context, to building arguments with claim, evidence, and warrant, to refining arguments through interaction and revision.
-9. The pilot section is rebalanced: the teacher side receives more emphasis.
-10. The TRACE Tool mechanism of action is now stated more clearly: relevant assessment points in the text are made salient, while less relevant information is made less salient, to support diagnostic focus.
-11. The efficacy section now explicitly describes TRACE-G as a **DFG grant project** starting at the end of 2026.
-12. A new recommended efficacy slide has been inserted on the feedback experiment based on **Hattie and Timperley’s feedback model**, showing that only the combination of feed-up, feedback, and feed-forward provides robust support.
-13. The effectiveness section now states more clearly that the study tests the intervention under classroom-like or real-world conditions, with attention to engagement, motivation, and moderation by student characteristics.
-
----
-
-Source deck: `output/final/jansen_tuebingen_talk_html_maintainable/index.html`
 
 Target: professorship job talk, exactly 30:00. The script is written for a calm but purposeful pace, around 125 to 140 spoken words per minute, with short pauses on title, evidence, and transition slides.
 
@@ -39,8 +20,6 @@ Target: professorship job talk, exactly 30:00. The script is written for a calm 
 
 ## Delivery Principle
 
-The talk should not sound like a list of projects. The spine is:
-
 I build and study effective teaching and learning arrangements for argumentation. The recurring problem is that argumentation is important but difficult to teach, assess, and support in real time. My contribution is to combine learning theory, formative assessment, automated analysis, motivation research, and scalable teacher support into a coherent research program.
 
 The stronger framing is use-inspired basic research: I start from theory, build an intervention from that theory, test the intervention under increasingly realistic conditions, and return to theory development. The talk therefore moves from theory to intervention and back to theory.
@@ -53,11 +32,7 @@ Target time: 0:30
 
 Script:
 
-Thank you very much for the opportunity to present my work. My talk is about effective argumentation instruction across science and language education. The central idea is that students learn argumentation best when we can make their thinking visible while it is still developing. This is where pedagogical AI becomes interesting: not as a replacement for teachers, but as a way to support formative assessment, motivation, and learning in the process.
-
-Transition:
-
-I will start with the educational problem that motivates the whole program.
+ Dear Professor Papies, honored whole member of the Commission, dear guest. It's a great honor to speak today here at the University of Tübingen. And I have so much to tell, so I jump right into my talk titled Effective Argumentation Instruction Across Science and Language Education, in which I present my work about supporting teachers' formative assessment, student motivation, and learning with pedagogical AI. 
 
 ## Slide 2. Starting Point
 
@@ -65,9 +40,7 @@ Target time: 1:05
 
 Script:
 
-My starting point is that argumentative competencies are central for participation in society. Students need to build positions, justify them with evidence, communicate them clearly, and revise them when they encounter better reasons. At the same time, argumentation is not one simple skill. In science education, students have to coordinate claims, evidence, models, and domain knowledge. In language education, they also have to organize a text, formulate a position, and produce linguistically appropriate arguments.
-
-That creates a very practical problem for teaching. Effective argumentation instruction requires continuous diagnosis and feedback while students are working. Teachers need to see what students understand, where their argument breaks down, and what kind of support would help next. Digital tools and AI can help by making parts of this process visible and by supporting teachers and students before the final product is already finished.
+My starting point is that argumentative competencies are central for participation in society. First, because learning to argue is helpful in building one's own position and understanding what to speak for. And secondly, argumentation competencies enable one to communicate their own claims and reasons to others. However, argumentation is a multifaceted competence which makes it complex to learn. So we teach this from multiple sides, also from the sciences by learning what could be scientifically clear arguments and also in language education. For example, how the whole argumentation could be structured. The problem is that argumentation difficult to teach, assess, and support in real time. Teachers need to see what students understand, where their argument breaks down, and what kind of support would help next. Digital tools and AI can help by making parts of this process visible and by supporting teachers and students before the final product is already finished.
 
 Transition:
 
