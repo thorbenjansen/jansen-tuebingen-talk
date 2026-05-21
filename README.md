@@ -1,5 +1,13 @@
 # Main Talk HTML Maintenance Guide
 
+## Canonical Working Copy
+
+This top-level folder is now the canonical editable version of the job-talk website:
+
+`/Users/admin/Desktop/Own Thoughts LLM Wiki/Talks/jansen_tuebingen_talk_html_maintainable/`
+
+Future edits should be made directly here. Older copies under `output/final/` are export or recovery copies only, not the working source, so avoid editing them unless the user explicitly asks to refresh an export.
+
 This folder is the hand-maintainable version of the Tuebingen talk. If a task refers to `web.html`, treat this folder's `index.html` as the current editable web talk unless an actual `web.html` file is added later.
 
 ## Files
@@ -202,4 +210,3 @@ The slow part of editing is structural: presentation content, layout, and QA all
 - Do not let long text push content below the 16:9 viewport; reduce copy before reducing typography.
 - Do not leave dialog content inaccessible: provide a close button and clear `alt` text.
 - Do not hand-edit the generated `slides-data.js` deck unless the task explicitly targets that implementation.
-

@@ -338,22 +338,120 @@ h2 {
 .callout-process { top: 53%; left: 4%; }
 
 .summary-hero {
-  grid-template-columns: minmax(430px, 0.92fr) minmax(0, 1.08fr);
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(255, 255, 255, 0.96), rgba(250, 249, 247, 0.9) 58%, rgba(250, 249, 247, 0.84)),
+    var(--paper);
+}
+
+.summary-hero::before {
+  content: none;
 }
 
 .summary-hero .hero-copy {
+  width: min(650px, calc(100vw - 470px));
   align-self: center;
-  justify-self: end;
-  max-width: 610px;
+  justify-self: center;
+  margin: 0 auto;
+  padding: 36px 46px;
+  z-index: 2;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.94);
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.13);
 }
 
 .summary-hero .hero-copy h1 {
-  font-size: clamp(44px, 4.3vw, 62px);
+  font-size: clamp(34px, 3.15vw, 48px);
 }
 
-.summary-hero .hero-art img {
-  width: 112%;
-  object-position: right center;
+.summary-logo-ring {
+  position: absolute;
+  width: min(1160px, calc(100vw - 88px));
+  inset: 76px auto 64px;
+  z-index: 1;
+}
+
+.summary-logo-ring::before {
+  content: "";
+  position: absolute;
+  inset: 52px 46px 58px;
+  border: 1px solid rgba(115, 111, 103, 0.26);
+  border-radius: 50%;
+}
+
+.summary-logo-ring::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle, rgba(115, 111, 103, 0.32) 0 5px, transparent 6px) 18% 20% / 12px 12px no-repeat,
+    radial-gradient(circle, rgba(115, 111, 103, 0.32) 0 5px, transparent 6px) 82% 20% / 12px 12px no-repeat,
+    radial-gradient(circle, rgba(115, 111, 103, 0.32) 0 5px, transparent 6px) 91% 51% / 12px 12px no-repeat,
+    radial-gradient(circle, rgba(115, 111, 103, 0.32) 0 5px, transparent 6px) 70% 91% / 12px 12px no-repeat,
+    radial-gradient(circle, rgba(115, 111, 103, 0.32) 0 5px, transparent 6px) 17% 91% / 12px 12px no-repeat;
+  pointer-events: none;
+}
+
+.summary-logo {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 184px;
+  height: 92px;
+  margin: 0;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+}
+
+.summary-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.summary-logo figcaption {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.summary-logo--tuese {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.summary-logo--hib {
+  top: 32%;
+  right: 0;
+}
+
+.summary-logo--lead {
+  top: 44%;
+  left: 0;
+}
+
+.summary-logo--hector {
+  top: 68%;
+  right: 1%;
+  height: 112px;
+}
+
+.summary-logo--iwm {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 206px;
 }
 
 .summary-hero .callout-visible {
@@ -535,6 +633,108 @@ ul {
   max-width: 1040px;
 }
 
+.structure-image-slide {
+  align-content: center;
+  justify-items: center;
+  padding-top: 72px;
+  padding-bottom: 36px;
+}
+
+.structure-image {
+  width: min(1120px, 100%);
+  margin: 0;
+}
+
+.structure-image img {
+  display: block;
+  width: 100%;
+  max-height: calc(100vh - 118px);
+  object-fit: contain;
+}
+
+#structure .cycle-card--school {
+  position: relative;
+  gap: 20px;
+  padding: 20px 44px 28px;
+  border-radius: 18px;
+  overflow: visible;
+}
+
+#structure .cycle-card--school > :not(.cycle-loop) {
+  position: relative;
+  z-index: 1;
+}
+
+.cycle-school {
+  justify-self: center;
+  width: min(360px, 42%);
+  margin: -2px 0 0;
+}
+
+.cycle-school svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: #000;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cycle-loop {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  border-color: #000;
+}
+
+.cycle-loop--left {
+  left: 42px;
+  top: 156px;
+  width: 205px;
+  height: 190px;
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
+  border-radius: 14px 0 0 14px;
+}
+
+.cycle-loop--left::after {
+  content: "";
+  position: absolute;
+  right: -8px;
+  bottom: -7px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid #000;
+}
+
+.cycle-loop--right {
+  right: 42px;
+  top: 83px;
+  width: 360px;
+  height: 366px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
+  border-radius: 0 18px 18px 0;
+}
+
+.cycle-loop--right::after {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: -7px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 12px solid #000;
+}
+
 .theory-band,
 .intervention-band {
   display: grid;
@@ -644,6 +844,11 @@ ul {
   color: #57534f;
   font-size: 13px;
   font-weight: 560;
+}
+
+button.ref {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .triad {
@@ -837,6 +1042,29 @@ ul {
   margin-bottom: 0;
 }
 
+.feedback-cycle-modal {
+  max-height: calc(100vh - 64px);
+  overflow: auto;
+}
+
+.feedback-cycle-popup {
+  display: grid;
+  gap: 14px;
+  padding: 10px 8px 4px;
+}
+
+.feedback-cycle-popup h1 {
+  max-width: 1040px;
+}
+
+.feedback-cycle-popup .lead {
+  max-width: 1020px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 22px;
+  line-height: 1.32;
+}
+
 .feedback-cycle-layout {
   display: grid;
   grid-template-columns: minmax(330px, 430px) minmax(470px, 1fr);
@@ -939,6 +1167,15 @@ ul {
   height: 100%;
   object-fit: contain;
   object-position: top center;
+}
+
+.feedback-cycle-modal .feedback-pilot-open {
+  float: none;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  font-weight: inherit;
 }
 
 .theory-structure-frame {
@@ -1169,6 +1406,89 @@ button.corpus-card {
   font-size: clamp(40px, 4.05vw, 56px);
 }
 
+.model-subtitle {
+  margin-top: -8px;
+  color: var(--muted);
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+#teacher-model {
+  grid-template-columns: minmax(360px, 0.82fr) minmax(420px, 1.18fr);
+  grid-template-rows: auto 1fr;
+  column-gap: 34px;
+  align-content: center;
+  align-items: center;
+}
+
+#teacher-model h1 {
+  grid-column: 1 / -1;
+  max-width: 1060px;
+}
+
+#teacher-model .model-subtitle {
+  grid-column: 1;
+  width: min(540px, 100%);
+  margin: 0;
+  padding: 38px 34px;
+  border: 1px solid var(--line);
+  border-left: 4px solid #000;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  font-size: 31px;
+  font-weight: 650;
+  line-height: 1.18;
+}
+
+#teacher-model .teacher-judgment-model {
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: end;
+  width: min(600px, 100%);
+  padding: 46px 28px 54px;
+}
+
+#teacher-model .teacher-judgment-model img {
+  width: 100%;
+  max-height: calc(100vh - 260px);
+}
+
+#teacher-model .model-ref {
+  max-width: 210px;
+  gap: 5px;
+}
+
+#teacher-model .model-ref span {
+  padding: 4px 7px;
+  font-size: 10.5px;
+}
+
+#teacher-model .model-ref--teacher {
+  top: 4px;
+  left: 28px;
+}
+
+#teacher-model .model-ref--judgment {
+  top: 4px;
+  right: 28px;
+}
+
+#teacher-model .model-ref--student {
+  bottom: 5px;
+  left: 28px;
+}
+
+#teacher-model .model-ref--test {
+  right: 28px;
+  bottom: 5px;
+}
+
+#teacher-model .model-ref--full {
+  bottom: 6px;
+}
+
 .full-model,
 .wide-figure,
 .task-slide figure,
@@ -1352,13 +1672,33 @@ button.corpus-card {
 }
 
 .interim {
+  align-content: center;
+  justify-items: center;
   background: var(--paper);
   gap: 22px;
 }
 
 .interim h1 {
-  max-width: 980px;
+  max-width: 1040px;
   font-size: clamp(44px, 4.8vw, 68px);
+  text-align: center;
+}
+
+.interim h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.interim h1 a:hover {
+  color: inherit;
+}
+
+#interim-diagnosis h1 {
+  padding: 46px 58px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: var(--shadow);
 }
 
 .interim-summary {
@@ -1490,6 +1830,172 @@ button.corpus-card {
 .formative-picture--full img {
   width: min(1060px, 100%);
   max-height: calc(100vh - 245px);
+}
+
+.formative-process {
+  align-content: center;
+  gap: 26px;
+}
+
+.formative-process h1 {
+  max-width: 1080px;
+  font-size: clamp(42px, 4vw, 58px);
+}
+
+.formative-model-picture {
+  width: var(--content);
+  margin: 0;
+}
+
+.formative-model-picture img {
+  display: block;
+  width: 100%;
+  max-height: calc(100vh - 250px);
+  object-fit: contain;
+}
+
+.feedback-questions {
+  position: relative;
+  width: var(--content);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  padding-top: 48px;
+}
+
+.feedback-questions::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 7%;
+  right: 7%;
+  height: 2px;
+  background: #000;
+}
+
+.feedback-questions article {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.feedback-questions article::after {
+  content: "";
+  position: absolute;
+  top: -27px;
+  right: -22px;
+  width: 18px;
+  height: 18px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  transform: rotate(45deg);
+}
+
+.feedback-questions article:last-child::after {
+  display: none;
+}
+
+.feedback-questions span {
+  position: absolute;
+  top: -48px;
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background: var(--paper);
+  font-family: var(--serif);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.feedback-questions h2 {
+  margin: 28px 0 0;
+  font-family: var(--serif);
+  font-size: clamp(26px, 2.3vw, 38px);
+  font-weight: 700;
+  line-height: 1.06;
+}
+
+.feedback-questions p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.feedback-questions p::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin: 0 auto 12px;
+  border-radius: 999px;
+  background: var(--blue);
+  opacity: 0.8;
+}
+
+.teacher-support-frame {
+  position: relative;
+  width: var(--content);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  padding: 58px 28px 26px;
+  border: 1.5px solid var(--ink);
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.teacher-support-title {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  padding: 0 20px;
+  background: var(--paper);
+  font-size: 18px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+}
+
+.teacher-support-frame article {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  min-height: 112px;
+  padding: 2px 20px;
+  text-align: center;
+}
+
+.teacher-support-frame article + article {
+  border-left: 1px dashed rgba(11, 31, 48, 0.42);
+}
+
+.teacher-support-frame article::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.teacher-support-frame span {
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.teacher-support-frame strong {
+  font-size: 24px;
+  line-height: 1.12;
 }
 
 .learning-progression {
@@ -2194,6 +2700,27 @@ button.corpus-card {
 
 .sevt-slide h1 {
   max-width: 1020px;
+}
+
+.sevt-picture,
+.progression-picture {
+  width: var(--content);
+  margin: 0;
+}
+
+.sevt-picture img,
+.progression-picture img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.sevt-picture img {
+  max-height: calc(100vh - 245px);
+}
+
+.progression-picture img {
+  max-height: calc(100vh - 235px);
 }
 
 .sevt-lead {
@@ -3033,6 +3560,36 @@ button.corpus-card {
   grid-template-columns: 0.95fr 1.05fr 0.95fr;
   gap: 24px;
   align-items: start;
+}
+
+.team {
+  overflow: hidden;
+}
+
+.team::before {
+  content: "";
+  position: absolute;
+  top: 80px;
+  bottom: 38px;
+  left: -120px;
+  width: min(58vw, 700px);
+  background: url("assets/learning_process_illustration.png") left center / contain no-repeat;
+  opacity: 0.2;
+  filter: saturate(0.95);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.team::after {
+  content: "";
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  width: 58%;
+  background: linear-gradient(90deg, rgba(250, 249, 247, 0.08), rgba(250, 249, 247, 0.68));
+  pointer-events: none;
+  z-index: 0;
 }
 
 .team-grid section {
