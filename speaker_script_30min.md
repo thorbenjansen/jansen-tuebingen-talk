@@ -210,7 +210,7 @@ The enlarged screenshot shows these three parts in a concrete feedback environme
 
 Transition: The teacher-side pilot work focuses on assessment competence.
 
-## Slide 18. Efficiency Study
+## Slide 18. Efficacy Study
 
 Target time: 0:25
 
