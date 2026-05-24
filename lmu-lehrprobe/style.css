@@ -916,6 +916,22 @@ blockquote {
   font-size: 15px;
 }
 
+.prompt-doc pre,
+.syllabus-section pre {
+  margin: 0;
+  max-height: none;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.prompt-doc code,
+.syllabus-section pre code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
 .exercise-grid,
 .source-list {
   display: grid;
