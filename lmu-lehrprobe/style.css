@@ -838,7 +838,9 @@ blockquote {
 
 .fact-grid article,
 .fit-table div,
-.week-list li {
+.week-list li,
+.exercise-grid article,
+.source-list article {
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -847,7 +849,9 @@ blockquote {
 
 .fact-grid b,
 .fit-table b,
-.week-list b {
+.week-list b,
+.exercise-grid b,
+.source-list b {
   display: block;
   margin-bottom: 8px;
   font-size: 13px;
@@ -857,7 +861,9 @@ blockquote {
 
 .fact-grid span,
 .fit-table span,
-.week-list span {
+.week-list span,
+.exercise-grid span,
+.source-list span {
   color: var(--muted-stone);
   font-size: 16px;
 }
@@ -908,6 +914,18 @@ blockquote {
 
 .sources p {
   font-size: 15px;
+}
+
+.exercise-grid,
+.source-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.source-list {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media (max-width: 900px) {
