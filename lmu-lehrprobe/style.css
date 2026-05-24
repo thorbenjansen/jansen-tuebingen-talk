@@ -99,7 +99,26 @@ img {
 
 .controls {
   display: flex;
+  align-items: center;
   gap: 10px;
+}
+
+.syllabus-link {
+  min-width: 36px;
+  height: 36px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: rgba(4, 23, 43, 0.05) 0 0 0 1px, rgba(0, 0, 0, 0.05) 0 2px 4px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .controls button {
@@ -757,6 +776,138 @@ blockquote {
   right: 144px;
   bottom: 78px;
   width: 210px;
+}
+
+.syllabus-doc {
+  scroll-snap-type: none;
+}
+
+.syllabus-page {
+  background: linear-gradient(180deg, #ffffff 0%, #fff8f4 42%, #ffffff 100%);
+}
+
+.syllabus {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 112px 42px 80px;
+}
+
+.syllabus-hero,
+.syllabus-section {
+  margin-bottom: 30px;
+  padding: 34px 38px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: rgba(4, 23, 43, 0.04) 0 0 0 1px, rgba(0, 0, 0, 0.08) 0 16px 28px -18px;
+}
+
+.syllabus-hero h1,
+.syllabus-section h2 {
+  margin: 0 0 18px;
+  font-family: var(--display);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.syllabus-hero h1 {
+  max-width: 920px;
+  font-size: 58px;
+  line-height: 0.98;
+}
+
+.syllabus-section h2 {
+  font-size: 34px;
+}
+
+.syllabus-section p {
+  max-width: 880px;
+  margin: 0 0 14px;
+  color: var(--muted-stone);
+}
+
+.fact-grid,
+.fit-table {
+  display: grid;
+  gap: 12px;
+}
+
+.fact-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fact-grid article,
+.fit-table div,
+.week-list li {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+}
+
+.fact-grid b,
+.fit-table b,
+.week-list b {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.fact-grid span,
+.fit-table span,
+.week-list span {
+  color: var(--muted-stone);
+  font-size: 16px;
+}
+
+.fit-table {
+  grid-template-columns: 1fr;
+}
+
+.week-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+  counter-reset: week;
+}
+
+.week-list li {
+  counter-increment: week;
+}
+
+.week-list li::before {
+  content: counter(week, decimal-leading-zero);
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 12px;
+  border-radius: 999px;
+  background: var(--fog);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.week-list li.highlight {
+  background: var(--warm-mist);
+  border-color: rgba(93, 42, 26, 0.22);
+}
+
+.syllabus-cards .card h3 {
+  margin: 6px 0 8px;
+  font-family: var(--display);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.sources p {
+  font-size: 15px;
 }
 
 @media (max-width: 900px) {
