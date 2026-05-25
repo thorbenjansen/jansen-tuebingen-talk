@@ -1,0 +1,48 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:34",
+  "artifact_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality",
+  "quality_label": "automated-level-2",
+  "source_identity": {
+    "title": "Towards developing a theory of generic teaching quality",
+    "authors": "['Anna-Katharina Praetorius', 'Eckhard Klieme', 'Thilo Kleickmann', 'Esther Brunner', 'Anke Lindmeier', 'Sandy Taut', 'Charalambos Charalambous']",
+    "year": "2020",
+    "doi": "10.25656/01:25861",
+    "source_pdf": "raw/paper__praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality.pdf",
+    "rawmarkdown_path": "rawmarkdown_full/paper-praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality.md",
+    "apa_reference": "Praetorius, A.-K., Klieme, E., Kleickmann, T., Brunner, E., Lindmeier, A., Taut, S., & Charalambous, C. (2020). Towards developing a theory of generic teaching quality: Origin, current status, and necessary next steps regarding the Three Basic Dimensions Model. In A.-K. Praetorius, J. Gruenkorn, & E. Klieme (Eds.), Empirische Forschung zu Unterrichtsqualitaet (Zeitschrift fuer Paedagogik, Beiheft 66, pp. 15-36). Beltz Juventa. https://doi.org/10.25656/01:25861"
+  },
+  "controlled_fields": {
+    "document_type": "empirical-study",
+    "design_type": "experiment-intervention",
+    "education_level": [
+      "mixed-education-levels"
+    ],
+    "domain": [
+      "feedback",
+      "assessment",
+      "motivation",
+      "learning-processes"
+    ],
+    "concepts": [
+      "Teachers",
+      "Diagnostic Competence",
+      "Formative Assessment",
+      "Assessment And Formative Assessment",
+      "Learning Processes"
+    ],
+    "theories": []
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

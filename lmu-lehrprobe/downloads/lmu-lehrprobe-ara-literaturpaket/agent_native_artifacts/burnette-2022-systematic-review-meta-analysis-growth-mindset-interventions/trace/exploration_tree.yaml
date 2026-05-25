@@ -1,0 +1,7 @@
+artifact: burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions
+status: human-curated-level-3
+source_pdf: raw/paper__a-systematic-review-and-meta-analysis-of-growth-mindset-interventions.pdf
+readthrough:
+  date: 2026-05-06
+  decision: retained_as_research_artifact
+  connection_pass: true

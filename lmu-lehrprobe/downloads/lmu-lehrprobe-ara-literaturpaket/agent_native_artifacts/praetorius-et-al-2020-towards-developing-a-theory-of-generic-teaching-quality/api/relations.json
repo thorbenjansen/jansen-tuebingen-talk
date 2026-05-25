@@ -1,0 +1,36 @@
+[
+  {
+    "relation_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::R001",
+    "source_ara": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality",
+    "target_ara": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "relation_type": "same_theory",
+    "relation_label": "same_theory",
+    "apa_reference": "Korpershoek, H., Harms, T., de Boer, H., van Kuijk, M., & Doolaard, S. (2016). A meta-analysis of the effects of classroom management strategies and classroom management programs on students' academic, behavioral, emotional, and motivational outcomes. Review of Educational Research, 86(3), 643-680.",
+    "shared_concepts": [
+      "Teachers",
+      "Learning Processes",
+      "Assessment And Formative Assessment"
+    ],
+    "shared_theories": [],
+    "rationale": "Classroom management is one of the Three Basic Dimensions, and Korpershoek et al. provide outcome-oriented evidence around that dimension.",
+    "confidence": "medium",
+    "source_file": "output/agent_native_artifacts/praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality/logic/apa_references.md"
+  },
+  {
+    "relation_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::R002",
+    "source_ara": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality",
+    "target_ara": "cornelius-white-2007-learner-centered-teacher-student-relationships-are-effective-a",
+    "relation_type": "same_theory",
+    "relation_label": "same_theory",
+    "apa_reference": "Cornelius-White, J. (2007). Learner-centered teacher-student relationships are effective: A meta-analysis. Review of Educational Research, 77(1), 113-143.",
+    "shared_concepts": [
+      "Teachers",
+      "Students",
+      "Learning Processes"
+    ],
+    "shared_theories": [],
+    "rationale": "Learner-centered teacher-student relationship evidence is a strong neighboring source for the student-support dimension.",
+    "confidence": "medium",
+    "source_file": "output/agent_native_artifacts/praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality/logic/apa_references.md"
+  }
+]

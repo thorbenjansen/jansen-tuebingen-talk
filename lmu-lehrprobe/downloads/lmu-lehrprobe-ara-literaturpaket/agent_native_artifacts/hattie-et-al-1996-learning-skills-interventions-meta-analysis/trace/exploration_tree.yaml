@@ -1,0 +1,15 @@
+artifact: hattie-et-al-1996-learning-skills-interventions-meta-analysis
+status: human-curated-level-3
+readthrough_status: readthrough-complete
+routing:
+  - PAPER.md
+  - logic/claims.md
+  - logic/concepts.md
+  - logic/theories.md
+  - logic/method_and_design.md
+  - logic/methods_variables_outcomes.md
+  - evidence/README.md
+checked:
+  - pdf_front_matter
+  - abstract_or_article_overview
+  - logic_layers

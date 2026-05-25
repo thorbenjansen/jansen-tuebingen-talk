@@ -1,0 +1,56 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "feedback",
+    "motivation",
+    "self-beliefs",
+    "learning-processes",
+    "measurement"
+  ],
+  "concept_hubs": [
+    "Self-Beliefs",
+    "Motivation",
+    "Students",
+    "Learning Processes",
+    "Individual Differences",
+    "Academic Self-Efficacy",
+    "Academic Self-Concept",
+    "Academic Self-Concept Versus Self-Efficacy",
+    "Incremental Validity",
+    "logic/problem",
+    "logic/claims",
+    "logic/concepts"
+  ],
+  "theory_hubs": [
+    "Academic Self-Concept Versus Self-Efficacy",
+    "Incremental Validity"
+  ],
+  "top_claim_ids": [
+    "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C001",
+    "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C002",
+    "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C003",
+    "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C004",
+    "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C005"
+  ],
+  "top_evidence_ids": [
+    "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E001",
+    "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E002"
+  ],
+  "direct_relation_ids": [],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

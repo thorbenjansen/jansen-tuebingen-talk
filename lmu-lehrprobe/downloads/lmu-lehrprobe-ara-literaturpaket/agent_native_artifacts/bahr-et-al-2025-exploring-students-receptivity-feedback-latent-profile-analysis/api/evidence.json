@@ -1,0 +1,26 @@
+[
+  {
+    "evidence_id": "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis::E001",
+    "artifact_id": "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Index ## Evidence Sources Checked - Source PDF: `raw/paper__bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis.pdf` - Evidence used: title/front matter, abstract or source opening, existing ARA/source metadata. ## Evidence Map - `logic/claims.md`: source contribution and scope. - `logic/theories.md`: theory/model/framework role inventory. - `logic/methods_variables_outcomes.md`: balanced methods/outcomes summary. ## Verification Notes - Stale automated extraction tables and sidecars should not be used as citation-grade evidence. - Retrieve exact quotes and page numbers from the raw PDF or markdown sidecar when needed.",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis/evidence/README.md",
+    "supports_claim_ids": [
+      "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis::C001"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis::E002",
+    "artifact_id": "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile - Artifact: `bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis` - Source: `raw/paper__bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis.pdf` - Status: `human-curated-level-3` - Concepts: Student Text Assessment, Cognitive Writing Models, Formative Feedback, Feedback Literacy, Educational And Psychological Measurement, Generative AI In Education, Fairness",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis::C001"
+    ],
+    "quality_flags": []
+  }
+]

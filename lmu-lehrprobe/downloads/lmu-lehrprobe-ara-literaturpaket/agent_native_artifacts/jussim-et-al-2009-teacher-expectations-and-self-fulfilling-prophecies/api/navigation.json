@@ -1,0 +1,39 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "generative-ai",
+    "learning-processes"
+  ],
+  "concept_hubs": [
+    "Fairness",
+    "Students",
+    "Learning Processes"
+  ],
+  "theory_hubs": [
+    "Fairness"
+  ],
+  "top_claim_ids": [
+    "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::C001"
+  ],
+  "top_evidence_ids": [
+    "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::E001",
+    "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::E002"
+  ],
+  "direct_relation_ids": [],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

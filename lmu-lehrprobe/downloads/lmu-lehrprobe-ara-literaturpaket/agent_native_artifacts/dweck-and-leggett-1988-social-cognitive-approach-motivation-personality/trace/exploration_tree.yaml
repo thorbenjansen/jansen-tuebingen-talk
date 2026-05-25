@@ -1,0 +1,11 @@
+artifact_id: dweck-and-leggett-1988-social-cognitive-approach-motivation-personality
+status: automated-level-2
+created_for: LMU Lehrprobe read-only ARA wiki enrichment
+steps:
+  - source_note_checked
+  - pdf_markdown_sidecar_generated
+  - level_1_routing_created
+  - level_2_claims_methods_evidence_scaffolded
+missing:
+  - curated_level_3_readthrough
+  - page_exact_quote_verification

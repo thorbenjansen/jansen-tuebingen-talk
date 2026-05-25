@@ -1,0 +1,197 @@
+[
+  {
+    "claim_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C001",
+    "artifact_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality",
+    "claim_text": "The source explains why students of similar ability can respond very differently to the same challenge or failure experience.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::E001"
+    ],
+    "concept_ids": [
+      "Achievement Goal Theory",
+      "Growth Mindset Theory",
+      "Motivation",
+      "Self-Beliefs",
+      "Individual Differences"
+    ],
+    "theory_ids": [],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation"
+      ],
+      "concepts": [
+        "Achievement Goal Theory",
+        "Growth Mindset Theory",
+        "Motivation",
+        "Self-Beliefs",
+        "Individual Differences"
+      ],
+      "theories": []
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C002",
+    "artifact_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality",
+    "claim_text": "Implicit theories of intelligence orient learners toward performance goals or learning goals, which then shape cognition, affect and behavior under difficulty.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::E001"
+    ],
+    "concept_ids": [
+      "Achievement Goal Theory",
+      "Growth Mindset Theory",
+      "Motivation",
+      "Self-Beliefs",
+      "Individual Differences"
+    ],
+    "theory_ids": [],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation"
+      ],
+      "concepts": [
+        "Achievement Goal Theory",
+        "Growth Mindset Theory",
+        "Motivation",
+        "Self-Beliefs",
+        "Individual Differences"
+      ],
+      "theories": []
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C003",
+    "artifact_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality",
+    "claim_text": "Performance goals can create vulnerability to helpless patterns when ability is in doubt, whereas learning goals support mastery-oriented responses.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::E001"
+    ],
+    "concept_ids": [
+      "Achievement Goal Theory",
+      "Growth Mindset Theory",
+      "Motivation",
+      "Self-Beliefs",
+      "Individual Differences"
+    ],
+    "theory_ids": [],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation"
+      ],
+      "concepts": [
+        "Achievement Goal Theory",
+        "Growth Mindset Theory",
+        "Motivation",
+        "Self-Beliefs",
+        "Individual Differences"
+      ],
+      "theories": []
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C004",
+    "artifact_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality",
+    "claim_text": "The model treats individual differences as person-situation processes: dispositions alter the probability of goals, but situational cues can also shift goals and behavior.",
+    "claim_type": "theory",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::E001"
+    ],
+    "concept_ids": [
+      "Achievement Goal Theory",
+      "Growth Mindset Theory",
+      "Motivation",
+      "Self-Beliefs",
+      "Individual Differences"
+    ],
+    "theory_ids": [],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation"
+      ],
+      "concepts": [
+        "Achievement Goal Theory",
+        "Growth Mindset Theory",
+        "Motivation",
+        "Self-Beliefs",
+        "Individual Differences"
+      ],
+      "theories": []
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C005",
+    "artifact_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality",
+    "claim_text": "For the LMU Lehrprobe, this source is a conceptual anchor for explaining why the same grade or feedback episode can mean different things for different learners.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::E001"
+    ],
+    "concept_ids": [
+      "Achievement Goal Theory",
+      "Growth Mindset Theory",
+      "Motivation",
+      "Self-Beliefs",
+      "Individual Differences"
+    ],
+    "theory_ids": [],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation"
+      ],
+      "concepts": [
+        "Achievement Goal Theory",
+        "Growth Mindset Theory",
+        "Motivation",
+        "Self-Beliefs",
+        "Individual Differences"
+      ],
+      "theories": []
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

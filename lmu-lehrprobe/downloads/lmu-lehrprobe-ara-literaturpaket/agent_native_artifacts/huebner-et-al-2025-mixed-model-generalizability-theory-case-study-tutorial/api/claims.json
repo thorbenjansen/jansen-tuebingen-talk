@@ -1,0 +1,42 @@
+[
+  {
+    "claim_id": "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::C001",
+    "artifact_id": "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial",
+    "claim_text": ": Generalizability theory is a modern and powerful framework for conducting reliability analyses. It is ﬂexible to accommodate both random and ﬁxed facets. However, there has been a relative scarcity in the practical literature on how to handle the ﬁxed facet case. This article aims to provide practitioners a conceptual understanding and computatio.",
+    "claim_type": "theory",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::E001",
+      "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::E002"
+    ],
+    "concept_ids": [
+      "Educational And Psychological Measurement",
+      "Generative AI In Education",
+      "Research Methods"
+    ],
+    "theory_ids": [
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "needs_normalization"
+      ],
+      "domain": [
+        "generative-ai",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational And Psychological Measurement",
+        "Generative AI In Education",
+        "Research Methods"
+      ],
+      "theories": [
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

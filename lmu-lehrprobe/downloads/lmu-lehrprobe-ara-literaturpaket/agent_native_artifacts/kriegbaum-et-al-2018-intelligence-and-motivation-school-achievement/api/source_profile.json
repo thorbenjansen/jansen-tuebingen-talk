@@ -1,0 +1,49 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:33",
+  "artifact_id": "kriegbaum-et-al-2018-intelligence-and-motivation-school-achievement",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Educational Research Review 25 (2018) 120-148",
+    "authors": "['Contents lists available at ScienceDirect', 'Educational Research Review', 'Methodological Reviews', 'The relative importance of intelligence']",
+    "year": "2018",
+    "doi": "",
+    "source_pdf": "raw/paper__02-kriegbaum-et-al-2018-the-relative-importance-of-intelligence-and-motivation.pdf",
+    "rawmarkdown_path": "",
+    "apa_reference": "['Contents lists available at ScienceDirect', 'Educational Research Review', 'Methodological Reviews', 'The relative importance of intelligence'] (2018). Educational Research Review 25 (2018) 120-148."
+  },
+  "controlled_fields": {
+    "document_type": "theoretical-conceptual-paper",
+    "design_type": "experiment-intervention",
+    "education_level": [
+      "mixed-education-levels"
+    ],
+    "domain": [
+      "generative-ai",
+      "motivation",
+      "learning-processes"
+    ],
+    "concepts": [
+      "Students",
+      "Learning Processes",
+      "Motivation",
+      "Self-Regulated Learning",
+      "Research Methods"
+    ],
+    "theories": [
+      "Research Methods"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:29",
+  "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Achievement Goals in the Classroom: Students' Learning Strategies and Motivation Processes",
+    "authors": "Carole Ames; Jennifer Archer",
+    "year": "1988",
+    "doi": "",
+    "source_pdf": "raw/paper__ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies.pdf",
+    "rawmarkdown_path": "rawmarkdown_full/paper-ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies.md",
+    "apa_reference": "Carole Ames; Jennifer Archer (1988). Achievement Goals in the Classroom: Students' Learning Strategies and Motivation Processes."
+  },
+  "controlled_fields": {
+    "document_type": "empirical-study",
+    "design_type": "design-needs-further-coding",
+    "education_level": [
+      "mixed-education-levels"
+    ],
+    "domain": [
+      "feedback",
+      "motivation",
+      "learning-processes"
+    ],
+    "concepts": [
+      "Motivation",
+      "Self-Regulated Learning",
+      "Students",
+      "Learning Processes",
+      "Self-Beliefs",
+      "Achievement Goal Theory",
+      "Motivational Climate",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theories": [
+      "Achievement Goal Theory",
+      "Motivational Climate"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

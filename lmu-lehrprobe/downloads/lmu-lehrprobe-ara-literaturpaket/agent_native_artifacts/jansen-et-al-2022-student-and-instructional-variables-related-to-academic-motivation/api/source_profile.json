@@ -1,0 +1,54 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:33",
+  "artifact_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Which Student and Instructional Variables Are Most Strongly Related to Academic Motivation in K-12 Education? A Systematic Review of Meta-Analyses",
+    "authors": "Jansen, Meyer, Wigfield, and Moeller",
+    "year": "2022",
+    "doi": "",
+    "source_pdf": "raw/paper__2022-61115-001.pdf",
+    "rawmarkdown_path": "",
+    "apa_reference": "Jansen, Meyer, Wigfield, and Moeller (2022). Which Student and Instructional Variables Are Most Strongly Related to Academic Motivation in K-12 Education? A Systematic Review of Meta-Analyses."
+  },
+  "controlled_fields": {
+    "document_type": "review",
+    "design_type": "meta-analysis",
+    "education_level": [
+      "higher-education"
+    ],
+    "domain": [
+      "writing",
+      "feedback",
+      "assessment",
+      "motivation"
+    ],
+    "concepts": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process"
+    ],
+    "theories": [
+      "Feedback Theory",
+      "Meta-Analysis"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

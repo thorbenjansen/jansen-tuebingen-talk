@@ -1,0 +1,37 @@
+[
+  {
+    "relation_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::R001",
+    "source_ara": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "target_ara": "schiller-et-al-2026-measuring-task-level-behavioral-learning-engagement-during-text-revision",
+    "relation_type": "same_intervention_family",
+    "relation_label": "same_intervention_family",
+    "apa_reference": "Schiller, N., et al. (2024). Understanding the effectiveness of automated feedback.",
+    "shared_concepts": [
+      "Formative Feedback",
+      "Learning Processes",
+      "AI Feedback Reliability"
+    ],
+    "shared_theories": [],
+    "rationale": "Both sources connect automated/adaptive feedback to learning behavior and outcomes rather than treating feedback delivery alone as sufficient.",
+    "confidence": "medium",
+    "source_file": "output/agent_native_artifacts/bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest/logic/apa_references.md"
+  },
+  {
+    "relation_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::R002",
+    "source_ara": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "target_ara": "jansen-et-al-2026-for-whom-does-ai-feedback-support-writing-self-efficacy",
+    "relation_type": "same_intervention_family",
+    "relation_label": "same_intervention_family",
+    "apa_reference": "Jansen, T., et al. (2026). For whom does AI feedback support writing self-efficacy?",
+    "shared_concepts": [
+      "AI Feedback Reliability",
+      "Formative Feedback",
+      "Motivation",
+      "Self-Beliefs"
+    ],
+    "shared_theories": [],
+    "rationale": "Bauer et al. examine AI-generated adaptive feedback effects on skills and interest; Jansen et al. examine AI feedback effects conditioned by learner characteristics and self-efficacy.",
+    "confidence": "medium",
+    "source_file": "output/agent_native_artifacts/bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest/logic/apa_references.md"
+  }
+]

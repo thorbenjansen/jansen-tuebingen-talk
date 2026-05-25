@@ -1,42 +1,22 @@
-const learnerCards = Array.from(document.querySelectorAll("[data-learner-card]"));
-const modeButtons = Array.from(document.querySelectorAll("[data-focus-mode]"));
-const insight = document.querySelector("#focusInsight");
+const miraSchoolSlider = document.querySelector("#miraSchoolSlider");
+const linaSchoolSlider = document.querySelector("#linaSchoolSlider");
 const classPlot = document.querySelector("#classPlot");
 const timelinePlot = document.querySelector("#timelinePlot");
-const classSpread = document.querySelector("#classSpread");
-const classInterpretation = document.querySelector("#classInterpretation");
-const timelineButtons = Array.from(document.querySelectorAll("[data-active-learner]"));
-const timelineInterpretation = document.querySelector("#timelineInterpretation");
-const simInputs = Array.from(document.querySelectorAll("[data-sim]"));
-const selectedChips = new Set();
+const betweenText = document.querySelector("#betweenText");
+const withinText = document.querySelector("#withinText");
+const diagnosisTitle = document.querySelector("#diagnosisTitle");
+const diagnosisText = document.querySelector("#diagnosisText");
 
-const insights = {
-  inter: {
-    title: "Interindividuelle Perspektive",
-    text: "Die gleiche Note sagt zuerst: Beide liegen im selben Leistungsbereich. Sie sagt noch nicht, ob beide denselben Lernprozess oder Förderbedarf haben.",
-  },
-  intra: {
-    title: "Intraindividuelle Perspektive",
-    text: "Mira und Lina unterscheiden sich im Verlauf: Stabilität, Schwankung und Entwicklungsrichtung verändern die Bedeutung derselben Note.",
-  },
-  process: {
-    title: "Prozessperspektive",
-    text: "Für Förderung zählt, wie Leistung entsteht: Motivation, Aufgabenbedingungen, Strategieeinsatz und Feedbacknutzung erklären den nächsten Schritt.",
-  },
+const miraSchoolShape = [43, 46, 48, 50, 51, 52, 53, 54, 55, 56, 56, 57, 58, 59, 60, 61, 63, 65, 67, 69, 72, 74];
+const linaSchoolShape = [42, 45, 47, 49, 51, 53, 54, 55, 57, 59, 60, 61, 62, 64, 66, 68, 69, 71, 73, 75, 78, 80];
+const subjects = ["D", "M", "D", "H", "D", "D", "M", "D", "H", "D", "D", "M", "D", "H", "D", "D", "M", "H"];
+const stableProfile = [57, 58, 58, 59, 58, 59, 57, 58, 60, 58, 59, 58, 59, 60, 58, 59, 58, 60];
+const subjectProfile = [58, 50, 59, 67, 57, 58, 49, 59, 66, 58, 59, 51, 58, 68, 57, 58, 50, 67];
+const subjectMeta = {
+  D: { label: "Deutsch", color: "#6a2f1d" },
+  M: { label: "Mathe", color: "#315f8f" },
+  H: { label: "Heimatkunde", color: "#4c7b55" },
 };
-
-const baseScores = [41, 44, 46, 47, 49, 51, 52, 53, 55, 56, 57, 58, 58, 59, 60, 61, 62, 63, 65, 66, 67, 69, 71, 73, 76, 79, 83, 87];
-const mira = [48, 51, 53, 55, 57, 59];
-const lina = [66, 43, 71, 49, 64, 58];
-
-function setMode(mode) {
-  modeButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.focusMode === mode));
-  insight.innerHTML = `<b>${insights[mode].title}</b><span>${insights[mode].text}</span>`;
-}
-
-function selectLearner(id) {
-  learnerCards.forEach((card) => card.classList.toggle("is-selected", card.dataset.learnerCard === id));
-}
 
 function svg(tag, attrs = {}) {
   const element = document.createElementNS("http://www.w3.org/2000/svg", tag);
@@ -45,170 +25,138 @@ function svg(tag, attrs = {}) {
 }
 
 function scoreToX(score) {
-  return 72 + ((score - 35) / 60) * 620;
+  return 70 + ((score - 35) / 50) * 620;
+}
+
+function scoreToY(score) {
+  return 278 - ((score - 42) / 28) * 204;
+}
+
+function mean(values) {
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function profileX(origin, index) {
+  return origin + 28 + index * 15.2;
+}
+
+function profileY(value) {
+  return 252 - ((value - 44) / 26) * 150;
+}
+
+function pathForProfile(values, origin) {
+  return values.map((value, index) => `${index === 0 ? "M" : "L"} ${profileX(origin, index)} ${profileY(value)}`).join(" ");
+}
+
+function shiftedScores(shape, sliderValue) {
+  const shift = -9 + Number(sliderValue) * 0.18;
+  return shape.map((score, index) => score + shift + Math.sin(index * 1.7) * 0.8);
 }
 
 function drawClassPlot() {
-  const spread = Number(classSpread.value);
-  const adjusted = baseScores.map((score, index) => {
-    const center = 60;
-    const factor = 0.62 + spread / 110;
-    return center + (score - center) * factor + Math.sin(index * 1.7) * 1.4;
-  });
+  const miraScores = shiftedScores(miraSchoolShape, miraSchoolSlider.value);
+  const linaScores = shiftedScores(linaSchoolShape, linaSchoolSlider.value);
 
   classPlot.replaceChildren();
   classPlot.append(
-    svg("line", { x1: 72, y1: 285, x2: 692, y2: 285, stroke: "#d9d6d2", "stroke-width": 2 }),
-    svg("text", { x: 72, y: 322, class: "axis-label" }),
-    svg("text", { x: 638, y: 322, class: "axis-label" }),
-    svg("text", { x: 300, y: 54, class: "plot-label" })
+    svg("line", { x1: 70, y1: 270, x2: 690, y2: 270, class: "guide-line" }),
+    svg("text", { x: 70, y: 302, class: "axis-label" }),
+    svg("text", { x: 628, y: 302, class: "axis-label" }),
+    svg("text", { x: 214, y: 36, class: "plot-label" })
   );
   classPlot.children[1].textContent = "niedriger";
   classPlot.children[2].textContent = "höher";
-  classPlot.children[3].textContent = "Aktueller Leistungswert im Klassenvergleich";
+  classPlot.children[3].textContent = "Leistungswert im Schul- und Klassenkontext";
 
-  adjusted.forEach((score, index) => {
-    const dot = svg("circle", {
-      class: "dot",
-      cx: scoreToX(score),
-      cy: 238 - (index % 7) * 19,
-      r: 9,
-      fill: "#dfe8df",
-      stroke: "#aebbad",
-      "stroke-width": 1,
-      opacity: 0.9,
+  [
+    { label: "Miras Schule A / Klasse 4a", scores: miraScores, row: 112, color: "#dfe8df", stroke: "#aebbad", hero: 58, name: "Mira", heroColor: "#6a2f1d" },
+    { label: "Linas Schule B / Klasse 4b", scores: linaScores, row: 206, color: "#e9edf4", stroke: "#b4c1d1", hero: 58, name: "Lina", heroColor: "#315f8f" },
+  ].forEach((group) => {
+    const label = svg("text", { x: 74, y: group.row - 38, class: "plot-label" });
+    label.textContent = group.label;
+    classPlot.append(label);
+
+    group.scores.forEach((score, index) => {
+      classPlot.append(svg("circle", {
+        cx: scoreToX(score),
+        cy: group.row + ((index % 5) - 2) * 9,
+        r: 6.8,
+        fill: group.color,
+        stroke: group.stroke,
+        "stroke-width": 1,
+      }));
     });
-    classPlot.append(dot);
+
+    classPlot.append(svg("circle", { cx: scoreToX(group.hero), cy: group.row, r: 14, fill: group.heroColor }));
+    const heroLabel = svg("text", { x: scoreToX(group.hero) + 20, y: group.row + 5, class: "plot-label" });
+    heroLabel.textContent = `${group.name}: Ø 2,33 aus 18`;
+    classPlot.append(heroLabel);
   });
 
-  [
-    { label: "Mira", y: 122, color: "#6a2f1d" },
-    { label: "Lina", y: 154, color: "#315f8f" },
-  ].forEach((item) => {
-    classPlot.append(svg("circle", { cx: scoreToX(58), cy: item.y, r: 15, fill: item.color }));
-    const text = svg("text", { x: scoreToX(58) + 22, y: item.y + 5, class: "plot-label" });
-    text.textContent = `${item.label}: Note 3`;
-    classPlot.append(text);
+  const miraMean = mean(miraScores);
+  const linaMean = mean(linaScores);
+  const comparison = linaMean > miraMean + 4 ? "leistungsstärkeren" : linaMean < miraMean - 4 ? "leistungsschwächeren" : "ähnlich leistungsstarken";
+  betweenText.textContent = `Interindividuell: Der gleiche Durchschnitt liegt in zwei Schulen. Lina steht aktuell in einer ${comparison} Schule B; Mira und Lina behalten denselben eigenen Wert, aber der Vergleichsrahmen wandert.`;
+}
+
+function drawProfilePanel(origin, title, values, lineClass) {
+  const titleNode = svg("text", { x: origin, y: 44, class: "plot-label" });
+  titleNode.textContent = title;
+  timelinePlot.append(titleNode);
+  timelinePlot.append(svg("line", { x1: origin, y1: 252, x2: origin + 302, y2: 252, class: "guide-line" }));
+  timelinePlot.append(svg("line", { x1: origin, y1: 88, x2: origin, y2: 252, class: "guide-line" }));
+  timelinePlot.append(svg("path", { d: pathForProfile(values, origin), class: lineClass }));
+
+  values.forEach((value, index) => {
+    const subject = subjectMeta[subjects[index]];
+    const x = profileX(origin, index);
+    const y = profileY(value);
+    timelinePlot.append(svg("circle", { cx: x, cy: y, r: 5.7, fill: subject.color }));
+    const timeLabel = svg("text", { x: x - 3.5, y: y - 9, class: "time-label" });
+    timeLabel.textContent = String(index + 1);
+    timelinePlot.append(timeLabel);
+    const subjectLabel = svg("text", { x: x - 3.5, y: 274, class: "subject-label" });
+    subjectLabel.textContent = subjects[index];
+    timelinePlot.append(subjectLabel);
   });
-
-  const hetero = spread < 35 ? "relativ homogen" : spread > 72 ? "stark heterogen" : "moderat heterogen";
-  classInterpretation.textContent = `Die Klasse wirkt ${hetero}. Mira und Lina haben denselben aktuellen Wert; daraus folgt noch keine identische Förderung.`;
 }
 
-function yFor(score) {
-  return 300 - ((score - 35) / 45) * 230;
-}
-
-function makePath(values) {
-  return values.map((value, index) => `${index === 0 ? "M" : "L"} ${82 + index * 118} ${yFor(value)}`).join(" ");
-}
-
-function drawTimeline(mode = "mira") {
+function drawTimeline() {
   timelinePlot.replaceChildren();
-  timelinePlot.append(
-    svg("line", { x1: 70, y1: 300, x2: 690, y2: 300, stroke: "#d9d6d2", "stroke-width": 2 }),
-    svg("line", { x1: 70, y1: 70, x2: 70, y2: 300, stroke: "#d9d6d2", "stroke-width": 2 })
-  );
-
-  ["A1", "A2", "A3", "A4", "A5", "A6"].forEach((label, index) => {
-    const text = svg("text", { x: 72 + index * 118, y: 330, class: "axis-label" });
-    text.textContent = label;
-    timelinePlot.append(text);
-  });
-
-  const showMira = mode === "mira" || mode === "both";
-  const showLina = mode === "lina" || mode === "both";
-
-  if (showMira) {
-    timelinePlot.append(svg("path", { d: makePath(mira), class: "mira-line" }));
-  }
-  if (showLina) {
-    timelinePlot.append(svg("path", { d: makePath(lina), class: "lina-line" }));
-  }
+  drawProfilePanel(58, "Stabiles Profil: fachübergreifend ähnlich", stableProfile, "mira-line");
+  drawProfilePanel(420, "Fachspezifisches Profil: Mathe anders als HSU", subjectProfile, "lina-line");
 
   [
-    ...(showMira ? mira.map((value, index) => ({ value, index, color: "#6a2f1d" })) : []),
-    ...(showLina ? lina.map((value, index) => ({ value, index, color: "#315f8f" })) : []),
-  ].forEach((point) => {
-    timelinePlot.append(svg("circle", { cx: 82 + point.index * 118, cy: yFor(point.value), r: 10, fill: point.color }));
+    { key: "D", x: 78 },
+    { key: "M", x: 178 },
+    { key: "H", x: 278 },
+  ].forEach((item) => {
+    const meta = subjectMeta[item.key];
+    timelinePlot.append(svg("circle", { cx: item.x, cy: 306, r: 5.5, fill: meta.color }));
+    const label = svg("text", { x: item.x + 10, y: 310, class: "muted-label" });
+    label.textContent = `${item.key} ${meta.label}`;
+    timelinePlot.append(label);
   });
 
-  const text = svg("text", { x: 96, y: 48, class: "plot-label" });
-  text.textContent = mode === "both" ? "Mira: stabil steigend | Lina: stark schwankend" : mode === "mira" ? "Mira: stabiler Entwicklungsverlauf" : "Lina: hohe intraindividuelle Schwankung";
-  timelinePlot.append(text);
-
-  timelineInterpretation.textContent =
-    mode === "mira"
-      ? "Mira zeigt einen moderaten, stabilen Anstieg. Die Note 3 kann hier ein Zwischenstand in einer positiven Entwicklung sein."
-      : mode === "lina"
-        ? "Lina zeigt starke Schwankungen. Die Note 3 kann hier ein instabiler Moment sein und verlangt Prozess- und Situationsdiagnostik."
-        : "Im direkten Vergleich wird sichtbar: Interindividuell gleicher Wert, intraindividuell unterschiedliche Entwicklungslogik.";
+  withinText.textContent = "Intraindividuell: Die 18 Zeitmarker zeigen nicht nur Entwicklung, sondern auch Fachspezifik. Ein stabiler Durchschnitt kann fachübergreifend ähnlich sein oder starke Unterschiede zwischen Deutsch, Mathe und Heimatkunde verdecken.";
 }
 
-function clamp(value) {
-  return Math.max(0, Math.min(100, Math.round(value)));
+function updateDiagnosis() {
+  const miraMean = mean(shiftedScores(miraSchoolShape, miraSchoolSlider.value));
+  const linaMean = mean(shiftedScores(linaSchoolShape, linaSchoolSlider.value));
+  const schoolPhrase = Math.abs(miraMean - linaMean) < 4 ? "ähnliche Schulkontexte" : linaMean > miraMean ? "eine leistungsstärkere Schule B" : "eine leistungsstärkere Schule A";
+
+  diagnosisTitle.textContent = "Ein gleicher Durchschnitt ist diagnostisch unterbestimmt.";
+  diagnosisText.textContent = `Vor einer Empfehlung brauche ich ${schoolPhrase}, die Position in der jeweiligen Klasse und den 18er-Verlauf nach Fächern.`;
 }
 
-function updateSimulator() {
-  const values = Object.fromEntries(simInputs.map((input) => [input.dataset.sim, Number(input.value)]));
-  const performance = clamp(values.prior * 0.34 + values.strategy * 0.27 + values.motivation * 0.2 + values.feedback * 0.16 - values.stress * 0.13 + 12);
-  const engagement = clamp(values.motivation * 0.38 + values.feedback * 0.25 + values.strategy * 0.22 - values.stress * 0.12 + 20);
-
-  document.querySelector("#performanceMeter").style.width = `${performance}%`;
-  document.querySelector("#engagementMeter").style.width = `${engagement}%`;
-  document.querySelector("#performanceValue").textContent = performance;
-  document.querySelector("#engagementValue").textContent = engagement;
-
-  let focus = "Nächster Schritt und Zielklarheit verbinden.";
-  if (values.stress > 70) focus = "Prüfungsdruck senken und Leistung über mehrere Situationen prüfen.";
-  if (values.motivation < 40) focus = "Wert und Selbstwirksamkeit stärken, bevor reine Leistungskorrektur dominiert.";
-  if (values.strategy < 40) focus = "Strategieeinsatz sichtbar machen und Feedback in Handlungsschritte übersetzen.";
-  if (values.feedback < 35) focus = "Feedback präzisieren: Ziel, aktueller Stand und nächster Schritt müssen erkennbar sein.";
-  document.querySelector("#supportFocus").textContent = focus;
+function updateAll() {
+  drawClassPlot();
+  drawTimeline();
+  updateDiagnosis();
 }
 
-function updateRecommendation() {
-  const items = Array.from(selectedChips);
-  const meter = Math.min(100, items.length * 18);
-  document.querySelector("#readinessMeter").style.width = `${meter}%`;
+miraSchoolSlider.addEventListener("input", updateAll);
+linaSchoolSlider.addEventListener("input", updateAll);
 
-  if (items.length < 3) {
-    document.querySelector("#recommendationText").textContent = "Wähle mindestens drei Informationsquellen, um eine Förderentscheidung zu begründen.";
-    return;
-  }
-
-  const hasProcess = items.some((item) => ["Feedbacknutzung", "Strategieeinsatz", "Aufgabentyp"].includes(item));
-  const hasIntra = items.includes("Verlauf über Zeit");
-  const hasPerson = items.some((item) => ["Motivation", "Selbstkonzept"].includes(item));
-  const profile = hasIntra && hasProcess && hasPerson ? "entwicklungs- und prozessorientiert" : hasIntra ? "verlaufsorientiert" : "vergleichsorientiert";
-  document.querySelector("#recommendationText").textContent = `Die Empfehlung ist ${profile}: Neben ${items.slice(0, -1).join(", ")} und ${items.at(-1)} sollte Förderung an konkreten Lernbedingungen ansetzen.`;
-}
-
-modeButtons.forEach((button) => button.addEventListener("click", () => setMode(button.dataset.focusMode)));
-learnerCards.forEach((card) => card.addEventListener("click", () => selectLearner(card.dataset.learnerCard)));
-classSpread.addEventListener("input", drawClassPlot);
-timelineButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    timelineButtons.forEach((item) => item.classList.toggle("is-active", item === button));
-    drawTimeline(button.dataset.activeLearner);
-  });
-});
-simInputs.forEach((input) => input.addEventListener("input", updateSimulator));
-document.querySelectorAll("[data-chip]").forEach((button) => {
-  button.addEventListener("click", () => {
-    const chip = button.dataset.chip;
-    if (selectedChips.has(chip)) {
-      selectedChips.delete(chip);
-    } else {
-      selectedChips.add(chip);
-    }
-    button.classList.toggle("is-selected", selectedChips.has(chip));
-    updateRecommendation();
-  });
-});
-
-setMode("inter");
-drawClassPlot();
-drawTimeline("mira");
-updateSimulator();
-updateRecommendation();
+updateAll();

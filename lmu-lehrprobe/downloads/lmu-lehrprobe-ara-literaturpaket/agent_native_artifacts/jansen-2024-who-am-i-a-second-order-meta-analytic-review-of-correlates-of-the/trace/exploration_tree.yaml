@@ -1,0 +1,28 @@
+version: 1
+artifact: jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the
+status: human-curated-level-3
+nodes:
+  - id: source_identity
+    action: verify title, authors, venue, DOI, and PDF paths
+    support_level: explicit
+    source: raw PDF title page and pdfinfo metadata
+  - id: abstract_check
+    action: replace automated license/acknowledgment overview with abstract-grounded study summary
+    support_level: explicit
+    source: p. 1287
+  - id: method_check
+    action: verify search, inclusion, coding, and second-order meta-analysis method
+    support_level: explicit
+    source: pp. 1291-1298
+  - id: results_check
+    action: verify headline effect-size pattern and numeric tables
+    support_level: explicit
+    source: pp. 1298-1302
+  - id: limitations_check
+    action: preserve causal and construct-aggregation boundaries
+    support_level: explicit
+    source: pp. 1303-1309
+  - id: duplicate_check
+    action: mark two ARA folders as same intellectual source with different raw PDF copies
+    support_level: inferred
+    source: local file comparison and PDF metadata

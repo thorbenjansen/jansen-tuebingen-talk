@@ -1,0 +1,16 @@
+[
+  {
+    "evidence_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::E001",
+    "artifact_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Layer - Opening abstract states that implicit theories orient individuals toward goals and goals set up adaptive versus maladaptive patterns. Source pointer: `rawmarkdown_full/paper-dweck-and-leggett-1988-dweck-und-leggett-a-social-cognitive-approach-to-motivation-and-personality.md`. - Early sections contrast helpless and mastery-oriented patterns among children with equal ability confronting difficulty. Source pointer: `rawmarkdown_full/paper-dweck-and-leggett-1988-dweck-und-leggett-a-social-cognitive-approach-to-motivation-and-personality.md`. - Later sections state that entity theories are associated with performance goals and incremental theories with learning/development go…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/dweck-and-leggett-1988-social-cognitive-approach-motivation-personality/evidence/README.md",
+    "supports_claim_ids": [
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C001",
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C002",
+      "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality::C003"
+    ],
+    "quality_flags": []
+  }
+]

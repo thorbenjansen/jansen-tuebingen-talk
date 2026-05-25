@@ -1,0 +1,182 @@
+[
+  {
+    "claim_id": "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::C001",
+    "artifact_id": "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions",
+    "claim_text": "Growth mindset intervention effects are heterogeneous and require moderator-sensitive interpretation.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::E001",
+      "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Interventions",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Self-Regulated Learning",
+      "Students",
+      "Writing Process"
+    ],
+    "theory_ids": [
+      "Growth Mindset Theory",
+      "Interventions",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "writing",
+        "feedback",
+        "generative-ai",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Formative Feedback",
+        "Interventions",
+        "Meta-Analysis",
+        "Motivation",
+        "Self-Beliefs",
+        "Self-Regulated Learning",
+        "Students",
+        "Writing Process"
+      ],
+      "theories": [
+        "Growth Mindset Theory",
+        "Interventions",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::C002",
+    "artifact_id": "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions",
+    "claim_text": "Implementation fidelity is a key moderator for understanding intervention effects.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::E001",
+      "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Interventions",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Self-Regulated Learning",
+      "Students",
+      "Writing Process"
+    ],
+    "theory_ids": [
+      "Growth Mindset Theory",
+      "Interventions",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "writing",
+        "feedback",
+        "generative-ai",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Formative Feedback",
+        "Interventions",
+        "Meta-Analysis",
+        "Motivation",
+        "Self-Beliefs",
+        "Self-Regulated Learning",
+        "Students",
+        "Writing Process"
+      ],
+      "theories": [
+        "Growth Mindset Theory",
+        "Interventions",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::C003",
+    "artifact_id": "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions",
+    "claim_text": "The source is central for self-beliefs and motivation but not direct AI-writing evidence.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::E001",
+      "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Interventions",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Self-Regulated Learning",
+      "Students",
+      "Writing Process"
+    ],
+    "theory_ids": [
+      "Growth Mindset Theory",
+      "Interventions",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "writing",
+        "feedback",
+        "generative-ai",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Formative Feedback",
+        "Interventions",
+        "Meta-Analysis",
+        "Motivation",
+        "Self-Beliefs",
+        "Self-Regulated Learning",
+        "Students",
+        "Writing Process"
+      ],
+      "theories": [
+        "Growth Mindset Theory",
+        "Interventions",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

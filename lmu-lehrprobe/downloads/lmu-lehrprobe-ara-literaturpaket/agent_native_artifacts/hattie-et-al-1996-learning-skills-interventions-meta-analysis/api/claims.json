@@ -1,0 +1,267 @@
+[
+  {
+    "claim_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C001",
+    "artifact_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis",
+    "claim_text": "Learning-skills interventions are strongest when they are situated in meaningful content and tasks, rather than taught as isolated generic techniques.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E001",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Learning Processes",
+      "Self-Regulated Learning",
+      "Metacognition",
+      "Transfer",
+      "Learning Strategies",
+      "Student Training",
+      "Students"
+    ],
+    "theory_ids": [
+      "SOLO Taxonomy",
+      "Situated Cognition",
+      "Self-Regulated Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Learning Processes",
+        "Self-Regulated Learning",
+        "Metacognition",
+        "Transfer",
+        "Learning Strategies",
+        "Student Training",
+        "Students"
+      ],
+      "theories": [
+        "SOLO Taxonomy",
+        "Situated Cognition",
+        "Self-Regulated Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C002",
+    "artifact_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis",
+    "claim_text": "Metacognitive awareness and active learner engagement are important conditions for transfer beyond simple mnemonic performance.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E001",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Learning Processes",
+      "Self-Regulated Learning",
+      "Metacognition",
+      "Transfer",
+      "Learning Strategies",
+      "Student Training",
+      "Students"
+    ],
+    "theory_ids": [
+      "SOLO Taxonomy",
+      "Situated Cognition",
+      "Self-Regulated Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Learning Processes",
+        "Self-Regulated Learning",
+        "Metacognition",
+        "Transfer",
+        "Learning Strategies",
+        "Student Training",
+        "Students"
+      ],
+      "theories": [
+        "SOLO Taxonomy",
+        "Situated Cognition",
+        "Self-Regulated Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C003",
+    "artifact_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis",
+    "claim_text": "The SOLO model helps describe intervention complexity and can connect learning-process evidence to writing-process rubrics.",
+    "claim_type": "theory",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E001",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Learning Processes",
+      "Self-Regulated Learning",
+      "Metacognition",
+      "Transfer",
+      "Learning Strategies",
+      "Student Training",
+      "Students"
+    ],
+    "theory_ids": [
+      "SOLO Taxonomy",
+      "Situated Cognition",
+      "Self-Regulated Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Learning Processes",
+        "Self-Regulated Learning",
+        "Metacognition",
+        "Transfer",
+        "Learning Strategies",
+        "Student Training",
+        "Students"
+      ],
+      "theories": [
+        "SOLO Taxonomy",
+        "Situated Cognition",
+        "Self-Regulated Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C004",
+    "artifact_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis",
+    "claim_text": "The study supports a distinction between performance on trained tasks and broader learning transfer.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E001",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Learning Processes",
+      "Self-Regulated Learning",
+      "Metacognition",
+      "Transfer",
+      "Learning Strategies",
+      "Student Training",
+      "Students"
+    ],
+    "theory_ids": [
+      "SOLO Taxonomy",
+      "Situated Cognition",
+      "Self-Regulated Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Learning Processes",
+        "Self-Regulated Learning",
+        "Metacognition",
+        "Transfer",
+        "Learning Strategies",
+        "Student Training",
+        "Students"
+      ],
+      "theories": [
+        "SOLO Taxonomy",
+        "Situated Cognition",
+        "Self-Regulated Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C005",
+    "artifact_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis",
+    "claim_text": "Numerical details should still be checked against the PDF before direct quotation or manuscript-level citation.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E001",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Learning Processes",
+      "Self-Regulated Learning",
+      "Metacognition",
+      "Transfer",
+      "Learning Strategies",
+      "Student Training",
+      "Students"
+    ],
+    "theory_ids": [
+      "SOLO Taxonomy",
+      "Situated Cognition",
+      "Self-Regulated Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Learning Processes",
+        "Self-Regulated Learning",
+        "Metacognition",
+        "Transfer",
+        "Learning Strategies",
+        "Student Training",
+        "Students"
+      ],
+      "theories": [
+        "SOLO Taxonomy",
+        "Situated Cognition",
+        "Self-Regulated Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

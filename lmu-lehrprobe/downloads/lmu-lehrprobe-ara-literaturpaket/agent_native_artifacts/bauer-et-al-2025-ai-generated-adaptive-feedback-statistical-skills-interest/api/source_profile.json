@@ -1,0 +1,66 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:30",
+  "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Effects of AI-Generated Adaptive Feedback on Statistical Skills and Interest in Statistics: A Field Experiment in Higher Education",
+    "authors": "Elisabeth Bauer, Constanze Richters, Amadeus J. Pickal, Moritz Klippert, Michael Sailer, and Matthias Stadler",
+    "year": "2025",
+    "doi": "",
+    "source_pdf": "raw/paper__bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest.pdf",
+    "rawmarkdown_path": "",
+    "apa_reference": "Elisabeth Bauer, Constanze Richters, Amadeus J. Pickal, Moritz Klippert, Michael Sailer, and Matthias Stadler (2025). Effects of AI-Generated Adaptive Feedback on Statistical Skills and Interest in Statistics: A Field Experiment in Higher Education."
+  },
+  "controlled_fields": {
+    "document_type": "empirical-study",
+    "design_type": "experiment-intervention",
+    "education_level": [
+      "higher-education"
+    ],
+    "domain": [
+      "feedback",
+      "assessment",
+      "generative-ai",
+      "motivation",
+      "learning-processes",
+      "measurement"
+    ],
+    "concepts": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theories": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

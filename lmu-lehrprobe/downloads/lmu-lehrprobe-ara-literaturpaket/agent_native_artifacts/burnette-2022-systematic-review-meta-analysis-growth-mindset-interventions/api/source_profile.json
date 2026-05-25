@@ -1,0 +1,58 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:30",
+  "artifact_id": "burnette-2022-systematic-review-meta-analysis-growth-mindset-interventions",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "A Systematic Review and Meta-Analysis of Growth Mindset Interventions: For Whom, How, and Why Might Such Interventions Work?",
+    "authors": "['Jeni L. Burnette', 'Joseph Billingsley', 'George C. Banks', 'Laura E. Knouse', 'Crystal L. Hoyt', 'Jeffrey M. Pollack', 'Stefanie Simon']",
+    "year": "2022",
+    "doi": "10.1037/bul0000368",
+    "source_pdf": "raw/paper__a-systematic-review-and-meta-analysis-of-growth-mindset-interventions.pdf",
+    "rawmarkdown_path": "",
+    "apa_reference": "['Jeni L. Burnette', 'Joseph Billingsley', 'George C. Banks', 'Laura E. Knouse', 'Crystal L. Hoyt', 'Jeffrey M. Pollack', 'Stefanie Simon'] (2022). A Systematic Review and Meta-Analysis of Growth Mindset Interventions: For Whom, How, and Why Might Such Interventions Work?. https://doi.org/10.1037/bul0000368"
+  },
+  "controlled_fields": {
+    "document_type": "meta-analysis",
+    "design_type": "meta-analysis",
+    "education_level": [
+      "mixed-education-levels"
+    ],
+    "domain": [
+      "writing",
+      "feedback",
+      "generative-ai",
+      "motivation",
+      "self-beliefs",
+      "learning-processes"
+    ],
+    "concepts": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Interventions",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Self-Regulated Learning",
+      "Students",
+      "Writing Process"
+    ],
+    "theories": [
+      "Growth Mindset Theory",
+      "Interventions",
+      "Research Methods"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

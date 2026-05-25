@@ -1,0 +1,26 @@
+[
+  {
+    "evidence_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::E001",
+    "artifact_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Index ## Evidence Sources Checked - Source PDF: `raw/paper__07v-jussim-et-al-2009-teacher-expectations-and-self-fullfilling-prophecies.pdf` - Evidence used: title/front matter, abstract or source opening, existing ARA/source metadata. ## Evidence Map - `logic/claims.md`: source contribution and scope. - `logic/theories.md`: theory/model/framework role inventory. - `logic/methods_variables_outcomes.md`: balanced methods/outcomes summary. ## Verification Notes - Stale automated extraction tables and sidecars should not be used as citation-grade evidence. - Retrieve exact quotes and page numbers from the raw PDF or markdown sidecar when needed.",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies/evidence/README.md",
+    "supports_claim_ids": [
+      "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::C001"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::E002",
+    "artifact_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile - Artifact: `jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies` - Source: `raw/paper__07v-jussim-et-al-2009-teacher-expectations-and-self-fullfilling-prophecies.pdf` - Status: `human-curated-level-3` - Concepts: Fairness, Students, Learning Processes",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::C001"
+    ],
+    "quality_flags": []
+  }
+]

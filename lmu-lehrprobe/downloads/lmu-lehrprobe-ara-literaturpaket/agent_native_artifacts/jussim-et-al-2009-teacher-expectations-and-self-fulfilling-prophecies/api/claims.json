@@ -1,0 +1,42 @@
+[
+  {
+    "claim_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::C001",
+    "artifact_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies",
+    "claim_text": "Kopie von subito e.V., geliefert für IPN - Leibniz-Institut für die Padagogik der Naturwissenschaften und Mathematik (SLS11X00051) Kopie von subito e.V., geliefert für IPN - Leibniz-Institut für die Padagogik der Naturwissenschaften und Mathematik (SLS11X00051) Kopie von subito e.V., geliefert für IPN - Leibniz-Institut für die Padagogik der Naturw.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::E001",
+      "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies::E002"
+    ],
+    "concept_ids": [
+      "Fairness",
+      "Students",
+      "Learning Processes"
+    ],
+    "theory_ids": [
+      "Fairness"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "generative-ai",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Fairness",
+        "Students",
+        "Learning Processes"
+      ],
+      "theories": [
+        "Fairness"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

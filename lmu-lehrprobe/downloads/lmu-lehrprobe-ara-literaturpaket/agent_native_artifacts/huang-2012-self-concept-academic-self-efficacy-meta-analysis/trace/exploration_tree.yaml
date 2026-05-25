@@ -1,0 +1,15 @@
+source: raw/paper__huang-2012-self-concept-academic-self-efficacy-meta-analysis.pdf
+rawmarkdown: rawmarkdown_full/paper-huang-2012-self-concept-academic-self-efficacy-meta-analysis.md
+status: human-curated-level-3
+readthrough_status: readthrough-complete
+nodes:
+  - PAPER.md
+  - logic/problem.md
+  - logic/claims.md
+  - logic/concepts.md
+  - logic/theories.md
+  - logic/method_and_design.md
+  - logic/methods_variables_outcomes.md
+  - evidence/README.md
+  - evidence/tables/level3_study_profile.md
+  - readthrough_result.md

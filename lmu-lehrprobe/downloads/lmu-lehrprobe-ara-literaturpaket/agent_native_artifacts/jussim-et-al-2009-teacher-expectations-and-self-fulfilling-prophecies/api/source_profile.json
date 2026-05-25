@@ -1,0 +1,46 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:33",
+  "artifact_id": "jussim-et-al-2009-teacher-expectations-and-self-fulfilling-prophecies",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Kopie von subito e.V., geliefert für IPN - Leibniz-Institut für die Padagogik der Naturwissenschaften und Mathematik (SLS11X00051)",
+    "authors": "['Authors not fully extracted in batch pass']",
+    "year": "2009",
+    "doi": "",
+    "source_pdf": "raw/paper__07v-jussim-et-al-2009-teacher-expectations-and-self-fullfilling-prophecies.pdf",
+    "rawmarkdown_path": "",
+    "apa_reference": "['Authors not fully extracted in batch pass'] (2009). Kopie von subito e.V., geliefert für IPN - Leibniz-Institut für die Padagogik der Naturwissenschaften und Mathematik (SLS11X00051)."
+  },
+  "controlled_fields": {
+    "document_type": "theoretical-conceptual-paper",
+    "design_type": "experiment-intervention",
+    "education_level": [
+      "mixed-education-levels"
+    ],
+    "domain": [
+      "generative-ai",
+      "learning-processes"
+    ],
+    "concepts": [
+      "Fairness",
+      "Students",
+      "Learning Processes"
+    ],
+    "theories": [
+      "Fairness"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

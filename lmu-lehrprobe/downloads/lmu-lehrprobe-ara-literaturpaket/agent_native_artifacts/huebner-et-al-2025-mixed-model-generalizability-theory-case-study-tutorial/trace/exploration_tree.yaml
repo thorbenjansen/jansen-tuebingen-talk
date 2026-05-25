@@ -1,0 +1,47 @@
+tree:
+  id: Q1
+  type: question
+  description: "What does this source claim and how should it be verified?"
+  support_level: inferred
+  children:
+    - id: E1
+      type: experiment
+      result: "Loaded source text from pdftotext full source from raw/paper__huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial.pdf"
+      support_level: explicit
+      source_refs: ["raw/paper__huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial.pdf"]
+    - id: D1
+      type: decision
+      choice: "Use source-specific problem-method-result structure for the ARA"
+      alternatives: ["retain batch scaffold", "wait for hand-only enrichment"]
+      support_level: inferred
+      children:
+        - id: E2
+          type: experiment
+          result: "Extracted 5 candidate claims, 6 method cues, and 8 result cues"
+          support_level: inferred
+        - id: E3
+          type: experiment
+          result: "Indexed 10 candidate concepts and 0 table snippets"
+          support_level: inferred
+    - id: Q2
+      type: question
+      description: "What remains before citation-grade use?"
+      support_level: inferred
+      children:
+        - id: D2
+          type: decision
+          choice: "Keep claims provisional until human audit"
+          alternatives: ["mark claims fully supported", "remove all claims"]
+          support_level: inferred
+        - id: X1
+          type: dead_end
+          hypothesis: "Automated enrichment alone is enough for publication-grade citation"
+          failure_mode: "Extraction may miss context, table boundaries, appendices, and nuanced limitations"
+          lesson: "Use enriched ARAs for navigation and prioritization; use human audit for final evidence claims"
+          support_level: inferred
+        - id: P1
+          type: pivot
+          from: "automated source extraction"
+          to: "manual source-specific ARA audit"
+          trigger: "The source becomes central to a query, manuscript, presentation, or evidence synthesis"
+          support_level: inferred

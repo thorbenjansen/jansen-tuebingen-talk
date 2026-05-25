@@ -1,0 +1,51 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:35",
+  "artifact_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Emotional and Motivational Effects of Automated and Personalized Formative Feedback: The Role of Reference Frames",
+    "authors": "Weidlich, Giorgashvili, Fink, Jivet, Drachsler, Yau, and Frey",
+    "year": "2024",
+    "doi": "",
+    "source_pdf": "raw/paper__weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames.pdf",
+    "rawmarkdown_path": "",
+    "apa_reference": "Weidlich, Giorgashvili, Fink, Jivet, Drachsler, Yau, and Frey (2024). Emotional and Motivational Effects of Automated and Personalized Formative Feedback: The Role of Reference Frames."
+  },
+  "controlled_fields": {
+    "document_type": "theoretical-conceptual-paper",
+    "design_type": "experiment-intervention",
+    "education_level": [
+      "needs_normalization"
+    ],
+    "domain": [
+      "feedback",
+      "assessment",
+      "motivation",
+      "learning-processes"
+    ],
+    "concepts": [
+      "Formative Feedback",
+      "Feedback",
+      "Motivation",
+      "Self-Beliefs"
+    ],
+    "theories": [
+      "Achievement Goal Theory",
+      "Feedback Theory",
+      "Formative Assessment"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

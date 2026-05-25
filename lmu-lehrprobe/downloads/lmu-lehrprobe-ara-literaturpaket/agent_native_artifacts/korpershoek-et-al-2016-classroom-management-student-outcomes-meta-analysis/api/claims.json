@@ -1,0 +1,272 @@
+[
+  {
+    "claim_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C001",
+    "artifact_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "claim_text": "Classroom management interventions show small but meaningful effects across student outcomes, with weaker evidence for motivational outcomes.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E001",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Classroom Management",
+      "Teachers",
+      "Teacher-Student Relationships",
+      "Learning Environment",
+      "Motivation",
+      "Social-Emotional Learning",
+      "Academic Achievement"
+    ],
+    "theory_ids": [
+      "Classroom Management",
+      "Teacher-Student Relationships",
+      "Social-Emotional Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "teacher-student-relations",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Classroom Management",
+        "Teachers",
+        "Teacher-Student Relationships",
+        "Learning Environment",
+        "Motivation",
+        "Social-Emotional Learning",
+        "Academic Achievement"
+      ],
+      "theories": [
+        "Classroom Management",
+        "Teacher-Student Relationships",
+        "Social-Emotional Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C002",
+    "artifact_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "claim_text": "Programs focused on students' social-emotional development contribute especially to social-emotional outcomes.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E001",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Classroom Management",
+      "Teachers",
+      "Teacher-Student Relationships",
+      "Learning Environment",
+      "Motivation",
+      "Social-Emotional Learning",
+      "Academic Achievement"
+    ],
+    "theory_ids": [
+      "Classroom Management",
+      "Teacher-Student Relationships",
+      "Social-Emotional Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "teacher-student-relations",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Classroom Management",
+        "Teachers",
+        "Teacher-Student Relationships",
+        "Learning Environment",
+        "Motivation",
+        "Social-Emotional Learning",
+        "Academic Achievement"
+      ],
+      "theories": [
+        "Classroom Management",
+        "Teacher-Student Relationships",
+        "Social-Emotional Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C003",
+    "artifact_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "claim_text": "Teacher-focused classroom management may benefit academic outcomes, making the teacher and instructional context relevant to student learning processes.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E001",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Classroom Management",
+      "Teachers",
+      "Teacher-Student Relationships",
+      "Learning Environment",
+      "Motivation",
+      "Social-Emotional Learning",
+      "Academic Achievement"
+    ],
+    "theory_ids": [
+      "Classroom Management",
+      "Teacher-Student Relationships",
+      "Social-Emotional Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "teacher-student-relations",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Classroom Management",
+        "Teachers",
+        "Teacher-Student Relationships",
+        "Learning Environment",
+        "Motivation",
+        "Social-Emotional Learning",
+        "Academic Achievement"
+      ],
+      "theories": [
+        "Classroom Management",
+        "Teacher-Student Relationships",
+        "Social-Emotional Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C004",
+    "artifact_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "claim_text": "Classroom management should be treated as a condition for productive feedback, collaboration, and AI use rather than as a separate discipline issue.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E001",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Classroom Management",
+      "Teachers",
+      "Teacher-Student Relationships",
+      "Learning Environment",
+      "Motivation",
+      "Social-Emotional Learning",
+      "Academic Achievement"
+    ],
+    "theory_ids": [
+      "Classroom Management",
+      "Teacher-Student Relationships",
+      "Social-Emotional Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "teacher-student-relations",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Classroom Management",
+        "Teachers",
+        "Teacher-Student Relationships",
+        "Learning Environment",
+        "Motivation",
+        "Social-Emotional Learning",
+        "Academic Achievement"
+      ],
+      "theories": [
+        "Classroom Management",
+        "Teacher-Student Relationships",
+        "Social-Emotional Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C005",
+    "artifact_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "claim_text": "Numerical details should still be checked against the PDF before direct quotation or manuscript-level citation.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E001",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Classroom Management",
+      "Teachers",
+      "Teacher-Student Relationships",
+      "Learning Environment",
+      "Motivation",
+      "Social-Emotional Learning",
+      "Academic Achievement"
+    ],
+    "theory_ids": [
+      "Classroom Management",
+      "Teacher-Student Relationships",
+      "Social-Emotional Learning"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "teacher-student-relations",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Classroom Management",
+        "Teachers",
+        "Teacher-Student Relationships",
+        "Learning Environment",
+        "Motivation",
+        "Social-Emotional Learning",
+        "Academic Achievement"
+      ],
+      "theories": [
+        "Classroom Management",
+        "Teacher-Student Relationships",
+        "Social-Emotional Learning"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

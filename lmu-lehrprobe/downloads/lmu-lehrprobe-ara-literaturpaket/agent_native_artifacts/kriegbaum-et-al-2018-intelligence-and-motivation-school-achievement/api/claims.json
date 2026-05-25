@@ -1,0 +1,47 @@
+[
+  {
+    "claim_id": "kriegbaum-et-al-2018-intelligence-and-motivation-school-achievement::C001",
+    "artifact_id": "kriegbaum-et-al-2018-intelligence-and-motivation-school-achievement",
+    "claim_text": "Needs verification: no substantive claims were extracted from kriegbaum-et-al-2018-intelligence-and-motivation-school-achievement.",
+    "claim_type": "finding",
+    "support_status": "needs_verification",
+    "evidence_ids": [
+      "kriegbaum-et-al-2018-intelligence-and-motivation-school-achievement::E001",
+      "kriegbaum-et-al-2018-intelligence-and-motivation-school-achievement::E002"
+    ],
+    "concept_ids": [
+      "Students",
+      "Learning Processes",
+      "Motivation",
+      "Self-Regulated Learning",
+      "Research Methods"
+    ],
+    "theory_ids": [
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "generative-ai",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Students",
+        "Learning Processes",
+        "Motivation",
+        "Self-Regulated Learning",
+        "Research Methods"
+      ],
+      "theories": [
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

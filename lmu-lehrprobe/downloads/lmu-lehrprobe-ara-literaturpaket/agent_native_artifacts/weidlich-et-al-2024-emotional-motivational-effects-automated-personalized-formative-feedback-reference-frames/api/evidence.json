@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E001",
+    "artifact_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Layer ## Source-checked entry point - Raw PDF: `raw/paper__weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames.pdf` - ARA status: human-curated-level-3 - Evidence density: balanced Level 3, not exhaustive passage mapping. ## Main evidence use Use this source for claims about automated formative feedback and reference frames. For exact quotation or numerical synthesis, re-open the PDF or Markdown sidecar and add page-specific evidence rows before citing.",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames/evidence/README.md",
+    "supports_claim_ids": [
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C001",
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C002",
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E002",
+    "artifact_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile | Field | Curated value | |---|---| | Title | Emotional and Motivational Effects of Automated and Personalized Formative Feedback: The Role of Reference Frames | | Authors | Weidlich, Giorgashvili, Fink, Jivet, Drachsler, Yau, and Frey | | Year | 2024 | | Source PDF | `raw/paper__weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames.pdf` | | Main focus | Automated formative feedback and reference frames | | Concepts | Formative Feedback, Feedback, Motivation, Self-Beliefs | | Curation status | human-curated-level-3 |",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C001",
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C002",
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C003"
+    ],
+    "quality_flags": []
+  }
+]

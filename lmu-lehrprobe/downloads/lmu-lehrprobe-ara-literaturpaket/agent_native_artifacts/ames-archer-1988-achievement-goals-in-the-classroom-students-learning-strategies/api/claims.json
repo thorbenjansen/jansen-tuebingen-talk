@@ -1,0 +1,337 @@
+[
+  {
+    "claim_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C001",
+    "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+    "claim_text": "Perceived mastery/learning goals are associated with more adaptive strategy and motivation patterns.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E001",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E002"
+    ],
+    "concept_ids": [
+      "Motivation",
+      "Self-Regulated Learning",
+      "Students",
+      "Learning Processes",
+      "Self-Beliefs",
+      "Achievement Goal Theory",
+      "Motivational Climate",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Motivational Climate"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "design-needs-further-coding",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Motivation",
+        "Self-Regulated Learning",
+        "Students",
+        "Learning Processes",
+        "Self-Beliefs",
+        "Achievement Goal Theory",
+        "Motivational Climate",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Motivational Climate"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C002",
+    "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+    "claim_text": "Study framing and results.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E001",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E002"
+    ],
+    "concept_ids": [
+      "Motivation",
+      "Self-Regulated Learning",
+      "Students",
+      "Learning Processes",
+      "Self-Beliefs",
+      "Achievement Goal Theory",
+      "Motivational Climate",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Motivational Climate"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "design-needs-further-coding",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Motivation",
+        "Self-Regulated Learning",
+        "Students",
+        "Learning Processes",
+        "Self-Beliefs",
+        "Achievement Goal Theory",
+        "Motivational Climate",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Motivational Climate"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C003",
+    "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+    "claim_text": "Classroom goal structures are useful for explaining why students approach tasks as learning opportunities or performance displays.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E001",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E002"
+    ],
+    "concept_ids": [
+      "Motivation",
+      "Self-Regulated Learning",
+      "Students",
+      "Learning Processes",
+      "Self-Beliefs",
+      "Achievement Goal Theory",
+      "Motivational Climate",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Motivational Climate"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "design-needs-further-coding",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Motivation",
+        "Self-Regulated Learning",
+        "Students",
+        "Learning Processes",
+        "Self-Beliefs",
+        "Achievement Goal Theory",
+        "Motivational Climate",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Motivational Climate"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C004",
+    "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+    "claim_text": "Achievement-goal interpretation.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E001",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E002"
+    ],
+    "concept_ids": [
+      "Motivation",
+      "Self-Regulated Learning",
+      "Students",
+      "Learning Processes",
+      "Self-Beliefs",
+      "Achievement Goal Theory",
+      "Motivational Climate",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Motivational Climate"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "design-needs-further-coding",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Motivation",
+        "Self-Regulated Learning",
+        "Students",
+        "Learning Processes",
+        "Self-Beliefs",
+        "Achievement Goal Theory",
+        "Motivational Climate",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Motivational Climate"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C005",
+    "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+    "claim_text": "The source is a theory anchor for assessment designs that protect learning orientation.",
+    "claim_type": "theory",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E001",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E002"
+    ],
+    "concept_ids": [
+      "Motivation",
+      "Self-Regulated Learning",
+      "Students",
+      "Learning Processes",
+      "Self-Beliefs",
+      "Achievement Goal Theory",
+      "Motivational Climate",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Motivational Climate"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "design-needs-further-coding",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Motivation",
+        "Self-Regulated Learning",
+        "Students",
+        "Learning Processes",
+        "Self-Beliefs",
+        "Achievement Goal Theory",
+        "Motivational Climate",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Motivational Climate"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

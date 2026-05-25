@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence ## Verification Status - Balanced read-through completed with the new mandatory revision loops. - Claims were cleaned of title-page, provenance, author-note, and bibliography-fragment noise. - Exact numeric results remain open for PDF-level verification before manuscript citation. ## Evidence Map - **AF01:** AI-generated adaptive feedback should be evaluated against meaningful comparison feedback, not only no-feedback baselines. - **AF02:** Performance and interest are separate outcomes that may respond differently to feedback design. - **AF03:** The source is relevant for AI feedback interventions but not specifically student writing. ## Source Pointers - Raw PDF: `raw/paper__ba…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest/evidence/README.md",
+    "supports_claim_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C002",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile - **Source:** Effects of AI-Generated Adaptive Feedback on Statistical Skills and Interest in Statistics: A Field Experiment in Higher Education - **Authors:** Elisabeth Bauer, Constanze Richters, Amadeus J. Pickal, Moritz Klippert, Michael Sailer, and Matthias Stadler - **Year:** 2025 - **Design:** field experiment comparing AI-generated adaptive feedback and static feedback - **Concepts:** [[Formative Feedback]], [[AI Feedback Reliability]], [[Generative AI In Education]], [[Motivation]], [[Learning Processes]], [[Statistics Education]] - **Verification status:** balanced human-curated Level 3; exact numbers need PDF check before citation.",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C002",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C003"
+    ],
+    "quality_flags": []
+  }
+]

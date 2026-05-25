@@ -1,0 +1,49 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "writing",
+    "feedback",
+    "assessment",
+    "motivation"
+  ],
+  "concept_hubs": [
+    "Educational Annotation",
+    "Formative Feedback",
+    "Meta-Analysis",
+    "Motivation",
+    "Self-Beliefs",
+    "Student Text Assessment",
+    "Students",
+    "Writing Process"
+  ],
+  "theory_hubs": [
+    "Feedback Theory",
+    "Meta-Analysis"
+  ],
+  "top_claim_ids": [
+    "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C001",
+    "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C002",
+    "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C003"
+  ],
+  "top_evidence_ids": [
+    "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E001",
+    "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E002"
+  ],
+  "direct_relation_ids": [],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

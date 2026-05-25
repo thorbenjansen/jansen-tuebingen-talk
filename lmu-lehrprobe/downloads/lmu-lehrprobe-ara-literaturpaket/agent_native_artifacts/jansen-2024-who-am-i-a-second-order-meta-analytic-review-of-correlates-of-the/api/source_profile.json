@@ -1,0 +1,59 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:32",
+  "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Who Am I? A Second-Order Meta-Analytic Review of Correlates of the Self in Childhood and Adolescence",
+    "authors": "['Thorben Jansen', 'Jennifer Meyer', 'John Hattie', 'Jens Moeller']",
+    "year": "2024",
+    "doi": "10.1037/bul0000449",
+    "source_pdf": "raw/paper__jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the.pdf",
+    "rawmarkdown_path": "rawmarkdown_full/paper-jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the.md",
+    "apa_reference": "['Thorben Jansen', 'Jennifer Meyer', 'John Hattie', 'Jens Moeller'] (2024). Who Am I? A Second-Order Meta-Analytic Review of Correlates of the Self in Childhood and Adolescence. https://doi.org/10.1037/bul0000449"
+  },
+  "controlled_fields": {
+    "document_type": "theoretical-conceptual-paper",
+    "design_type": "meta-analysis",
+    "education_level": [
+      "secondary",
+      "higher-education"
+    ],
+    "domain": [
+      "feedback",
+      "generative-ai",
+      "reading",
+      "motivation",
+      "self-beliefs",
+      "learning-processes",
+      "measurement"
+    ],
+    "concepts": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theories": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

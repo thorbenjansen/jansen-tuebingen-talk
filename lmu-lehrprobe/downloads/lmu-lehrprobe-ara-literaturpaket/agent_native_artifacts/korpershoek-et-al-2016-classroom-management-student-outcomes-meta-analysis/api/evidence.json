@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E001",
+    "artifact_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence README ## Checked Evidence Pointers - Source PDF: `raw/paper__korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis.pdf` - Raw Markdown sidecar: `rawmarkdown_full/paper__korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis.md` - Checked layer: first-page title, abstract, keywords/overview, and current ARA logic layers. ## Abstract-Level Facts Captured - Classroom management interventions show small but meaningful effects across student outcomes, with weaker evidence for motivational outcomes. - Programs focused on students' social-emotional development contribute especially to social-emotional outcomes. - Teacher-focused classroom manage…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis/evidence/README.md",
+    "supports_claim_ids": [
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C001",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C002",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::E002",
+    "artifact_id": "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile | Field | Value | |---|---| | APA | Korpershoek, H., Harms, T., de Boer, H., van Kuijk, M., & Doolaard, S. (2016). A meta-analysis of the effects of classroom management strategies and classroom management programs on students' academic, behavioral, emotional, and motivational outcomes. Review of Educational Research, 86(3), 643-680. https://doi.org/10.3102/0034654315626799 | | Design | Meta-analysis of controlled classroom-management intervention studies. | | Source material | 54 randomized and nonrandomized controlled intervention studies from 2003-2013 in primary education. | | Main concepts | Classroom Management; Teachers; Teacher-Student Relationships; Learning…",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C001",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C002",
+      "korpershoek-et-al-2016-classroom-management-student-outcomes-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "moller-et-al-2020-achievement-self-concept-meta-analysis::E001",
+    "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence ## Source Pointers - **Raw PDF:** `raw/paper__moller-et-al-2020-achievement-self-concept-meta-analysis.pdf` - **Markdown sidecar:** `rawmarkdown_full/paper-moller-et-al-2020-achievement-self-concept-meta-analysis.md` ## Evidence Status This evidence layer was upgraded during the 20-item read-through and then reformatted for human readability. Claims are grounded in the source abstract, method, results, and/or core argument sections available in the PDF-derived Markdown sidecar. ## Evidence Map - **Title, abstract, and opening sections:** source identity, main problem, and headline contribution. - **Method/design sections:** study type, sample/source material, variables, and analy…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/moller-et-al-2020-achievement-self-concept-meta-analysis/evidence/README.md",
+    "supports_claim_ids": [
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::C001",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::C002",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "moller-et-al-2020-achievement-self-concept-meta-analysis::E002",
+    "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile - **Source:** A Meta-Analysis of Relations Between Achievement and Self-Concept - **ARA status:** human-curated-level-3 - **Read-through status:** readthrough-complete - **Design:** meta-analysis - **Venue/source:** Review of Educational Research - **Main concepts:** Self-Beliefs, Motivation, Students, Learning Processes, Student Text Assessment - **Source type:** Meta-analysis - **Included evidence:** 505 datasets containing bivariate correlations among achievement and self-concepts - **Constructs:** Achievement and self-concept across school subjects - **Moderator interest:** Subject domains, teacher grades versus standardized tests, dimensional comparisons",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/moller-et-al-2020-achievement-self-concept-meta-analysis/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::C001",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::C002",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  }
+]

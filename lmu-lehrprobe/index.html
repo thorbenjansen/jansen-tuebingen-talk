@@ -16,30 +16,33 @@
         <span>Jansen | Lehrprobe Differentielle Psychologie im Kontext Schule</span>
       </div>
       <nav class="controls" aria-label="Foliensteuerung">
-        <a class="syllabus-link" href="syllabus.html" aria-label="Syllabus und curriculare Einordnung öffnen">Syllabus</a>
-        <a class="syllabus-link" href="prep.html" aria-label="Meta-Unterrichtsvorbereitung öffnen">Prep</a>
-        <a class="syllabus-link" href="prompt.html" aria-label="GPT-Pro-Prompt öffnen">Prompt</a>
-        <a class="syllabus-link" href="learn.html" aria-label="Interaktive Lernwebsite öffnen">Lernen</a>
+        <a class="syllabus-link" href="prompt.html" aria-label="AI-Agent-Anleitung und ARA-Download öffnen">AI Agent</a>
+        <a class="syllabus-link" href="literatur.html" aria-label="Literaturverzeichnis öffnen">Literatur</a>
         <button type="button" data-prev aria-label="Vorherige Folie">↑</button>
         <button type="button" data-next aria-label="Nächste Folie">↓</button>
         <button type="button" data-fullscreen aria-label="Vollbild">⛶</button>
+        <button type="button" data-glossary aria-label="Funktionen und Begriffsklärung zur aktuellen Folie">?</button>
       </nav>
     </header>
 
-    <aside class="pathway-rail" aria-label="Lehrprobenstruktur">
-      <a href="#fall" data-stage-link="fall"><b>1</b><span>Fall</span></a>
-      <a href="#begriffe" data-stage-link="begriffe"><b>2</b><span>Begriffe</span></a>
-      <a href="#modell" data-stage-link="modell"><b>3</b><span>Modell</span></a>
-      <a href="#transfer" data-stage-link="transfer"><b>4</b><span>Transfer</span></a>
-      <a href="#sicherung" data-stage-link="sicherung"><b>5</b><span>Sicherung</span></a>
-      <span id="slideBadge">Folie 1</span>
+    <aside class="pathway-rail" aria-label="Vortragsabschnitte">
+      <nav class="stage-list" aria-label="Vortragsabschnitte">
+        <a href="#titel-lehrprobe-start" data-stage-link="problem"><span>Problem</span></a>
+        <a href="#aktivierung-1" data-stage-link="aktivierung"><span>Aktivierung</span></a>
+        <a href="#studiumsanschluss" data-stage-link="struktur"><span>Strukturaufbau</span></a>
+        <a href="#live-klassen-demo" data-stage-link="modell"><span>Modell</span></a>
+        <a href="#interventionspassung" data-stage-link="vertiefung"><span>Vertiefung</span></a>
+        <a href="#interindividuell" data-stage-link="sicherung"><span>Sicherung</span></a>
+        <a href="#visible-learning-ausblick" data-stage-link="transfer"><span>Transfer</span></a>
+      </nav>
+      <div class="rail-slide-counter" id="railSlideCounter">Folie 1 / 25</div>
     </aside>
 
     <main class="deck">
-      <section class="slide hero" id="titel" data-stage="fall">
+      <section class="slide hero clean-hero" id="titel" data-stage="vorlauf">
         <div class="hero-copy">
           <p class="eyebrow">Lehrprobe | LMU München | Differentielle Psychologie im Kontext Schule</p>
-          <h1>Warum gleiche Leistung nicht dasselbe bedeutet</h1>
+          <h1>Warum gleiche Noten nicht dasselbe sind</h1>
           <p class="lead">Intra- und interindividuelle Unterschiede in der Schule</p>
           <div class="pill-row">
             <span class="pill dark">20 Minuten</span>
@@ -48,260 +51,489 @@
             <span class="pill">Thorben Jansen</span>
           </div>
         </div>
-        <figure class="hero-visual">
-          <img src="assets/learning_process_illustration.png" alt="Illustration eines Lernprozesses mit Unterricht, Feedback und digitalen Werkzeugen." />
-        </figure>
         <img class="lmu-logo" src="assets/lmu_munich_logo.png" alt="LMU München" />
       </section>
 
-      <section class="slide" id="lernziele" data-stage="fall">
-        <p class="eyebrow">Transparente Lernziele</p>
-        <h1>Nach dem Lehrvortrag können Sie drei Dinge.</h1>
-        <div class="card-grid three">
-          <article class="card"><span>01</span><h2>Begriffe trennen</h2><p>Interindividuelle und intraindividuelle Unterschiede sicher unterscheiden.</p></article>
-          <article class="card warm"><span>02</span><h2>Leistung deuten</h2><p>Eine gleiche Note als unterschiedliche diagnostische Information interpretieren.</p></article>
-          <article class="card"><span>03</span><h2>Förderung ableiten</h2><p>Fehlende Informationen benennen, bevor eine Empfehlung gegeben wird.</p></article>
+      <section class="slide curriculum-slide" id="curriculum-einordnung" data-stage="vorlauf">
+        <p class="eyebrow">Curriculare Einordnung</p>
+        <h1>2. Semester: Einführung in die Differentielle und Persönlichkeitspsychologie</h1>
+        <div class="curriculum-layout">
+          <div class="curriculum-focus">
+            <article class="warm curriculum-today"><span>Heute</span><h2>P2.1 Vorlesung</h2><p>Die Lehrprobe ist als Ausschnitt aus der Einführung in die Differentielle und Persönlichkeitspsychologie gerahmt.</p></article>
+          </div>
+          <figure class="curriculum-plan">
+            <a href="https://cms-cdn.lmu.de/media/11-psychologie-und-paedagogik/psy/downloads/studiengaenge/schulpsychologie/stundentafel-schulpsy_vertieft_05.11.2024_korr.pdf" target="_blank" rel="noopener" aria-label="Offizielle LMU-Stundentafel Schulpsychologie vertieftes Studium als PDF öffnen">
+              <img src="assets/lmu-studienplan-schulpsychologie-vertieft-2-semester.png" alt="Ausschnitt aus dem Studienplan Schulpsychologie vertieftes Studium: Im zweiten Semester steht P2.1 Einführung in die Differentielle und Persönlichkeitspsychologie als Vorlesung." data-no-lightbox="true" />
+            </a>
+          </figure>
+        </div>
+        <article class="curriculum-function curriculum-function-wide"><span>Funktion</span><h2>Vorbereitung für spätere Module</h2><p>Individuelle Unterschiede werden hier begrifflich vorbereitet, damit pädagogische Psychologie, Diagnostik und Gutachten später nicht bei Einzelnoten stehen bleiben.</p></article>
+        <div class="curriculum-return">
+          <article><b>Pädagogische Psychologie</b></article>
+          <article><b>Diagnostik</b></article>
+          <article><b>Gutachten</b></article>
         </div>
       </section>
 
-      <section class="slide" id="ablauf" data-stage="fall">
-        <p class="eyebrow">Ablauf</p>
-        <h1>Vom Fall zur diagnostischen Entscheidung.</h1>
-        <div class="roadmap">
-          <article><b>1</b><h2>Fall</h2><p>Mira und Lina schreiben dieselbe Note.</p></article>
-          <article><b>2</b><h2>Begriffe</h2><p>Zwischen Personen und innerhalb einer Person.</p></article>
-          <article><b>3</b><h2>Modell</h2><p>Person x Situation x Prozess -> Entwicklung.</p></article>
-          <article><b>4</b><h2>Anwendung</h2><p>Welche Information brauchen wir für Förderung?</p></article>
+      <section class="slide course-placement-slide" id="lehrveranstaltung-einordnung" data-stage="vorlauf">
+        <p class="eyebrow">Einordnung innerhalb der Lehrveranstaltung</p>
+        <h1>Die Lehrprobe ist Sitzung 2: von Schulleistung als Messwert zu Schulleistung als Beratungsbefund.</h1>
+        <div class="course-table-wrap">
+          <table class="course-table" aria-label="Einordnung der Lehrprobe in die Lehrveranstaltung">
+            <thead>
+              <tr>
+                <th>Block</th>
+                <th>Termin</th>
+                <th>Sitzungstitel</th>
+                <th>Funktion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="rowgroup" rowspan="2">I. Schulleistung verstehen</th>
+                <td class="term">1</td>
+                <td class="topic"><strong>Was ist Schulleistung? Noten, Tests, Kompetenzen und Bezugsnormen</strong></td>
+                <td class="function">Grundlegen, was als Leistung sichtbar und messbar wird</td>
+              </tr>
+              <tr class="current-session">
+                <td class="term">2</td>
+                <td class="topic"><strong>Gleiche Note, unterschiedliche Profile: inter- und intraindividuelle Unterschiede in Schulleistung</strong></td>
+                <td class="function">Lehrprobe: zeigen, warum ein Leistungswert diagnostisch verschieden bedeuten kann</td>
+              </tr>
+              <tr>
+                <th scope="rowgroup" rowspan="3">II. Personmerkmale als Lernvoraussetzungen</th>
+                <td class="term">3</td>
+                <td class="topic"><strong>Intelligenz und kognitive Fähigkeiten im Schulkontext</strong></td>
+                <td class="function">Klassische differentielle Grundlage schulischer Leistung</td>
+              </tr>
+              <tr>
+                <td class="term">4</td>
+                <td class="topic"><strong>Vorwissen, Sprache und Lernvoraussetzungen</strong></td>
+                <td class="function">Nähe zu Unterricht, Fachlernen und Bildungsübergängen herstellen</td>
+              </tr>
+              <tr>
+                <td class="term">5</td>
+                <td class="topic"><strong>Persönlichkeit, Temperament und schulisches Verhalten</strong></td>
+                <td class="function">Breitere individuelle Unterschiede im Unterrichtskontext</td>
+              </tr>
+              <tr>
+                <th scope="rowgroup" rowspan="3">III. Motivation und Selbstbild</th>
+                <td class="term">6</td>
+                <td class="topic"><strong>Motivation, Interesse und Zielorientierungen</strong></td>
+                <td class="function">Warum Lernende Leistung unterschiedlich aufnehmen und verfolgen</td>
+              </tr>
+              <tr>
+                <td class="term">7</td>
+                <td class="topic"><strong>Akademisches Selbstkonzept und Selbstwirksamkeit</strong></td>
+                <td class="function">Übergang zu Bezugsgruppen, Selbstbewertung und Entwicklung</td>
+              </tr>
+              <tr>
+                <td class="term">8</td>
+                <td class="topic"><strong>Emotionen, Prüfungsangst und Wohlbefinden in Leistungssituationen</strong></td>
+                <td class="function">Leistung nicht nur kognitiv, sondern motivational-affektiv verstehen</td>
+              </tr>
+              <tr>
+                <th scope="rowgroup" rowspan="3">IV. Entwicklung und Kontext</th>
+                <td class="term">9</td>
+                <td class="topic"><strong>Stabilität und Veränderung individueller Unterschiede</strong></td>
+                <td class="function">Intraindividuelle Entwicklung systematisch vertiefen</td>
+              </tr>
+              <tr>
+                <td class="term">10</td>
+                <td class="topic"><strong>Familie, soziale Herkunft und Bildungsungleichheit</strong></td>
+                <td class="function">Kontextbedingungen individueller Schulleistung</td>
+              </tr>
+              <tr>
+                <td class="term">11</td>
+                <td class="topic"><strong>Klasse, Unterricht und Bezugsgruppen</strong></td>
+                <td class="function">Person-Umwelt-Passung und soziale Vergleichsprozesse</td>
+              </tr>
+              <tr>
+                <th scope="rowgroup" rowspan="2">V. Von Unterschieden zu pädagogischem Handeln</th>
+                <td class="term">12</td>
+                <td class="topic"><strong>Diagnostische Urteile von Lehrkräften: Chancen und Fehlerquellen</strong></td>
+                <td class="function">Brücke zu Diagnostik und schulpsychologischer Professionalität</td>
+              </tr>
+              <tr>
+                <td class="term">13</td>
+                <td class="topic"><strong>Feedback, Förderung und schulpsychologische Anschlussfragen</strong></td>
+                <td class="function">Abschluss: aus Unterschieden werden pädagogische Entscheidungen</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
 
-      <section class="slide" id="fall" data-stage="fall">
-        <p class="eyebrow">Einstiegsfall</p>
-        <h1>Zwei Schülerinnen. Gleiche Deutschnote. Gleiche Diagnose?</h1>
+      <section class="slide hero clean-hero" id="titel-lehrprobe-start" data-stage="problem">
+        <div class="hero-copy">
+          <p class="eyebrow">Start der Lehrprobe | LMU München | Differentielle Psychologie im Kontext Schule</p>
+          <h1>Warum gleiche Noten nicht dasselbe sind</h1>
+          <p class="lead">Intra- und interindividuelle Unterschiede in der Schule</p>
+          <div class="pill-row">
+            <span class="pill dark">20 Minuten</span>
+            <span class="pill">Lehrvortrag</span>
+            <span class="pill">Lehramt / Schulpsychologie</span>
+            <span class="pill">Thorben Jansen</span>
+          </div>
+        </div>
+        <div class="lmu-signature">
+          <span>Lehrprobe an der</span>
+          <img class="lmu-logo" src="assets/lmu_munich_logo.png" alt="LMU München" />
+        </div>
+      </section>
+
+      <section class="slide public-start" id="gesellschaftspolitischer-start" data-stage="problem">
+        <div class="public-copy">
+          <p class="eyebrow">Gesellschaftspolitischer Einstieg</p>
+          <h1>Schulübergänge sind entscheidende Momente.</h1>
+          <p class="lead">Schulpsycholog:innen beraten den Schulübergang.</p>
+        </div>
+        <figure class="public-frame">
+          <img src="assets/welt-grundschulabitur-uebertrittszeugnisse.png" alt="Screenshot eines WELT-Artikels über die Diskussion um Übertrittszeugnisse für Viertklässler in Bayern." />
+        </figure>
+      </section>
+
+      <section class="slide mandate" id="auftrag-schulpsychologie" data-stage="problem">
+        <p class="eyebrow">Auftrag der Schulpsychologie</p>
+        <h1>Schullaufbahnberatung ist ein Kernauftrag schulpsychologischer Praxis.</h1>
+        <figure class="mandate-frame">
+          <img src="assets/bayern-recht-schulpsychologie-schullaufbahnberatung.png" alt="Screenshot aus Bayern.Recht zu den Aufgaben von Schulpsychologinnen und Schulpsychologen: Schullaufbahnberatung als Aufgabenbereich." data-lightbox-focus="center" />
+          <figcaption>BayEUG / KMBek: Aufgaben der Schulpsychologinnen und Schulpsychologen in Bayern</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide threshold" id="uebertrittsschwelle" data-stage="problem">
+        <p class="eyebrow">Institutionelle Entscheidungsschwelle</p>
+        <h1>Beim Übertritt wird Eignung auch an einer Durchschnittsnote festgemacht.</h1>
+        <div class="threshold-layout">
+          <figure class="threshold-frame">
+            <img src="assets/bayern-recht-grso-uebertritt-durchschnittsnote.png" alt="Screenshot aus Bayern.Recht zur Grundschulordnung: Eignung für das Gymnasium bei einer Gesamtdurchschnittsnote von mindestens 2,33." />
+          </figure>
+          <aside class="threshold-callout">
+            <p>Gymnasium</p>
+            <strong>2,33</strong>
+            <span>Gesamtdurchschnittsnote mindestens 2,33 als formale Eignungsschwelle</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide" id="fall" data-stage="problem">
+        <p class="eyebrow">Beratungsfall</p>
         <div class="case-grid">
-          <article class="case-card warm"><h2>Mira</h2><strong>Note 3</strong><p>konstant mittleres Niveau<br />langsame Verbesserung<br />zunehmend motiviert</p></article>
-          <article class="case-card"><h2>Lina</h2><strong>Note 3</strong><p>starke Schwankungen<br />einzelne sehr gute Leistungen<br />verliert Vertrauen</p></article>
+          <article class="case-card warm"><h2>Mira</h2><strong>Durchschnitt 2,2</strong></article>
+          <article class="case-card"><h2>Lina</h2><strong>Durchschnitt 2,2</strong></article>
         </div>
-        <p class="question-strip">Haben Mira und Lina aus schulpsychologischer Sicht dasselbe Leistungsprofil?</p>
+        <p class="question-strip">Beide Familien fragen: Sollte mein Kind auf das Gymnasium gehen?</p>
       </section>
 
-      <section class="slide activation" id="aktivierung-1" data-stage="fall">
-        <p class="eyebrow">Mini-Aktivierung</p>
-        <h1>Welche Information fehlt Ihnen zuerst?</h1>
-        <div class="prompt">Denken Sie 20 Sekunden allein: Welche Zusatzinformation würden Sie erheben, bevor Sie fördern?</div>
+      <section class="slide didactic-slide" id="didaktisches-konzept" data-stage="problem">
+        <p class="eyebrow">Aufbau der Lehrprobe</p>
+        <h1>Die Seitenleiste zeigt die Lernbewegung der Lehrprobe.</h1>
+        <div class="didactic-grid">
+          <article><span>1 · Problem</span><h2>Warum reicht der Durchschnitt nicht?</h2><p>Der Beratungsfall macht sichtbar, dass ein Kennwert die Entscheidung nicht trägt.</p></article>
+          <article class="warm"><span>2 · Aktivierung</span><h2>Welche Information fehlt?</h2><p>Vor der Erklärung formulieren Sie selbst, was Sie für eine Empfehlung noch wissen müssten.</p></article>
+          <article><span>3 · Strukturaufbau</span><h2>Warum lernen wir das?</h2><p>Wir verorten die Fallfrage im Studium und fokussieren das Lernziel.</p></article>
+          <article><span>4 · Modell</span><h2>Unterschiede sichtbar machen</h2><p>Interaktive Grafiken und Studienbeispiele zeigen, wie Mittelwerte, Streuung, Outcome und Verlauf die Deutung verändern.</p></article>
+          <article><span>5 · Vertiefung</span><h2>Begriffe sichern</h2><p>Wir verdichten die Modelle zu den beiden Perspektiven: Vergleich zwischen Lernenden und Verlauf innerhalb einer Person.</p></article>
+          <article><span>6 · Sicherung</span><h2>Beratung vorbereiten</h2><p>Wir verdichten, welche Befundlage eine verantwortbare Empfehlung trägt.</p></article>
+          <article><span>7 · Transfer</span><h2>Anschluss öffnen</h2><p>Die Falllogik führt in spätere Diagnostik, Gutachten und die nächste Sitzung weiter.</p></article>
+        </div>
+      </section>
+
+      <section class="slide activation" id="aktivierung-1" data-stage="aktivierung">
+        <p class="eyebrow">Aktivierung</p>
+        <div class="prompt">Denken Sie 20 Sekunden allein: Nach welchen Daten würden Sie fragen, um die Schulleistung zu bewerten und eine Empfehlung auszusprechen?</div>
+        <label class="free-response" for="activationResponse">
+          <span>Ihre erste Antwort</span>
+          <textarea id="activationResponse" rows="4" placeholder="Zum Beispiel: Welche weiteren Schulleistungen, Verläufe oder Kontextinformationen würden Sie einholen?"></textarea>
+        </label>
         <div class="pill-grid">
           <span class="pill dark">Klassenvergleich</span>
           <span class="pill">Verlauf über Zeit</span>
           <span class="pill">Motivation / Selbstkonzept</span>
-          <span class="pill">Aufgabentyp</span>
-          <span class="pill">Feedbackreaktion</span>
         </div>
       </section>
 
-      <section class="slide definition" id="interindividuell" data-stage="begriffe">
-        <p class="eyebrow">Begriff 1</p>
-        <h1>Interindividuell heißt: Unterschiede zwischen Personen.</h1>
-        <div class="definition-layout">
-          <div class="definition-box">Wir vergleichen Lernende miteinander: Wer unterscheidet sich von wem?</div>
-          <ul>
-            <li>Leistungsrang in der Klasse</li>
-            <li>Vorwissen im Vergleich</li>
-            <li>Motivation im Vergleich</li>
-            <li>Diagnostische Normwerte</li>
-          </ul>
+      <section class="slide study-transfer" id="studiumsanschluss" data-stage="struktur">
+        <p class="eyebrow">Anschluss im Studium</p>
+        <h1>Die Frage aus dem Fall Mira/Lina begegnet Ihnen an mehreren Stellen wieder.</h1>
+        <div class="prior-knowledge">
+          <article><b>Aus dem 1. Semester</b><span>Grundbegriffe psychologischer Erklärung: Lernen, Entwicklung, Sozialisation und erste Idee empirischer Befunde.</span></article>
+          <article><b>Aus der letzten Vorlesung</b><span>Schulleistung als sichtbarer Messwert: Noten, Tests, Kompetenzen und Bezugsnormen.</span></article>
         </div>
-        <p class="takeaway">Interindividuell beantwortet Vergleichsfragen.</p>
+        <table class="study-table">
+          <thead>
+            <tr>
+              <th>Anschluss im Lehramtsstudium</th>
+              <th>Wiederkehrende Frage am Fall Mira/Lina</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Differentielle Psychologie</strong></td>
+              <td>Welche Unterschiede liegen zwischen und innerhalb von Lernenden vor?</td>
+            </tr>
+            <tr>
+              <td><strong>EWS: Lernen, Entwicklung, Sozialisation</strong></td>
+              <td>Wie entwickeln sich Leistung, Motivation und Selbstkonzept in Schule und Familie?</td>
+            </tr>
+            <tr>
+              <td><strong>Schulpädagogik / Didaktik / Praktika</strong></td>
+              <td>Wie werden Leistungsprofile im Unterricht beobachtbar und förderbar?</td>
+            </tr>
+            <tr>
+              <td><strong>Diagnostik und schulpsychologische Beratung</strong></td>
+              <td>Welche Befundlage trägt eine verantwortbare Empfehlung?</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
-      <section class="slide definition" id="intraindividuell" data-stage="begriffe">
-        <p class="eyebrow">Begriff 2</p>
-        <h1>Intraindividuell heißt: Unterschiede innerhalb einer Person.</h1>
-        <div class="definition-layout">
-          <div class="definition-box warm">Wir betrachten Veränderungen einer Person über Zeit, Situationen oder Aufgaben.</div>
-          <ul>
-            <li>Lernzuwachs</li>
-            <li>Schwankungen zwischen Tests</li>
-            <li>Leistung unter Stress</li>
-            <li>Strategiewechsel nach Feedback</li>
-          </ul>
-        </div>
-        <p class="takeaway">Intraindividuell beantwortet Entwicklungsfragen.</p>
+      <section class="slide learning-goal-slide" id="lernziele" data-stage="struktur">
+        <p class="learning-goal-marker">Lernziel der Sitzung</p>
+        <h1>Sie verstehen die Bedeutung individueller Unterschiede für die Schulpsychologie.</h1>
       </section>
 
-      <section class="slide" id="begriffe" data-stage="begriffe">
-        <p class="eyebrow">Merksatz</p>
-        <h1>Beide Perspektiven beantworten unterschiedliche Fragen.</h1>
-        <div class="compare-grid">
-          <article class="compare-card"><h2>Interindividuell</h2><p class="big">Wer unterscheidet sich von wem?</p><p>Mira im Vergleich zur Klasse</p><small>Normvergleich und Selektion</small></article>
-          <article class="compare-card warm"><h2>Intraindividuell</h2><p class="big">Wann und warum unterscheidet sich eine Person von sich selbst?</p><p>Linas Verlauf über Aufgaben</p><small>Entwicklung und Förderung</small></article>
+      <section class="slide live-demo-slide" id="live-klassen-demo" data-stage="modell">
+        <p class="eyebrow">Interaktive Lernfolie | Interindividuelle Unterschiede</p>
+        <h1>Mira und Lina kommen aus unterschiedlichen Schulen. Zwischen Gruppen können sich Mittelwert, Streuung und Outcome unterscheiden.</h1>
+        <div class="live-demo-grid live-single-grid">
+          <article class="live-plot-card live-between-card live-inter-card">
+            <div class="live-inter-head">
+              <div>
+                <p class="eyebrow">Zwischen Schulen</p>
+                <h2 id="liveOutcomeTitle">Leistung im Schul- und Klassenkontext</h2>
+              </div>
+              <div class="outcome-switch" role="group" aria-label="Outcome wählen">
+                <button type="button" class="is-active" data-outcome="leistung">Leistung</button>
+                <button type="button" data-outcome="motivation">Motivation</button>
+                <button type="button" data-outcome="selbstkonzept">Selbstkonzept</button>
+                <button type="button" data-outcome="gewissenhaftigkeit">Gewissenhaftigkeit</button>
+              </div>
+            </div>
+            <svg id="liveClassPlot" viewBox="0 0 900 430" role="img" aria-label="Interindividueller Vergleich von Mira und Lina in zwei unterschiedlichen Schulen"></svg>
+            <div class="live-control-panel" aria-label="Live-Regler">
+              <label>
+                <span>Mittelwertsunterschied</span>
+                <input id="classMeanSlider" type="range" min="-18" max="18" value="10" />
+              </label>
+              <label>
+                <span>Streuung</span>
+                <input id="classSpreadSlider" type="range" min="0" max="100" value="42" />
+              </label>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section class="slide" id="gleiche-note" data-stage="begriffe">
-        <p class="eyebrow">Diagnostischer Knackpunkt</p>
-        <h1>Dieselbe Note kann drei sehr verschiedene Bedeutungen haben.</h1>
+      <section class="slide intervention-slide" id="interventionspassung" data-stage="vertiefung">
+        <p class="eyebrow">Bedeutung individueller Unterschiede</p>
+        <h1>Individuelle Unterschiede entscheiden mit, welche Intervention passt.</h1>
+        <div class="intervention-layout">
+          <figure class="intervention-frame">
+            <img src="assets/intervention-heterogeneity-feedback.png" alt="Heatmap-Beispiel: Vorhergesagte beste und schlechteste Feedbackgruppe unterscheiden sich je nach Lernendenprofil, Zielorientierung und Vertrautheit mit Instructional GPT." />
+          </figure>
+          <div class="intervention-cards">
+            <article><b>Passung</b><span>Eine Intervention ist nicht nur gut oder schlecht. Entscheidend ist, für wen sie unter welchen Bedingungen passt.</span></article>
+            <article class="warm"><b>Diagnostik</b><span>Inter- und intraindividuelle Profile helfen zu verstehen, welche Unterstützung wahrscheinlich trägt.</span></article>
+            <article><b>Unterricht</b><span>Für Lehrkräfte wird daraus eine adaptive Frage: Welche Lernenden profitieren von welcher Form der Unterstützung?</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide vera-slide" id="vera-daten" data-stage="vertiefung">
+        <p class="eyebrow">Datenkompetenz | VERA 3</p>
+        <h1>Lehrkräfte müssen lernen, interindividuelle Unterschiede aus Daten zu deuten.</h1>
+        <div class="vera-visual-stack">
+          <figure class="vera-frame">
+            <img src="assets/vera-graph-visualisierungen.jpg" alt="Beispiele verschiedener grafischer Darstellungen zu VERA-Leistungsdaten: Balkendiagramme, Jitter Graph und Beeswarm Plot." />
+          </figure>
+          <div class="vera-grid">
+            <article><b>Viele Informationen</b><span>VERA-Darstellungen zeigen Mittelwerte, Kompetenzstufen, Verteilungen und Gruppenunterschiede.</span></article>
+            <article class="warm"><b>Bedeutung lernen</b><span>Ohne Training bleibt schwer erkennbar, welche Gruppenunterschiede diagnostisch relevant sind.</span></article>
+          </div>
+        </div>
+        <p class="apa-citation">Merk, S., Groß Ophoff, J., &amp; Kelava, A. (2023). <em>Learning and Instruction, 84</em>, Article 101717. https://doi.org/10.1016/j.learninstruc.2022.101717</p>
+      </section>
+
+      <section class="slide performance-slide" id="highest-performance" data-stage="vertiefung">
+        <p class="eyebrow">Bedeutung intraindividueller Unterschiede</p>
+        <h1>Intraindividuelle Verläufe zeigen, ob Leistung Entwicklung oder Momentaufnahme ist.</h1>
+        <div class="performance-layout">
+          <figure class="science-title">
+            <img src="assets/science-highest-performance-title.png" alt="Titel des Science-Artikels Recent discoveries on the acquisition of the highest levels of human performance." />
+          </figure>
+          <figure class="science-trajectory">
+            <img src="assets/science-highest-performance-trajectory.png" alt="Grafik aus Science: Weltklasse-Performer zeigen graduelleren frühen Leistungsfortschritt als knapp darunter liegende Performer." />
+          </figure>
+          <article class="performance-card">
+            <b>Warum das zählt</b>
+            <p>Der aktuelle Wert ist nicht so vorhersagestark wie der Verlauf.</p>
+          </article>
+          <article class="performance-card warm">
+            <b>Brücke zur Beratung</b>
+            <p>Für Schullaufbahnberatung und Visible Learning heißt das: Wir brauchen Verläufe und Bedingungen, nicht nur Schwellenwerte.</p>
+          </article>
+        </div>
+        <p class="apa-citation">Güllich, A., Barth, M., Hambrick, D. Z., &amp; Macnamara, B. N. (2025). Recent discoveries on the acquisition of the highest levels of human performance. <em>Science, 390</em>, eadt7790. https://doi.org/10.1126/science.adt7790</p>
+      </section>
+
+      <section class="slide" id="gleiche-note" data-stage="vertiefung">
+        <p class="eyebrow">Zuspitzung | Einzelnoten</p>
+        <h1>Eine einzelne Note ist diagnostisch hoch problematisch.</h1>
         <div class="card-grid three compact">
           <article class="card"><h2>Stabile mittlere Kompetenz</h2><p>Die Note beschreibt einen relativ konstanten Leistungsstand.</p></article>
           <article class="card"><h2>Kurzfristiger Einbruch</h2><p>Die Note verdeckt, dass die Person sonst deutlich stärker ist.</p></article>
-          <article class="card warm"><h2>Individueller Fortschritt</h2><p>Die Note liegt noch mittig, zeigt aber eine positive Entwicklung.</p></article>
-        </div>
-        <p class="note-pill">Note 3</p>
-      </section>
-
-      <section class="slide" id="arbeitsmodell" data-stage="modell">
-        <p class="eyebrow">Arbeitsmodell</p>
-        <h1>Schulleistung entsteht aus Person, Situation und Prozess.</h1>
-        <div class="model-row">
-          <article><h2>Person</h2><p>Vorwissen<br />Motivation<br />Selbstkonzept<br />Feedback-Rezeptivität</p></article>
-          <article><h2>Situation</h2><p>Aufgabe<br />Unterricht<br />Feedback<br />KI-Unterstützung</p></article>
-          <article><h2>Prozess</h2><p>Aufmerksamkeit<br />Anstrengung<br />Strategieeinsatz<br />Revision</p></article>
-          <article class="warm"><h2>Entwicklung</h2><p>Leistung<br />Kompetenz<br />Motivation<br />Selbstüberzeugungen</p></article>
-        </div>
-        <p class="takeaway">Diagnostik verbindet Vergleich, Verlauf und Lernprozess.</p>
-      </section>
-
-      <section class="slide" id="person" data-stage="modell">
-        <p class="eyebrow">Person</p>
-        <h1>Personmerkmale sind keine Etiketten, sondern Ausgangslagen.</h1>
-        <div class="card-grid three">
-          <article class="card"><h2>Kognitive Voraussetzungen</h2><p>Vorwissen, Sprachstand und Aufgabenverständnis bestimmen, was überhaupt bearbeitbar ist.</p></article>
-          <article class="card warm"><h2>Motivation</h2><p>Erwartung und Wert beeinflussen, ob Lernende sich auf eine Aufgabe einlassen.</p></article>
-          <article class="card"><h2>Selbstüberzeugungen</h2><p>Fähigkeitsselbstkonzept und Vertrauen prägen, wie Rückmeldungen gedeutet werden.</p></article>
+          <article class="card"><h2>Individueller Fortschritt</h2><p>Die Note liegt noch mittig, zeigt aber eine positive Entwicklung.</p></article>
         </div>
       </section>
 
-      <section class="slide" id="situation" data-stage="modell">
-        <p class="eyebrow">Situation</p>
-        <h1>Dieselbe Person kann in unterschiedlichen Situationen anders handeln.</h1>
-        <div class="card-grid three">
-          <article class="card"><h2>Aufgabentyp</h2><p>Eine Person kann narrative Texte sicher schreiben, aber in Sachargumentationen schwanken.</p></article>
-          <article class="card"><h2>Soziale Norm</h2><p>Klassenvergleich, Prüfungsdruck und Rückmeldeton verändern die Situation.</p></article>
-          <article class="card warm"><h2>Unterstützung</h2><p>Feedback oder KI kann Lerngelegenheiten öffnen, aber auch überfordern.</p></article>
+      <section class="slide live-demo-slide" id="live-profile-demo" data-stage="modell">
+        <p class="eyebrow">Interaktive Lernfolie | Intraindividuelle Unterschiede</p>
+        <h1>Übergangszeugnisse in Bayern bestehen aus 18 Ergebnissen. Gleicher Mittelwert kann sehr verschiedene Verläufe verdecken.</h1>
+        <div class="live-demo-grid live-single-grid">
+          <article class="live-plot-card live-intra-card">
+            <div>
+              <p class="eyebrow">Innerhalb der Person</p>
+              <h2>10 Deutsch, 4 Mathe, 4 Heimatkunde über das Schuljahr</h2>
+            </div>
+            <div class="live-profile-control" aria-label="Profiltyp wählen">
+              <label>
+                <span>Profiltyp</span>
+                <input id="profilePatternSlider" type="range" min="0" max="3" step="0.01" value="0" />
+              </label>
+              <div class="live-profile-labels" aria-hidden="true">
+                <span>stabil</span>
+                <span>später besser</span>
+                <span>zwischen Fächern</span>
+                <span>innerhalb Fächer</span>
+              </div>
+            </div>
+            <svg id="liveTimelinePlot" viewBox="0 0 900 430" role="img" aria-label="Vier intraindividuelle Leistungsprofile über 18 Ergebnisse mit gleichem Mittelwert 2,2"></svg>
+          </article>
         </div>
       </section>
 
-      <section class="slide" id="prozess" data-stage="modell">
-        <p class="eyebrow">Prozess</p>
-        <h1>Förderung setzt dort an, wo Lernen tatsächlich passiert.</h1>
-        <div class="card-grid three">
-          <article class="card"><h2>Aufmerksamkeit</h2><p>Wird die Rückmeldung überhaupt wahrgenommen?</p></article>
-          <article class="card warm"><h2>Strategieeinsatz</h2><p>Wird ein Plan genutzt oder nur punktuell korrigiert?</p></article>
-          <article class="card"><h2>Revision</h2><p>Wird Feedback in eine konkrete Verbesserung übersetzt?</p></article>
-        </div>
-      </section>
-
-      <section class="slide activation" id="aktivierung-2" data-stage="modell">
-        <p class="eyebrow">Think-Pair-Share</p>
-        <h1>Ordnen Sie die Informationen dem Modell zu.</h1>
-        <div class="prompt">Welche Hinweise im Fall Mira/Lina gehören zu Person, Situation oder Prozess?</div>
-        <div class="pill-grid">
-          <span class="pill">Motivation</span>
-          <span class="pill dark">Schwankung zwischen Aufgaben</span>
-          <span class="pill">Verbesserung über Zeit</span>
-          <span class="pill">Reaktion auf Feedback</span>
-          <span class="pill">Prüfungssituation</span>
-        </div>
-      </section>
-
-      <section class="slide quote-slide" id="motivation" data-stage="modell">
-        <p class="eyebrow">Motivation als Beispiel</p>
-        <h1>Lernende fragen in jeder Situation zwei Dinge.</h1>
-        <blockquote>Kann ich das? Und lohnt es sich für mich?</blockquote>
-        <p class="lead small">Die Situated Expectancy-Value Theory hilft zu erklären, warum dieselbe Aufgabe für Lernende psychologisch nicht dieselbe Situation ist.</p>
-        <div class="pill-row center"><span class="pill">Eccles & Wigfield, 2020</span><span class="pill">Jansen et al., 2022</span></div>
-      </section>
-
-      <section class="slide evidence" id="evidenz" data-stage="transfer">
-        <p class="eyebrow">Evidenzfenster</p>
-        <h1>Motivation und Selbstüberzeugungen sind zentrale Korrelate schulischer Entwicklung.</h1>
-        <div class="evidence-layout">
-          <div class="covers">
-            <img src="assets/meta_analysis_motivation_cover.png" alt="Titelblatt einer Meta-Analyse zu Motivation und Leistung." />
-            <img src="assets/meta_analysis_self_beliefs_cover.png" alt="Titelblatt einer Meta-Analyse zu Selbstüberzeugungen und Leistung." />
+      <section class="slide sevt-model-slide" id="arbeitsmodell" data-stage="modell">
+        <p class="eyebrow">Arbeitsmodell | SEVT als Landkarte</p>
+        <h1>Individuelle Unterschiede sind wichtig, weil Lernende dieselbe Situation unterschiedlich deuten.</h1>
+        <div class="sevt-layout">
+          <figure class="sevt-frame sevt-coded-frame">
+            <img src="assets/sevt-expectancy-value-model.png" alt="Eccles und Kolleg:innen: expectancy-value theory of achievement performance and choice als Modell aus Kontext, Selbstkonzept, Zielen, Erwartungen, subjektivem Aufgabenwert und leistungsbezogenen Entscheidungen." />
+            <span class="sevt-code-zone sevt-code-inter">Interindividuell</span>
+            <span class="sevt-code-zone sevt-code-intra">Intraindividuell</span>
+            <button class="sevt-hotspot sevt-hotspot-expectancy" type="button" data-lightbox-src="assets/meta_analysis_self_beliefs_cover.png" data-lightbox-alt="Who-am-I-Studie: Titelblatt zur Meta-Analyse über Selbstüberzeugungen und schulische Leistung.">Expectancy</button>
+            <button class="sevt-hotspot sevt-hotspot-value" type="button" data-lightbox-src="assets/meta_analysis_motivation_cover.png" data-lightbox-alt="Motivationsstudie: Titelblatt zur Meta-Analyse über Motivation und schulische Leistung.">Subjective Task Value</button>
+          </figure>
+          <div class="sevt-cards">
+            <article class="cool"><b>Interindividuell</b><span>Lernende bringen unterschiedliche Erfahrungen, Selbstkonzepte, Ziele und Erwartungen in dieselbe Aufgabe mit.</span></article>
+            <article class="warm"><b>Intraindividuell</b><span>Dieselbe Person kann je nach Fach, Aufgabe, Zeitpunkt oder Bezugsgruppe andere Erwartungen und Werte erleben.</span></article>
           </div>
-          <ul>
-            <li>Sie erklären Leistungsunterschiede zwischen Lernenden.</li>
-            <li>Sie verändern, wie Aufgaben und Feedback interpretiert werden.</li>
-            <li>Sie sind selbst Teil schulischer Entwicklung.</li>
-          </ul>
         </div>
+        <p class="sevt-strip">Das Modell formalisiert den Gedanken: Verläufe und individuelle Unterschiede verändern, wie Leistung entsteht und gedeutet wird.</p>
       </section>
 
-      <section class="slide" id="feedback" data-stage="transfer">
-        <p class="eyebrow">Feedback</p>
-        <h1>Feedback ist eine Situation, die unterschiedlich wirken kann.</h1>
-        <div class="stack">
-          <article><h2>Interindividuell</h2><p>Lernende unterscheiden sich darin, wie sie Feedback verstehen und akzeptieren.</p></article>
-          <article><h2>Intraindividuell</h2><p>Dieselbe Person nutzt Feedback je nach Aufgabe, Zielklarheit und Stimmung anders.</p></article>
-          <article class="warm"><h2>Schulpsychologisch</h2><p>Förderung fragt nicht nur: Welches Feedback? Sondern: Für wen, wann und wozu?</p></article>
+      <section class="slide definition interindividual-visual" id="interindividuell" data-stage="sicherung">
+        <p class="eyebrow">Sicherung</p>
+        <h1>Interindividuelle Unterschiede sichtbar machen.</h1>
+        <p class="lead">Wir vergleichen verschiedene Lernende miteinander.</p>
+        <div class="interindividual-stage">
+          <div class="interindividual-question">Wer unterscheidet sich von wem?</div>
+          <figure class="interindividual-figure">
+            <img src="assets/interindividuelle-personenprofile.png" alt="Fünf Lernende mit unterschiedlichen Profilen in Leistung, Vorwissen und Motivation." />
+          </figure>
         </div>
+        <p class="interindividual-strip">Interindividuell beantwortet Vergleichsfragen.</p>
       </section>
 
-      <section class="slide activation" id="feedback-frage" data-stage="transfer">
-        <p class="eyebrow">Anwendungsfrage</p>
-        <h1>Welches Feedback wäre für Mira und Lina hilfreicher?</h1>
-        <div class="prompt">Wählen Sie gedanklich eine Option und begründen Sie sie diagnostisch.</div>
-        <div class="pill-grid four">
-          <span class="pill dark">mehr Zielklarheit</span>
-          <span class="pill">Information zum aktuellen Stand</span>
-          <span class="pill">konkreter nächster Schritt</span>
-          <span class="pill">motivationale Unterstützung</span>
+      <section class="slide definition intraindividual-visual" id="intraindividuell" data-stage="sicherung">
+        <p class="eyebrow">Sicherung</p>
+        <h1>Intraindividuelle Unterschiede sichtbar machen.</h1>
+        <p class="lead">Wir betrachten dieselbe Person über Zeit, Situationen oder Aufgaben.</p>
+        <div class="interindividual-stage">
+          <div class="interindividual-question warm">Wann unterscheidet sich eine Person von sich selbst?</div>
+          <figure class="interindividual-figure">
+            <img src="assets/intraindividuelle-zeitprofile.png" alt="Eine lernende Person zu fünf Zeitpunkten mit unterschiedlichen Profilen in Leistung, Anstrengung und Motivation." />
+          </figure>
         </div>
-      </section>
-
-      <section class="slide process-data" id="prozessdaten" data-stage="transfer">
-        <p class="eyebrow">Moderner Zugang</p>
-        <h1>Digitale Lernumgebungen verschieben den Blick vom Endprodukt zum Prozess.</h1>
-        <div class="media-split">
-          <figure><img src="assets/effectiveness_writing_workspace_screenshot.png" alt="Screenshot einer digitalen Schreibumgebung mit Feedback." /></figure>
-          <ul>
-            <li><strong>Endprodukt:</strong> Welche Note oder Textqualität liegt vor?</li>
-            <li><strong>Prozess:</strong> Wie wurde geschrieben, revidiert und Feedback genutzt?</li>
-            <li><strong>Diagnostik:</strong> Welche Unterstützung passt zur beobachteten Strategie?</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="slide" id="pisa" data-stage="transfer">
-        <p class="eyebrow">Beispiel PISA / KI-gestütztes Schreiben</p>
-        <h1>Prozessdaten können intraindividuelle Unterschiede sichtbar machen.</h1>
-        <div class="metric-grid">
-          <article><h2>Keystrokes</h2><p>Wie aktiv schreibt eine Person?</p></article>
-          <article class="warm"><h2>Paste Events</h2><p>Wie werden generierte Inhalte integriert?</p></article>
-          <article><h2>Schreibzeit</h2><p>Wann entstehen Pausen, Revisionen oder Abbrüche?</p></article>
-          <article><h2>Argumente</h2><p>Welche inhaltlichen Bausteine tauchen im Text auf?</p></article>
-        </div>
+        <p class="interindividual-strip">Intraindividuell beantwortet Entwicklungsfragen.</p>
       </section>
 
       <section class="slide" id="anwendung" data-stage="sicherung">
-        <p class="eyebrow">Zurück zum Fall</p>
-        <h1>Eine Förderempfehlung braucht mindestens vier Informationsquellen.</h1>
-        <div class="diagnosis-table">
-          <div><b>Normvergleich</b><span>Wo stehen Mira und Lina im Vergleich zur Klasse?</span></div>
-          <div><b>Verlauf</b><span>Wie stabil oder veränderlich ist die Leistung über Zeit?</span></div>
-          <div><b>Motivation</b><span>Wie deuten beide ihre Fähigkeit und den Wert der Aufgabe?</span></div>
-          <div><b>Prozess</b><span>Wie schreiben, revidieren und nutzen sie Feedback?</span></div>
-        </div>
-      </section>
-
-      <section class="slide" id="takeaways" data-stage="sicherung">
         <p class="eyebrow">Sicherung</p>
-        <h1>Drei Take-home-Sätze</h1>
-        <div class="takeaway-list">
-          <article><b>1</b><p>Schulleistung ist ein Ergebnis von Person, Situation und Prozess.</p></article>
-          <article><b>2</b><p>Interindividuelle Unterschiede zeigen, wie Lernende voneinander abweichen.</p></article>
-          <article class="warm"><b>3</b><p>Intraindividuelle Unterschiede zeigen, wann und unter welchen Bedingungen Entwicklung stattfindet.</p></article>
+        <h1>Eine Empfehlung sollte unter Berücksichtigung inter- und intraindividueller Unterschiede getroffen werden.</h1>
+        <div class="diagnosis-table">
+          <div><b>Interindividuell</b><span>Wie stehen Mira und Lina in ihren jeweiligen Schul- und Klassenkontexten?</span></div>
+          <div><b>Intraindividuell</b><span>Wie stabil, fachspezifisch oder veränderlich sind die 18 Leistungsergebnisse?</span></div>
+          <div><b>Kontext</b><span>Welche Bezugsgruppe, Aufgaben und Rahmenbedingungen verändern die Deutung?</span></div>
         </div>
       </section>
 
-      <section class="slide closing" id="schluss" data-stage="sicherung">
-        <p class="eyebrow">Diskussionsfrage</p>
-        <h1>Wie gestalten wir Diagnostik so, dass sie Entwicklung ermöglicht?</h1>
-        <p class="lead">Differentielle Psychologie im Kontext Schule verbindet Normvergleich, Entwicklungsverlauf und adaptive Förderung.</p>
-        <div class="pill-row"><span class="pill dark">Diagnostik</span><span class="pill">Beratung</span><span class="pill">Feedback</span><span class="pill">Entwicklung</span></div>
+      <section class="slide visible-learning-slide" id="visible-learning-ausblick" data-stage="transfer">
+        <p class="eyebrow">Ausblick | Visible Learning</p>
+        <h1>Bedeutung intra- und interindividueller Unterschiede ist Grundlage für ein Lehrbuchprojekt.</h1>
+        <div class="visible-layout">
+          <article class="visible-book">
+            <p>Erweiterung der Buchreihe <strong>Visible Learning</strong> zusammen mit John Hattie und Jens Möller.</p>
+            <span>Geplant ist ein Lehrbuch, das Evidenz zu Unterschieden zwischen Schülerinnen und Schülern systematisch bündelt.</span>
+          </article>
+          <article class="visible-thesis warm">
+            <b>Zentrale Idee</b>
+            <p>Zusammenhänge zwischen Variablen und Schulleistung sind nicht überall gleich. Sie unterscheiden sich zwischen Personen, Klassen, Kontexten und Lernbedingungen.</p>
+          </article>
+        </div>
+        <p class="visible-strip">Die Frage lautet also nicht nur: “Was wirkt?” Sondern: “Für wen, unter welchen Bedingungen und in welchem Verlauf?”</p>
+      </section>
+
+      <section class="slide closing" id="schluss" data-stage="transfer">
+        <p class="eyebrow">Anschluss an die nächste Veranstaltung</p>
+        <h1>Nächste Sitzung: Intelligenz und kognitive Fähigkeiten im Schulkontext.</h1>
+        <div class="next-session-grid">
+          <a class="next-session-card" href="https://oboe.com/learn/intelligenz-als-lernvoraussetzung-jrqsob?ref=share_link" target="_blank" rel="noopener">
+            <b>1</b>
+            <span>Leichter Einstieg</span>
+            <p>Oboe-Kurs: Intelligenz als Lernvoraussetzung und erste begriffliche Orientierung.</p>
+            <em>Interaktiver Kurs öffnen</em>
+          </a>
+          <a class="next-session-card warm" href="https://www.youtube.com/watch?v=W2bKaw2AJxs" target="_blank" rel="noopener">
+            <b>2</b>
+            <span>Erzählender Zugang</span>
+            <p>Einstiegsvideo: Warum Intelligenz als Geschichte von Lernen, Chancen und Deutung relevant wird.</p>
+            <em>Video öffnen</em>
+          </a>
+          <a class="next-session-card" href="https://psycnet.apa.org/fulltext/2018-07714-001.html" target="_blank" rel="noopener">
+            <b>3</b>
+            <span>Wissenschaftlicher Zugang</span>
+            <p>Einstiegsartikel: Befunde zu kognitiven Fähigkeiten genauer lesen und auf Beratung beziehen.</p>
+            <em>Artikel öffnen</em>
+          </a>
+        </div>
         <img class="closing-logo" src="assets/lmu_munich_logo.png" alt="LMU München" />
       </section>
     </main>
+
+    <div class="glossary-popover" id="glossaryPopover" aria-hidden="true">
+      <button class="glossary-backdrop" type="button" data-glossary-close aria-label="Begriffsklärung schließen"></button>
+      <section class="glossary-card" role="dialog" aria-modal="true" aria-labelledby="glossaryTitle" tabindex="-1">
+        <div class="glossary-head">
+          <p>Funktionen und Begriffsklärung zur aktuellen Folie</p>
+          <button type="button" data-glossary-close aria-label="Begriffsklärung schließen">×</button>
+        </div>
+        <h2 id="glossaryTitle">Funktionen & Begriffe</h2>
+        <p id="glossarySlideTitle" class="glossary-slide-title"></p>
+        <div id="glossaryFunctions" class="glossary-functions"></div>
+        <dl id="glossaryTerms"></dl>
+      </section>
+    </div>
+
+    <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+      <button class="lightbox-backdrop" type="button" data-lightbox-close aria-label="Bildansicht schließen"></button>
+      <figure class="lightbox-figure" role="dialog" aria-modal="true" aria-labelledby="lightboxCaption" tabindex="-1">
+        <button class="lightbox-close" type="button" data-lightbox-close aria-label="Bildansicht schließen">×</button>
+        <img id="lightboxImage" alt="" />
+        <figcaption id="lightboxCaption"></figcaption>
+      </figure>
+    </div>
 
     <script src="script.js"></script>
   </body>

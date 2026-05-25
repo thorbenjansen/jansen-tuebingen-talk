@@ -1,0 +1,164 @@
+[
+  {
+    "claim_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C001",
+    "artifact_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation",
+    "claim_text": "Which Student and Instructional Variables Are Most Strongly Related to Academic Motivation in K-12 Education? A Systematic Review of Meta-Analyses contributes evidence about academic motivation meta-analyses and should be used through its construct, theory, method, and outcome profile.",
+    "claim_type": "method",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E001",
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process"
+    ],
+    "theory_ids": [
+      "Feedback Theory",
+      "Meta-Analysis"
+    ],
+    "controlled_fields": {
+      "document_type": "review",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "writing",
+        "feedback",
+        "assessment",
+        "motivation"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Self-Beliefs",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process"
+      ],
+      "theories": [
+        "Feedback Theory",
+        "Meta-Analysis"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C002",
+    "artifact_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation",
+    "claim_text": "The source is most useful when connected to Motivation, Self-Beliefs.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E001",
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process"
+    ],
+    "theory_ids": [
+      "Feedback Theory",
+      "Meta-Analysis"
+    ],
+    "controlled_fields": {
+      "document_type": "review",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "writing",
+        "feedback",
+        "assessment",
+        "motivation"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Self-Beliefs",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process"
+      ],
+      "theories": [
+        "Feedback Theory",
+        "Meta-Analysis"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C003",
+    "artifact_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation",
+    "claim_text": "Evidence status**: derived from source title, abstract/front matter, and the curated ARA scope.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E001",
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Self-Beliefs",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process"
+    ],
+    "theory_ids": [
+      "Feedback Theory",
+      "Meta-Analysis"
+    ],
+    "controlled_fields": {
+      "document_type": "review",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "writing",
+        "feedback",
+        "assessment",
+        "motivation"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Self-Beliefs",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process"
+      ],
+      "theories": [
+        "Feedback Theory",
+        "Meta-Analysis"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

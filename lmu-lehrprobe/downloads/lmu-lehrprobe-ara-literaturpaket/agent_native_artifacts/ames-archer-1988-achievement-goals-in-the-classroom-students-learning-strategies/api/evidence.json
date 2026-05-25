@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E001",
+    "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence ## Source Pointers - **Raw PDF:** `raw/paper__ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies.pdf` - **Markdown sidecar:** `rawmarkdown_full/paper-ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies.md` ## Evidence Status This evidence layer was upgraded during the 20-item read-through and then reformatted for human readability. Claims are grounded in the source abstract, method, results, and/or core argument sections available in the PDF-derived Markdown sidecar. ## Evidence Map - **Title, abstract, and opening sections:** source identity, main problem, and headline contribution. - **Method/design sections:** study ty…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies/evidence/README.md",
+    "supports_claim_ids": [
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C001",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C002",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::E002",
+    "artifact_id": "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile - **Source:** Achievement Goals in the Classroom: Students' Learning Strategies and Motivation Processes - **ARA status:** human-curated-level-3 - **Read-through status:** readthrough-complete - **Design:** classroom motivation study - **Venue/source:** Journal of Educational Psychology - **Main concepts:** Motivation, Self-Regulated Learning, Students, Learning Processes, Self-Beliefs - **Source type:** Empirical classroom motivation study - **Population:** Students in classroom settings - **Variables:** Perceived classroom goals, learning strategies, motivation processes - **Outcomes:** Strategy use, challenge preference, effort beliefs, attitudes",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C001",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C002",
+      "ames-archer-1988-achievement-goals-in-the-classroom-students-learning-strategies::C003"
+    ],
+    "quality_flags": []
+  }
+]

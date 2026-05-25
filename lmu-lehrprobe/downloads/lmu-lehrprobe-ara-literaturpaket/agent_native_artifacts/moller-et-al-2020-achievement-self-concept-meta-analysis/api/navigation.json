@@ -1,0 +1,56 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "feedback",
+    "assessment",
+    "motivation",
+    "self-beliefs",
+    "learning-processes"
+  ],
+  "concept_hubs": [
+    "Self-Beliefs",
+    "Motivation",
+    "Students",
+    "Learning Processes",
+    "Student Text Assessment",
+    "Academic Self-Concept",
+    "Internal External Frame Of Reference Model",
+    "Dimensional Comparison Theory",
+    "logic/problem",
+    "logic/claims",
+    "logic/concepts",
+    "logic/theories"
+  ],
+  "theory_hubs": [
+    "Internal External Frame Of Reference Model",
+    "Dimensional Comparison Theory"
+  ],
+  "top_claim_ids": [
+    "moller-et-al-2020-achievement-self-concept-meta-analysis::C001",
+    "moller-et-al-2020-achievement-self-concept-meta-analysis::C002",
+    "moller-et-al-2020-achievement-self-concept-meta-analysis::C003",
+    "moller-et-al-2020-achievement-self-concept-meta-analysis::C004",
+    "moller-et-al-2020-achievement-self-concept-meta-analysis::C005"
+  ],
+  "top_evidence_ids": [
+    "moller-et-al-2020-achievement-self-concept-meta-analysis::E001",
+    "moller-et-al-2020-achievement-self-concept-meta-analysis::E002"
+  ],
+  "direct_relation_ids": [],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

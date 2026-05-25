@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E001",
+    "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence ## Source Pointers - **Raw PDF:** `raw/paper__huang-2012-self-concept-academic-self-efficacy-meta-analysis.pdf` - **Markdown sidecar:** `rawmarkdown_full/paper-huang-2012-self-concept-academic-self-efficacy-meta-analysis.md` ## Evidence Status This evidence layer was upgraded during the 20-item read-through and then reformatted for human readability. Claims are grounded in the source abstract, method, results, and/or core argument sections available in the PDF-derived Markdown sidecar. ## Evidence Map - **Title, abstract, and opening sections:** source identity, main problem, and headline contribution. - **Method/design sections:** study type, sample/source material, variables, a…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/huang-2012-self-concept-academic-self-efficacy-meta-analysis/evidence/README.md",
+    "supports_claim_ids": [
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C001",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C002",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E002",
+    "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile - **Source:** Discriminant and Incremental Validity of Self-Concept and Academic Self-Efficacy: A Meta-Analysis - **ARA status:** human-curated-level-3 - **Read-through status:** readthrough-complete - **Design:** meta-analysis plus PISA analysis - **Venue/source:** Educational Psychology - **Main concepts:** Self-Beliefs, Motivation, Students, Learning Processes, Individual Differences - **Source type:** Meta-analysis with additional PISA analysis - **Evidence base:** Studies reporting relations among self-concept, self-efficacy, and academic achievement - **Outcomes:** Discriminant validity and incremental prediction of achievement",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/huang-2012-self-concept-academic-self-efficacy-meta-analysis/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C001",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C002",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  }
+]

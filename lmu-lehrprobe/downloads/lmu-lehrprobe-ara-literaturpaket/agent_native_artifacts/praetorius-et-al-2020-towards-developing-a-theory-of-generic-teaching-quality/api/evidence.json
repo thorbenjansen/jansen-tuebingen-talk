@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::E001",
+    "artifact_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Layer - Source PDF: `raw/paper__praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality.pdf` - Markdown sidecar: `rawmarkdown_full/paper-praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality.md` - Evidence status: automated Level 2 scaffold. Claims are anchored to full-document text, but page-level evidence tables/passages remain a Level 3 task. ## Key Evidence Pointers - Abstract: relevance of theories of teaching quality and the Three Basic Dimensions model. - Model origins section: classroom management, student support, and cognitive activation as the three dimensions. - Theory-quality section: criteria for a theory of instruction…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality/evidence/README.md",
+    "supports_claim_ids": [
+      "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C001",
+      "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C002",
+      "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::E002",
+    "artifact_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality",
+    "evidence_type": "passage",
+    "text_or_summary": "# Abstract And Conclusion Passages - Abstract pointer: The paper states that it elaborates the relevance of theories of teaching quality using the Three Basic Dimensions model and derives conclusions for successive theory building. - Conclusion pointer: The authors frame the paper as a response to recurring calls for better theory and specify next steps for developing the Three Basic Dimensions model into a stronger theory of teaching. Use the PDF or markdown sidecar for exact quotation.",
+    "location": "evidence/passages/abstract_and_conclusion.md",
+    "source_file": "output/agent_native_artifacts/praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality/evidence/passages/abstract_and_conclusion.md",
+    "supports_claim_ids": [
+      "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C001",
+      "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C002",
+      "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C003"
+    ],
+    "quality_flags": []
+  }
+]

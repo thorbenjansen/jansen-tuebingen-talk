@@ -1,0 +1,170 @@
+[
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Index ## Source Pointers - Raw PDF: `raw/paper__jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the.pdf` - Raw Markdown sidecar: `rawmarkdown_full/paper-jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the.md` - DOI: `10.1037/bul0000449` - Source pages checked: title/abstract p. 1287; theory pp. 1288-1291; method pp. 1291-1298; results pp. 1298-1302; discussion/limitations pp. 1303-1309. ## Claim Evidence Map | Evidence ID | Supports | Source location | What to verify | |---|---|---|---| | E01 | C01 | Abstract, p. 1287 | Scope, research aims, and construct framing | | E02 | C01 | Method, pp. 1291-1293 | Search, inclusion, and 105…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/README.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Claim Evidence Map | Claim | Evidence | Source location | Confidence | |---|---|---|---| | C01 | Included 105 first-order meta-analyses and 493 first-order effect sizes | Abstract and Method | High | | C02 | Personal characteristics > interventions | Table 3 | High | | C03 | Achievement and noncognitive variables strongest among personal characteristics | Tables 4 and 5 | High | | C04 | Direct self-belief interventions strongest intervention subcategory | Tables 6 and 7 | High | | C05 | Situational characteristics underrepresented | RQ4 results | High | | C06 | Causal caution required | Discussion and limitations | High | | C07 | Transparency improving but incomplete | Figure 3 an…",
+    "location": "evidence/tables/level3_claim_evidence_map.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/tables/level3_claim_evidence_map.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E003",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile | Field | Value | |---|---| | Source type | Second-order meta-analytic review | | Domain | Educational psychology; self-beliefs; K-12 education | | Population | Children and adolescents in K-12 education | | Evidence base | 105 first-order meta-analyses; 493 first-order effect sizes | | Scale | More than 8,500 primary studies and more than 16 million children/adolescents | | Main method | Random-effects second-order meta-analysis with robust variance estimation | | Main outcome | Self-beliefs, broadly construed | | Main comparison | Personal characteristics versus interventions | | Methodological review | Transparency/reproducibility criteria for the included meta-an…",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E004",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Variables and Outcomes | Area | Category | Subcategory examples | Outcome | |---|---|---|---| | Personal characteristics | Achievement | language, STEM, mixed-domain achievement, persistence | self-beliefs | | Personal characteristics | Cognitive ability | learning disabilities, giftedness | self-beliefs | | Personal characteristics | Noncognitive variables | emotions, motivation, other self-beliefs, problematic technology use, perceived social support | self-beliefs | | Personal characteristics | Background | gender, ethnicity | self-beliefs | | Interventions | Personal outcomes | self-belief interventions, psychological interventions, physical activity interventions | self-belie…",
+    "location": "evidence/tables/level3_variables_outcomes.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/tables/level3_variables_outcomes.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E005",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Numeric Results | Result | SMD | 95% CI | Source | |---|---:|---|---| | Overall second-order estimate | 0.40 | [0.34, 0.46] | Results text, p. 1298 | | Personal characteristics | 0.50 | [0.42, 0.59] | Table 3, p. 1299 | | Interventions | 0.27 | [0.19, 0.34] | Table 3, p. 1299 | | Achievement | 0.66 | [0.57, 0.75] | Table 4, p. 1300 | | Cognitive ability | 0.30 | [0.15, 0.46] | Table 4, p. 1300 | | Noncognitive variables | 0.67 | [0.54, 0.80] | Table 4, p. 1300 | | Background variables | 0.21 | [0.17, 0.25] | Table 4, p. 1300 | | Language achievement | 0.58 | [0.51, 0.65] | Table 5, p. 1300 | | STEM achievement | 0.60 | [0.50, 0.71] | Table 5, p. 1300 | | Mixed-domain achievement |…",
+    "location": "evidence/tables/level3_numeric_results.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/tables/level3_numeric_results.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E006",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "passage",
+    "text_or_summary": "# Abstract Passage Summary The abstract frames self-beliefs as important for students' academic success, well-being, and developmental outcomes. The review integrates 105 first-order meta-analyses on variables associated with self-beliefs during K-12 education. Key abstract-level results: - Personal characteristics show stronger relations with self-beliefs than interventions. - Achievement and noncognitive variables are the strongest personal-characteristic categories. - Interventions targeting self-beliefs directly show larger effects than interventions focused on teaching/classroom structure. - Few meta-analyses examine situational aspects such as geographical origin. Source location: p.…",
+    "location": "evidence/passages/abstract.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/passages/abstract.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E007",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "passage",
+    "text_or_summary": "# Discussion Passage Summary The discussion emphasizes that personal characteristics are more strongly associated with self-beliefs than interventions are, but intervention effects are still meaningful. Achievement and noncognitive variables are central correlates. Direct self-belief interventions appear especially promising. The discussion also stresses caution: the results are descriptive, often correlational, and highly aggregated. The paper identifies underdeveloped areas, especially situational variables, cultural diversity, technology in contemporary classrooms, and consistent moderator evidence. Source location: pp. 1303-1309.",
+    "location": "evidence/passages/discussion.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/passages/discussion.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E008",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "passage",
+    "text_or_summary": "# Introduction Passage Summary The introduction defines self-beliefs as subjective beliefs about oneself that shape what people think and do. The authors situate self-beliefs within developmental psychology and K-12 education, arguing that childhood and adolescence are crucial periods for self-belief formation. The paper integrates several theoretical traditions: - social cognitive theories; - expectancy-value theories; - sociometer theory; - self-concept/self-esteem/self-efficacy research. The source uses the broad term `self-beliefs` to integrate constructs that are often studied separately. Source location: pp. 1288-1291.",
+    "location": "evidence/passages/introduction.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/passages/introduction.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E009",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "passage",
+    "text_or_summary": "# Limitations Passage Summary Important limitations: - Broad aggregation of self-belief constructs and domains. - Predominance of correlational evidence. - Shared method variance among self-report variables. - Some mixed K-12/non-K-12 samples included. - Weighting can give strong influence to large meta-analyses. - Limited ability to test moderators across categories. - Cultural and language bias in the evidence base. - Between-person effects do not establish within-person mechanisms. Source location: pp. 1307-1309.",
+    "location": "evidence/passages/limitations.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/passages/limitations.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E010",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "passage",
+    "text_or_summary": "# Methods Passage Summary The review used a multimodal search strategy and included first-order meta-analyses that reported at least one quantitative effect size between a variable and a self-belief construct for children/adolescents in K-12 education. The authors double-coded meta-analyses using a coding scheme covering effect sizes, variable categories, moderators, and transparency/reproducibility criteria. First-order effect sizes were converted to standardized mean differences. Second-order random-effects meta-analyses used robust variance estimation to handle dependent effect sizes. Source location: pp. 1291-1298.",
+    "location": "evidence/passages/methods.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/passages/methods.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E011",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "passage",
+    "text_or_summary": "# References Sample **Source**: pdftotext full source from raw/paper__jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the.pdf **Extraction type**: source_passage_or_section_window Interest, 4(1), 1–44. https://doi.org/10.1111/1529-1006.01431",
+    "location": "evidence/passages/references_sample.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/passages/references_sample.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E012",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "evidence_type": "passage",
+    "text_or_summary": "# Results Passage Summary The paper included 105 meta-analyses and 493 first-order effect sizes. The overall second-order estimate was SMD = 0.40 [0.34, 0.46]. The main results were: - Personal characteristics: SMD = 0.50 [0.42, 0.59]. - Interventions: SMD = 0.27 [0.19, 0.34]. - Achievement: SMD = 0.66 [0.57, 0.75]. - Noncognitive variables: SMD = 0.67 [0.54, 0.80]. - Cognitive ability: SMD = 0.30 [0.15, 0.46]. - Background variables: SMD = 0.21 [0.17, 0.25]. - Direct self-belief interventions: SMD = 0.52 [0.48, 0.55]. Situational characteristics were reviewed narratively because the evidence was too sparse for meaningful integrated effect-size comparison. Source location: pp. 1298-1302.",
+    "location": "evidence/passages/results.md",
+    "source_file": "output/agent_native_artifacts/jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the/evidence/passages/results.md",
+    "supports_claim_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003"
+    ],
+    "quality_flags": []
+  }
+]

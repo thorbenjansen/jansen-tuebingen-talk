@@ -1,0 +1,357 @@
+[
+  {
+    "claim_id": "moller-et-al-2020-achievement-self-concept-meta-analysis::C001",
+    "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+    "claim_text": "Achievement and self-concept relations are domain-specific and structured by internal/external frames of reference.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E001",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Student Text Assessment",
+      "Academic Self-Concept",
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Student Text Assessment",
+        "Academic Self-Concept",
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "moller-et-al-2020-achievement-self-concept-meta-analysis::C002",
+    "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+    "claim_text": "Introduction and abstract.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E001",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Student Text Assessment",
+      "Academic Self-Concept",
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Student Text Assessment",
+        "Academic Self-Concept",
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "moller-et-al-2020-achievement-self-concept-meta-analysis::C003",
+    "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+    "claim_text": "Teacher-assigned grades and standardized tests may relate differently to self-concept.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E001",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Student Text Assessment",
+      "Academic Self-Concept",
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Student Text Assessment",
+        "Academic Self-Concept",
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "moller-et-al-2020-achievement-self-concept-meta-analysis::C004",
+    "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+    "claim_text": "Hypothesis and methods framing.",
+    "claim_type": "method",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E001",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Student Text Assessment",
+      "Academic Self-Concept",
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Student Text Assessment",
+        "Academic Self-Concept",
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "moller-et-al-2020-achievement-self-concept-meta-analysis::C005",
+    "artifact_id": "moller-et-al-2020-achievement-self-concept-meta-analysis",
+    "claim_text": "The source supports modelling student self-beliefs as partly shaped by assessment information.",
+    "claim_type": "theory",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E001",
+      "moller-et-al-2020-achievement-self-concept-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Student Text Assessment",
+      "Academic Self-Concept",
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Internal External Frame Of Reference Model",
+      "Dimensional Comparison Theory"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "self-beliefs",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Student Text Assessment",
+        "Academic Self-Concept",
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Internal External Frame Of Reference Model",
+        "Dimensional Comparison Theory"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

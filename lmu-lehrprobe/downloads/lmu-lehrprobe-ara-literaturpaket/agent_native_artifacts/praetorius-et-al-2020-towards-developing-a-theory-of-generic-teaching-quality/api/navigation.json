@@ -1,0 +1,48 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "feedback",
+    "assessment",
+    "motivation",
+    "learning-processes"
+  ],
+  "concept_hubs": [
+    "Teachers",
+    "Diagnostic Competence",
+    "Formative Assessment",
+    "Assessment And Formative Assessment",
+    "Learning Processes"
+  ],
+  "theory_hubs": [],
+  "top_claim_ids": [
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C001",
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C002",
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C003",
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C004",
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::C005"
+  ],
+  "top_evidence_ids": [
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::E001",
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::E002"
+  ],
+  "direct_relation_ids": [
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::R001",
+    "praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality::R002"
+  ],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

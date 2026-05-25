@@ -1,0 +1,60 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "feedback",
+    "assessment",
+    "generative-ai",
+    "motivation",
+    "learning-processes",
+    "measurement"
+  ],
+  "concept_hubs": [
+    "AI Feedback Reliability",
+    "Fairness",
+    "Formative Feedback",
+    "Generative AI In Education",
+    "Learning Processes",
+    "Motivation",
+    "Statistics Education",
+    "Student Text Assessment",
+    "Students",
+    "Writing Process",
+    "logic/problem",
+    "logic/claims"
+  ],
+  "theory_hubs": [
+    "Adaptive Feedback",
+    "Interest Development"
+  ],
+  "top_claim_ids": [
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C001",
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C002",
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C003",
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C004",
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C005"
+  ],
+  "top_evidence_ids": [
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+  ],
+  "direct_relation_ids": [
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::R001",
+    "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::R002"
+  ],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

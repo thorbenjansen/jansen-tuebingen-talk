@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E001",
+    "artifact_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Layer ## Source-checked entry point - Raw PDF: `raw/paper__2022-61115-001.pdf` - ARA status: human-curated-level-3 - Evidence density: balanced Level 3, not exhaustive passage mapping. ## Main evidence use Use this source for claims about academic motivation meta-analyses. For exact quotation or numerical synthesis, re-open the PDF or Markdown sidecar and add page-specific evidence rows before citing.",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation/evidence/README.md",
+    "supports_claim_ids": [
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C001",
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C002",
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::E002",
+    "artifact_id": "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile | Field | Curated value | |---|---| | Title | Which Student and Instructional Variables Are Most Strongly Related to Academic Motivation in K-12 Education? A Systematic Review of Meta-Analyses | | Authors | Jansen, Meyer, Wigfield, and Moeller | | Year | 2022 | | Source PDF | `raw/paper__2022-61115-001.pdf` | | Main focus | Academic motivation meta-analyses | | Concepts | Motivation, Self-Beliefs | | Curation status | human-curated-level-3 |",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C001",
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C002",
+      "jansen-et-al-2022-student-and-instructional-variables-related-to-academic-motivation::C003"
+    ],
+    "quality_flags": []
+  }
+]

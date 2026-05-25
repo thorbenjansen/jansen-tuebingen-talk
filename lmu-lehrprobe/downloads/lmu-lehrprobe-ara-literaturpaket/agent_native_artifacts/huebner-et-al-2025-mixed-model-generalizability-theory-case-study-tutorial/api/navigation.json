@@ -1,0 +1,39 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "generative-ai",
+    "measurement"
+  ],
+  "concept_hubs": [
+    "Educational And Psychological Measurement",
+    "Generative AI In Education",
+    "Research Methods"
+  ],
+  "theory_hubs": [
+    "Research Methods"
+  ],
+  "top_claim_ids": [
+    "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::C001"
+  ],
+  "top_evidence_ids": [
+    "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::E001",
+    "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::E002"
+  ],
+  "direct_relation_ids": [],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

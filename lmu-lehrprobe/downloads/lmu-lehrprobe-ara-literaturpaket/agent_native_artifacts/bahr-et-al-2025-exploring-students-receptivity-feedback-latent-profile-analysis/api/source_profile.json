@@ -1,0 +1,54 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:30",
+  "artifact_id": "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Exploring Students' Receptivity to Feedback: A Latent Profile Analysis",
+    "authors": "J. Luca Bahr, Lars Hoeft, Anastasiya Lipnevich, Jennifer Meyer, and Thorben Jansen",
+    "year": "2025",
+    "doi": "",
+    "source_pdf": "raw/paper__bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis.pdf",
+    "rawmarkdown_path": "",
+    "apa_reference": "J. Luca Bahr, Lars Hoeft, Anastasiya Lipnevich, Jennifer Meyer, and Thorben Jansen (2025). Exploring Students' Receptivity to Feedback: A Latent Profile Analysis."
+  },
+  "controlled_fields": {
+    "document_type": "theoretical-conceptual-paper",
+    "design_type": "experiment-intervention",
+    "education_level": [
+      "secondary"
+    ],
+    "domain": [
+      "writing",
+      "feedback",
+      "assessment",
+      "generative-ai",
+      "measurement"
+    ],
+    "concepts": [
+      "Student Text Assessment",
+      "Cognitive Writing Models",
+      "Formative Feedback",
+      "Feedback Literacy",
+      "Educational And Psychological Measurement",
+      "Generative AI In Education",
+      "Fairness"
+    ],
+    "theories": [
+      "Feedback Literacy",
+      "Student Text Assessment"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

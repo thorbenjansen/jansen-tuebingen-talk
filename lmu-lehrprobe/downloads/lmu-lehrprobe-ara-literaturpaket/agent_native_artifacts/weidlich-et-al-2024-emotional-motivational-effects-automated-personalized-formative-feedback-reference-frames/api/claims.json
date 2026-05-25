@@ -1,0 +1,146 @@
+[
+  {
+    "claim_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C001",
+    "artifact_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames",
+    "claim_text": "Emotional and Motivational Effects of Automated and Personalized Formative Feedback: The Role of Reference Frames contributes evidence about automated formative feedback and reference frames and should be used through its construct, theory, method, and outcome profile.",
+    "claim_type": "method",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E001",
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E002"
+    ],
+    "concept_ids": [
+      "Formative Feedback",
+      "Feedback",
+      "Motivation",
+      "Self-Beliefs"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Feedback Theory",
+      "Formative Assessment"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "needs_normalization"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Formative Feedback",
+        "Feedback",
+        "Motivation",
+        "Self-Beliefs"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Feedback Theory",
+        "Formative Assessment"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C002",
+    "artifact_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames",
+    "claim_text": "The source is most useful when connected to Formative Feedback, Feedback, Motivation, Self-Beliefs.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E001",
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E002"
+    ],
+    "concept_ids": [
+      "Formative Feedback",
+      "Feedback",
+      "Motivation",
+      "Self-Beliefs"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Feedback Theory",
+      "Formative Assessment"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "needs_normalization"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Formative Feedback",
+        "Feedback",
+        "Motivation",
+        "Self-Beliefs"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Feedback Theory",
+        "Formative Assessment"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::C003",
+    "artifact_id": "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames",
+    "claim_text": "Evidence status**: derived from source title, abstract/front matter, and the curated ARA scope.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E001",
+      "weidlich-et-al-2024-emotional-motivational-effects-automated-personalized-formative-feedback-reference-frames::E002"
+    ],
+    "concept_ids": [
+      "Formative Feedback",
+      "Feedback",
+      "Motivation",
+      "Self-Beliefs"
+    ],
+    "theory_ids": [
+      "Achievement Goal Theory",
+      "Feedback Theory",
+      "Formative Assessment"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "needs_normalization"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "motivation",
+        "learning-processes"
+      ],
+      "concepts": [
+        "Formative Feedback",
+        "Feedback",
+        "Motivation",
+        "Self-Beliefs"
+      ],
+      "theories": [
+        "Achievement Goal Theory",
+        "Feedback Theory",
+        "Formative Assessment"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

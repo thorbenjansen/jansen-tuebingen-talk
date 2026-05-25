@@ -1,0 +1,64 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:32",
+  "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+  "quality_label": "human-curated-level-3",
+  "source_identity": {
+    "title": "Discriminant and Incremental Validity of Self-Concept and Academic Self-Efficacy: A Meta-Analysis",
+    "authors": "Chiungjung Huang",
+    "year": "2012",
+    "doi": "",
+    "source_pdf": "raw/paper__huang-2012-self-concept-academic-self-efficacy-meta-analysis.pdf",
+    "rawmarkdown_path": "rawmarkdown_full/paper-huang-2012-self-concept-academic-self-efficacy-meta-analysis.md",
+    "apa_reference": "Chiungjung Huang (2012). Discriminant and Incremental Validity of Self-Concept and Academic Self-Efficacy: A Meta-Analysis."
+  },
+  "controlled_fields": {
+    "document_type": "meta-analysis",
+    "design_type": "meta-analysis",
+    "education_level": [
+      "mixed-education-levels"
+    ],
+    "domain": [
+      "feedback",
+      "motivation",
+      "self-beliefs",
+      "learning-processes",
+      "measurement"
+    ],
+    "concepts": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Individual Differences",
+      "Academic Self-Efficacy",
+      "Academic Self-Concept",
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theories": [
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity"
+    ]
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

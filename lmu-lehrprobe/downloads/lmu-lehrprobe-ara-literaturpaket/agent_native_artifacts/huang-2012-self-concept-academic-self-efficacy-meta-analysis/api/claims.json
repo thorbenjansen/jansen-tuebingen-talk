@@ -1,0 +1,367 @@
+[
+  {
+    "claim_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C001",
+    "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+    "claim_text": "Academic self-concept and academic self-efficacy are related but should be treated as distinguishable constructs.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E001",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Individual Differences",
+      "Academic Self-Efficacy",
+      "Academic Self-Concept",
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Individual Differences",
+        "Academic Self-Efficacy",
+        "Academic Self-Concept",
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C002",
+    "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+    "claim_text": "Purpose and abstract.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E001",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Individual Differences",
+      "Academic Self-Efficacy",
+      "Academic Self-Concept",
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Individual Differences",
+        "Academic Self-Efficacy",
+        "Academic Self-Concept",
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C003",
+    "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+    "claim_text": "The paper evaluates whether each construct adds prediction of academic achievement beyond the other.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E001",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Individual Differences",
+      "Academic Self-Efficacy",
+      "Academic Self-Concept",
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Individual Differences",
+        "Academic Self-Efficacy",
+        "Academic Self-Concept",
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C004",
+    "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+    "claim_text": "Purpose/method framing.",
+    "claim_type": "method",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E001",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Individual Differences",
+      "Academic Self-Efficacy",
+      "Academic Self-Concept",
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Individual Differences",
+        "Academic Self-Efficacy",
+        "Academic Self-Concept",
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis::C005",
+    "artifact_id": "huang-2012-self-concept-academic-self-efficacy-meta-analysis",
+    "claim_text": "The source is important for coding self-belief variables precisely in study ARAs.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E001",
+      "huang-2012-self-concept-academic-self-efficacy-meta-analysis::E002"
+    ],
+    "concept_ids": [
+      "Self-Beliefs",
+      "Motivation",
+      "Students",
+      "Learning Processes",
+      "Individual Differences",
+      "Academic Self-Efficacy",
+      "Academic Self-Concept",
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Academic Self-Concept Versus Self-Efficacy",
+      "Incremental Validity"
+    ],
+    "controlled_fields": {
+      "document_type": "meta-analysis",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "mixed-education-levels"
+      ],
+      "domain": [
+        "feedback",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Self-Beliefs",
+        "Motivation",
+        "Students",
+        "Learning Processes",
+        "Individual Differences",
+        "Academic Self-Efficacy",
+        "Academic Self-Concept",
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Academic Self-Concept Versus Self-Efficacy",
+        "Incremental Validity"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

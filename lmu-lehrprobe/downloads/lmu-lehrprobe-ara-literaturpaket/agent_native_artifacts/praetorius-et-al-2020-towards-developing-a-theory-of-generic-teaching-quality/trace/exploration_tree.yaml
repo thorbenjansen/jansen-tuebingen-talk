@@ -1,0 +1,13 @@
+artifact_id: praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality
+created: 2026-05-18
+source_inputs:
+  - raw/paper__praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality.pdf
+  - rawmarkdown_full/paper-praetorius-et-al-2020-towards-developing-a-theory-of-generic-teaching-quality.md
+steps:
+  - level: 1
+    action: routed source as theoretical-conceptual paper on generic teaching quality
+  - level: 2
+    action: extracted core claims, constructs, theory links, and evidence pointers
+remaining_work:
+  - complete page-level Level 3 evidence tables
+  - verify direct ARA targets once matching source ARAs exist

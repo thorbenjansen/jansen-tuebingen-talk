@@ -1,0 +1,10 @@
+source: raw/paper__bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest.pdf
+status: automated-level-3
+readthrough_status: readthrough-complete
+nodes:
+  - id: identity
+    support_level: inferred
+    note: identity inferred from filename and first-page text
+  - id: concepts
+    support_level: inferred
+    note: concepts assigned from title and first-pass source text

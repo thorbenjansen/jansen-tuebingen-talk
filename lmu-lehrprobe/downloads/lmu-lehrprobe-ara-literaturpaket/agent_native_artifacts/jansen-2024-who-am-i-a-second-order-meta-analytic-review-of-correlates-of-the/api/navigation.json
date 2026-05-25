@@ -1,0 +1,58 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+  "landing_order": [
+    "PAPER.md",
+    "logic/claims.md",
+    "logic/method_and_design.md",
+    "logic/methods_variables_outcomes.md",
+    "logic/theories.md",
+    "logic/apa_references.md",
+    "evidence/README.md"
+  ],
+  "best_for": [
+    "feedback",
+    "generative-ai",
+    "reading",
+    "motivation",
+    "self-beliefs",
+    "learning-processes",
+    "measurement"
+  ],
+  "concept_hubs": [
+    "Educational Annotation",
+    "Fairness",
+    "Formative Feedback",
+    "Meta-Analysis",
+    "Motivation",
+    "Reading Processes",
+    "Self-Beliefs",
+    "Students"
+  ],
+  "theory_hubs": [
+    "Self-Beliefs",
+    "Students",
+    "Research Methods"
+  ],
+  "top_claim_ids": [
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C004",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C005"
+  ],
+  "top_evidence_ids": [
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E003",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E004",
+    "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E005"
+  ],
+  "direct_relation_ids": [],
+  "agent_route": [
+    "Read PAPER.md for source identity and scope.",
+    "Read logic/claims.md or api/claims.json for answerable claims.",
+    "Read evidence files before citation-grade use.",
+    "Route broad connections through concept/theory hubs before using direct ARA relations."
+  ]
+}

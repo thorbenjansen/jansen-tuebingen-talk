@@ -1,0 +1,30 @@
+[
+  {
+    "evidence_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E001",
+    "artifact_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence README ## Checked Evidence Pointers - Source PDF: `raw/paper__hattie-et-al-1996-learning-skills-interventions-meta-analysis.pdf` - Raw Markdown sidecar: `rawmarkdown_full/paper__hattie-et-al-1996-learning-skills-interventions-meta-analysis.md` - Checked layer: first-page title, abstract, keywords/overview, and current ARA logic layers. ## Abstract-Level Facts Captured - Learning-skills interventions are strongest when they are situated in meaningful content and tasks, rather than taught as isolated generic techniques. - Metacognitive awareness and active learner engagement are important conditions for transfer beyond simple mnemonic performance. - The SOLO model helps describe in…",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/hattie-et-al-1996-learning-skills-interventions-meta-analysis/evidence/README.md",
+    "supports_claim_ids": [
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C001",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C002",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis::E002",
+    "artifact_id": "hattie-et-al-1996-learning-skills-interventions-meta-analysis",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile | Field | Value | |---|---| | APA | Hattie, J., Biggs, J., & Purdie, N. (1996). Effects of learning skills interventions on student learning: A meta-analysis. Review of Educational Research, 66(2), 99-136. https://doi.org/10.3102/00346543066002099 | | Design | Meta-analysis of learning/study-skills intervention studies. | | Source material | 51 studies of interventions designed to improve student learning through study, learning, self-management, or affective skills. | | Main concepts | Learning Processes; Self-Regulated Learning; Metacognition; Transfer; Learning Strategies; Student Training; Students | | Outcomes | student learning; near transfer; far transfer; met…",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/hattie-et-al-1996-learning-skills-interventions-meta-analysis/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C001",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C002",
+      "hattie-et-al-1996-learning-skills-interventions-meta-analysis::C003"
+    ],
+    "quality_flags": []
+  }
+]

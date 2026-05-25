@@ -1,0 +1,46 @@
+{
+  "api_version": "own-thoughts-agent-navigation-v1",
+  "generated_at": "2026-05-25T12:28:31",
+  "artifact_id": "dweck-and-leggett-1988-social-cognitive-approach-motivation-personality",
+  "quality_label": "automated-level-2",
+  "source_identity": {
+    "title": "A Social-Cognitive Approach to Motivation and Personality",
+    "authors": "Dweck and Leggett",
+    "year": "1988",
+    "doi": "",
+    "source_pdf": "",
+    "rawmarkdown_path": "rawmarkdown_full/paper-dweck-and-leggett-1988-dweck-und-leggett-a-social-cognitive-approach-to-motivation-and-personality.md",
+    "apa_reference": "Dweck and Leggett (1988). A Social-Cognitive Approach to Motivation and Personality."
+  },
+  "controlled_fields": {
+    "document_type": "empirical-study",
+    "design_type": "experiment-intervention",
+    "education_level": [
+      "mixed-education-levels"
+    ],
+    "domain": [
+      "feedback",
+      "motivation"
+    ],
+    "concepts": [
+      "Achievement Goal Theory",
+      "Growth Mindset Theory",
+      "Motivation",
+      "Self-Beliefs",
+      "Individual Differences"
+    ],
+    "theories": []
+  },
+  "retrieval_preferences": {
+    "preferred_entrypoints": [
+      "PAPER.md",
+      "logic/claims.md",
+      "logic/method_and_design.md",
+      "logic/methods_variables_outcomes.md",
+      "logic/theories.md",
+      "logic/apa_references.md",
+      "evidence/README.md"
+    ],
+    "citation_policy": "Use ARA/API for retrieval and synthesis; reopen raw PDF or high-quality Markdown/TEI for exact quotes, statistics, page numbers, and final bibliographic details."
+  }
+}

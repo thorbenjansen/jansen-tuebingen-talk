@@ -1,0 +1,722 @@
+[
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C001",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "The review integrates 105 first-order meta-analyses on variables associated with self-beliefs in childhood and adolescence during K-12 education.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C002",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "This is a second-order meta-analytic review, not a primary empirical study and not a single intervention trial.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C003",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "Personal characteristics show a larger second-order association with self-beliefs (SMD = 0.50 [0.42, 0.59]) than interventions do (SMD = 0.27 [0.19, 0.34]).",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C004",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "The comparison is descriptive and aggregated across first-order meta-analyses. It should not be read as showing that personal characteristics causally determine self-beliefs more than interventions can change them.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C005",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "Among personal characteristics, achievement (SMD = 0.66 [0.57, 0.75]) and noncognitive variables (SMD = 0.67 [0.54, 0.80]) are more strongly related to self-beliefs than cognitive ability (SMD = 0.30 [0.15, 0.46]) and background variables (SMD = 0.21 [0.17, 0.25]).",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C006",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "The result supports treating achievement experiences and socioemotional/motivational variables as central correlates of students' self-beliefs.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C007",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "Interventions targeting personal outcomes relate more strongly to self-beliefs than teaching/classroom-structure interventions, and interventions directly targeting self-beliefs show the largest intervention effect (SMD = 0.52 [0.48, 0.55]).",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C008",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "For intervention design, the paper suggests that direct self-belief support is more effective than broad or indirect classroom-structure change when the target outcome is self-beliefs.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C009",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "The paper argues that situational characteristics should matter for self-beliefs, but only a small number of meta-analyses focused explicitly on such factors, preventing meaningful integrated effect-size comparisons.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C010",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "This is a source gap: classroom environments, cultural context, and social contexts are important but less well mapped in the meta-analytic literature than personal characteristics and interventions.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C011",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "Because the review summarizes many correlational meta-analyses, it cannot establish causal direction for most associations between variables and self-beliefs.",
+    "claim_type": "limitation",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::C012",
+    "artifact_id": "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the",
+    "claim_text": "This caveat is critical for later wiki synthesis. Use \"relates to\" or \"is associated with\" unless discussing intervention evidence.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E001",
+      "jansen-2024-who-am-i-a-second-order-meta-analytic-review-of-correlates-of-the::E002"
+    ],
+    "concept_ids": [
+      "Educational Annotation",
+      "Fairness",
+      "Formative Feedback",
+      "Meta-Analysis",
+      "Motivation",
+      "Reading Processes",
+      "Self-Beliefs",
+      "Students"
+    ],
+    "theory_ids": [
+      "Self-Beliefs",
+      "Students",
+      "Research Methods"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "meta-analysis",
+      "education_level": [
+        "secondary",
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "generative-ai",
+        "reading",
+        "motivation",
+        "self-beliefs",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "Educational Annotation",
+        "Fairness",
+        "Formative Feedback",
+        "Meta-Analysis",
+        "Motivation",
+        "Reading Processes",
+        "Self-Beliefs",
+        "Students"
+      ],
+      "theories": [
+        "Self-Beliefs",
+        "Students",
+        "Research Methods"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

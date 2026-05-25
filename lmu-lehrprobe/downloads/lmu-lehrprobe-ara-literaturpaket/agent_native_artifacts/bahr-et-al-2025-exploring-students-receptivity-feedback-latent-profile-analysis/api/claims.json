@@ -1,0 +1,55 @@
+[
+  {
+    "claim_id": "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis::C001",
+    "artifact_id": "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis",
+    "claim_text": "ARTICLE HISTORY A comprehensive understanding of why feedback benefits some students and not others is still lacking. We performed latent profile analysis of students’ receptivity to instructional feedback (RIF) in a sample of 1800 secondary school students from Germany (age: M = 16.37, SD = 1.47). We described RIF profiles, predicted profile membe.",
+    "claim_type": "method",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis::E001",
+      "bahr-et-al-2025-exploring-students-receptivity-feedback-latent-profile-analysis::E002"
+    ],
+    "concept_ids": [
+      "Student Text Assessment",
+      "Cognitive Writing Models",
+      "Formative Feedback",
+      "Feedback Literacy",
+      "Educational And Psychological Measurement",
+      "Generative AI In Education",
+      "Fairness"
+    ],
+    "theory_ids": [
+      "Feedback Literacy",
+      "Student Text Assessment"
+    ],
+    "controlled_fields": {
+      "document_type": "theoretical-conceptual-paper",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "secondary"
+      ],
+      "domain": [
+        "writing",
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "measurement"
+      ],
+      "concepts": [
+        "Student Text Assessment",
+        "Cognitive Writing Models",
+        "Formative Feedback",
+        "Feedback Literacy",
+        "Educational And Psychological Measurement",
+        "Generative AI In Education",
+        "Fairness"
+      ],
+      "theories": [
+        "Feedback Literacy",
+        "Student Text Assessment"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]

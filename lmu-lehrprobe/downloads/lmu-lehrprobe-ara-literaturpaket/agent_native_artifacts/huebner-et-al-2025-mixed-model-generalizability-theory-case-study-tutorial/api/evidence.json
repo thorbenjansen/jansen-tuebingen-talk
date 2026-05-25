@@ -1,0 +1,26 @@
+[
+  {
+    "evidence_id": "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::E001",
+    "artifact_id": "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial",
+    "evidence_type": "evidence-index",
+    "text_or_summary": "# Evidence Index ## Evidence Sources Checked - Source PDF: `raw/paper__huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial.pdf` - Evidence used: title/front matter, abstract or source opening, existing ARA/source metadata. ## Evidence Map - `logic/claims.md`: source contribution and scope. - `logic/theories.md`: theory/model/framework role inventory. - `logic/methods_variables_outcomes.md`: balanced methods/outcomes summary. ## Verification Notes - Stale automated extraction tables and sidecars should not be used as citation-grade evidence. - Retrieve exact quotes and page numbers from the raw PDF or markdown sidecar when needed.",
+    "location": "evidence/README.md",
+    "source_file": "output/agent_native_artifacts/huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial/evidence/README.md",
+    "supports_claim_ids": [
+      "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::C001"
+    ],
+    "quality_flags": []
+  },
+  {
+    "evidence_id": "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::E002",
+    "artifact_id": "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial",
+    "evidence_type": "table",
+    "text_or_summary": "# Level 3 Study Profile - Artifact: `huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial` - Source: `raw/paper__huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial.pdf` - Status: `human-curated-level-3` - Concepts: Educational And Psychological Measurement, Generative AI In Education, Research Methods",
+    "location": "evidence/tables/level3_study_profile.md",
+    "source_file": "output/agent_native_artifacts/huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial/evidence/tables/level3_study_profile.md",
+    "supports_claim_ids": [
+      "huebner-et-al-2025-mixed-model-generalizability-theory-case-study-tutorial::C001"
+    ],
+    "quality_flags": []
+  }
+]

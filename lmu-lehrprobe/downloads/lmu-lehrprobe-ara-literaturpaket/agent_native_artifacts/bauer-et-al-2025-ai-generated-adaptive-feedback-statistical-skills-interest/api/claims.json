@@ -1,0 +1,686 @@
+[
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C001",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "AI-generated adaptive feedback should be evaluated against meaningful comparison feedback, not only no-feedback baselines.",
+    "claim_type": "implication",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C002",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "source-checked at balanced read-through level",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C003",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "use as curated wiki evidence; verify exact values before numerical citation",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C004",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "Performance and interest are separate outcomes that may respond differently to feedback design.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C005",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "source-checked at balanced read-through level",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C006",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "use as curated wiki evidence; verify exact values before numerical citation",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C007",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "The source is relevant for AI feedback interventions but not specifically student writing.",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C008",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "source-checked at balanced read-through level",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  },
+  {
+    "claim_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::C009",
+    "artifact_id": "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest",
+    "claim_text": "use as curated wiki evidence; verify exact values before numerical citation",
+    "claim_type": "finding",
+    "support_status": "source_claim",
+    "evidence_ids": [
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E001",
+      "bauer-et-al-2025-ai-generated-adaptive-feedback-statistical-skills-interest::E002"
+    ],
+    "concept_ids": [
+      "AI Feedback Reliability",
+      "Fairness",
+      "Formative Feedback",
+      "Generative AI In Education",
+      "Learning Processes",
+      "Motivation",
+      "Statistics Education",
+      "Student Text Assessment",
+      "Students",
+      "Writing Process",
+      "logic/problem",
+      "logic/claims",
+      "logic/concepts",
+      "logic/theories",
+      "logic/method_and_design",
+      "logic/methods_variables_outcomes",
+      "evidence/README",
+      "readthrough_result"
+    ],
+    "theory_ids": [
+      "Adaptive Feedback",
+      "Interest Development"
+    ],
+    "controlled_fields": {
+      "document_type": "empirical-study",
+      "design_type": "experiment-intervention",
+      "education_level": [
+        "higher-education"
+      ],
+      "domain": [
+        "feedback",
+        "assessment",
+        "generative-ai",
+        "motivation",
+        "learning-processes",
+        "measurement"
+      ],
+      "concepts": [
+        "AI Feedback Reliability",
+        "Fairness",
+        "Formative Feedback",
+        "Generative AI In Education",
+        "Learning Processes",
+        "Motivation",
+        "Statistics Education",
+        "Student Text Assessment",
+        "Students",
+        "Writing Process",
+        "logic/problem",
+        "logic/claims",
+        "logic/concepts",
+        "logic/theories",
+        "logic/method_and_design",
+        "logic/methods_variables_outcomes",
+        "evidence/README",
+        "readthrough_result"
+      ],
+      "theories": [
+        "Adaptive Feedback",
+        "Interest Development"
+      ]
+    },
+    "scope": "Use for retrieval and synthesis; verify exact wording/statistics against source before final citation.",
+    "limitations": []
+  }
+]
