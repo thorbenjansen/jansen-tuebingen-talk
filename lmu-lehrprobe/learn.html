@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lernmodul | Intra- und interindividuelle Unterschiede</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="learn.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Jansen | Interaktives Lernmodul</span>
+      </div>
+      <nav class="controls" aria-label="Navigation">
+        <a href="index.html">Folien</a>
+        <a href="syllabus.html">Syllabus</a>
+        <a href="prep.html">Prep</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="workspace hero-workspace" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Differentielle Psychologie im Kontext Schule</p>
+          <h1 id="hero-title">Gleiche Note. Verschiedene Bedeutung.</h1>
+          <p class="lead">Vergleiche Mira und Lina, unterscheide Klassenvergleich und Entwicklungsverlauf und begründe eine Förderentscheidung diagnostisch.</p>
+          <div class="mode-switch" role="group" aria-label="Analyseperspektive wählen">
+            <button class="is-active" type="button" data-focus-mode="inter">Interindividuell</button>
+            <button type="button" data-focus-mode="intra">Intraindividuell</button>
+            <button type="button" data-focus-mode="process">Prozess</button>
+          </div>
+        </div>
+        <figure class="hero-art">
+          <img src="assets/learning_process_illustration.png" alt="Lernprozess mit Unterricht, Feedback und digitaler Unterstützung." />
+        </figure>
+      </section>
+
+      <section class="workspace" aria-labelledby="cases-title">
+        <div class="section-head">
+          <p class="eyebrow">Fallvergleich</p>
+          <h2 id="cases-title">Zwei Lernprofile, derselbe Leistungswert.</h2>
+        </div>
+        <div class="case-board">
+          <article class="learner-card is-selected" data-learner-card="mira">
+            <span class="avatar">M</span>
+            <h3>Mira</h3>
+            <strong>Note 3</strong>
+            <p>Konstant mittleres Niveau, langsame Verbesserung, zunehmend motiviert.</p>
+            <dl>
+              <div><dt>Verlauf</dt><dd>stabil steigend</dd></div>
+              <div><dt>Selbstvertrauen</dt><dd>nimmt zu</dd></div>
+              <div><dt>Förderbedarf</dt><dd>nächster Schritt</dd></div>
+            </dl>
+          </article>
+          <article class="learner-card" data-learner-card="lina">
+            <span class="avatar dark">L</span>
+            <h3>Lina</h3>
+            <strong>Note 3</strong>
+            <p>Starke Schwankungen, einzelne sehr gute Leistungen, verliert Vertrauen.</p>
+            <dl>
+              <div><dt>Verlauf</dt><dd>stark schwankend</dd></div>
+              <div><dt>Selbstvertrauen</dt><dd>nimmt ab</dd></div>
+              <div><dt>Förderbedarf</dt><dd>Stabilisierung</dd></div>
+            </dl>
+          </article>
+          <aside class="diagnostic-insight" id="focusInsight">
+            <b>Interindividuelle Perspektive</b>
+            <span>Die gleiche Note sagt zuerst: Beide liegen im selben Leistungsbereich. Sie sagt noch nicht, ob beide denselben Lernprozess oder Förderbedarf haben.</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="workspace split" aria-labelledby="class-title">
+        <div class="panel">
+          <p class="eyebrow">Interindividuell</p>
+          <h2 id="class-title">Wo stehen Mira und Lina im Vergleich zur Klasse?</h2>
+          <p>Die Punktwolke zeigt eine Klasse mit 28 Lernenden. Mira und Lina haben denselben aktuellen Wert, aber diese Perspektive beantwortet nur die Vergleichsfrage.</p>
+          <div class="control-row">
+            <label for="classSpread">Klassenheterogenität</label>
+            <input id="classSpread" type="range" min="0" max="100" value="52" />
+          </div>
+          <div class="interpretation" id="classInterpretation">Beide liegen knapp unter dem Klassendurchschnitt. Für Förderung fehlen Verlaufs- und Prozessinformationen.</div>
+        </div>
+        <div class="visual-panel">
+          <svg id="classPlot" viewBox="0 0 760 360" role="img" aria-label="Punktverteilung einer Klasse mit Markierungen für Mira und Lina"></svg>
+        </div>
+      </section>
+
+      <section class="workspace split reverse" aria-labelledby="timeline-title">
+        <div class="visual-panel">
+          <svg id="timelinePlot" viewBox="0 0 760 360" role="img" aria-label="Leistungsverläufe von Mira und Lina über sechs Aufgaben"></svg>
+        </div>
+        <div class="panel">
+          <p class="eyebrow">Intraindividuell</p>
+          <h2 id="timeline-title">Wie verändert sich die Leistung innerhalb einer Person?</h2>
+          <p>Der Verlauf zeigt, warum dieselbe aktuelle Note diagnostisch anders gelesen werden kann.</p>
+          <div class="segmented" role="group" aria-label="Lernende wählen">
+            <button class="is-active" type="button" data-active-learner="mira">Mira</button>
+            <button type="button" data-active-learner="lina">Lina</button>
+            <button type="button" data-active-learner="both">Beide</button>
+          </div>
+          <div class="interpretation" id="timelineInterpretation">Mira zeigt einen moderaten, stabilen Anstieg. Die Note 3 kann hier ein Zwischenstand in einer positiven Entwicklung sein.</div>
+        </div>
+      </section>
+
+      <section class="workspace" aria-labelledby="sim-title">
+        <div class="section-head">
+          <p class="eyebrow">Person x Situation x Prozess</p>
+          <h2 id="sim-title">Verändere Bedingungen und beobachte die diagnostische Deutung.</h2>
+        </div>
+        <div class="simulator">
+          <div class="slider-stack" aria-label="Simulationsregler">
+            <label>Vorwissen <input type="range" min="0" max="100" value="58" data-sim="prior" /></label>
+            <label>Motivation <input type="range" min="0" max="100" value="62" data-sim="motivation" /></label>
+            <label>Prüfungsdruck <input type="range" min="0" max="100" value="42" data-sim="stress" /></label>
+            <label>Feedbackklarheit <input type="range" min="0" max="100" value="56" data-sim="feedback" /></label>
+            <label>Strategieeinsatz <input type="range" min="0" max="100" value="54" data-sim="strategy" /></label>
+          </div>
+          <div class="outcome-board">
+            <article>
+              <b>Leistungswert</b>
+              <div class="meter"><span id="performanceMeter"></span></div>
+              <strong id="performanceValue">58</strong>
+            </article>
+            <article>
+              <b>Engagement</b>
+              <div class="meter"><span id="engagementMeter"></span></div>
+              <strong id="engagementValue">61</strong>
+            </article>
+            <article>
+              <b>Förderfokus</b>
+              <p id="supportFocus">Nächster Schritt und Zielklarheit verbinden.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace" aria-labelledby="builder-title">
+        <div class="section-head">
+          <p class="eyebrow">Diagnosebegründung</p>
+          <h2 id="builder-title">Baue eine verantwortbare Förderempfehlung.</h2>
+        </div>
+        <div class="builder">
+          <div class="chip-bank" aria-label="Diagnoseinformationen auswählen">
+            <button type="button" data-chip="Normvergleich">Normvergleich</button>
+            <button type="button" data-chip="Verlauf über Zeit">Verlauf über Zeit</button>
+            <button type="button" data-chip="Motivation">Motivation</button>
+            <button type="button" data-chip="Selbstkonzept">Selbstkonzept</button>
+            <button type="button" data-chip="Aufgabentyp">Aufgabentyp</button>
+            <button type="button" data-chip="Feedbacknutzung">Feedbacknutzung</button>
+            <button type="button" data-chip="Strategieeinsatz">Strategieeinsatz</button>
+          </div>
+          <div class="recommendation">
+            <b>Empfehlungssatz</b>
+            <p id="recommendationText">Wähle mindestens drei Informationsquellen, um eine Förderentscheidung zu begründen.</p>
+            <div class="readiness">
+              <span>Begründungstiefe</span>
+              <div class="meter"><span id="readinessMeter"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace closing">
+        <p class="eyebrow">Take-home</p>
+        <h2>Diagnostik stellt nicht nur Leistung fest. Sie macht Entwicklung erklärbar.</h2>
+        <div class="takeaways">
+          <article><b>Interindividuell</b><span>Vergleich zwischen Lernenden</span></article>
+          <article><b>Intraindividuell</b><span>Veränderung innerhalb einer Person</span></article>
+          <article><b>Prozessbezogen</b><span>Entstehung von Leistung und Förderung</span></article>
+        </div>
+      </section>
+    </main>
+
+    <script src="learn.js"></script>
+  </body>
+</html>
