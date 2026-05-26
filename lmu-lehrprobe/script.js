@@ -29,29 +29,29 @@ const stageMeta = {
     label: "Einordnung",
     note: "Curriculum und Lehrveranstaltung vor Beginn der Lehrprobe",
   },
-  problem: {
-    label: "Problem",
+  problemfall: {
+    label: "Problemfall",
     note: "Anlass, Auftrag und Beratungsfall",
   },
   aktivierung: {
     label: "Aktivierung",
-    note: "Erste diagnostische Vermutungen der Studierenden",
+    note: "Eigene diagnostische Vermutung und Lernziel",
   },
-  struktur: {
-    label: "Strukturaufbau",
-    note: "Studienanschluss und fokussiertes Lernziel",
+  "begriff-inter": {
+    label: "Begriff 1 interindividuell",
+    note: "Vergleich zwischen Lernenden, Gruppen und Schulen",
   },
-  modell: {
-    label: "Modell",
-    note: "Interaktive Vergleiche, Datenkompetenz, Verläufe und SEVT",
+  "begriff-intra": {
+    label: "Begriff 2 intraindividuell",
+    note: "Verlauf innerhalb einer Person über Zeit, Fächer und Aufgaben",
   },
-  vertiefung: {
-    label: "Vertiefung",
-    note: "Passung, Datenkompetenz, Verläufe und Einzelnoten",
+  forschungsanker: {
+    label: "Forschungsanker",
+    note: "Empirische und theoretische Begründung der Perspektive",
   },
   sicherung: {
     label: "Sicherung",
-    note: "Beratungslogik und Take-home-Sätze",
+    note: "Rückbindung an verantwortbare Beratung",
   },
   transfer: {
     label: "Transfer",
@@ -105,16 +105,16 @@ const slideFunctions = {
     didactic: "Begründet, warum die folgende Durchschnittsnotenfrage nicht nur schulorganisatorisch, sondern berufspraktisch relevant ist.",
   },
   uebertrittsschwelle: {
-    content: "Führt die formale bayerische Eignungsschwelle über die Gesamtdurchschnittsnote ein.",
-    didactic: "Stellt die Spannung zwischen rechtlicher Schwelle und psychologischer Einzelfallberatung her.",
+    content: "Verbindet den schulpsychologischen Auftrag zur Schullaufbahnberatung mit der formalen bayerischen Durchschnittsnotenschwelle.",
+    didactic: "Macht sichtbar, warum aus einer rechtlichen Schwelle eine diagnostische Beratungsfrage wird.",
   },
   fall: {
-    content: "Führt Mira und Lina als Beratungsfall ein: beide mit Durchschnitt 2,2 und derselben Frage nach dem Gymnasium.",
+    content: "Führt Mira, Anna und Nina als Beratungsfälle ein: alle mit Durchschnitt 2,2 und derselben Frage nach dem Gymnasium.",
     didactic: "Öffnet ein Problem, das bewusst unterbestimmt bleibt und Informationsbedarf erzeugt.",
   },
   "didaktisches-konzept": {
-    content: "Erklärt die Seitenleistenphasen: Problem, Aktivierung, Strukturaufbau, Modell, Vertiefung, Sicherung und Transfer.",
-    didactic: "Macht die Lernbewegung sichtbar, damit die Studierenden verstehen, warum die Sitzung vom Fall zu individuellen Unterschieden führt.",
+    content: "Erklärt die Seitenleistenphasen: Problemfall, Aktivierung, Begriff 1 interindividuell, Begriff 2 intraindividuell, Forschungsanker, Sicherung und Transfer.",
+    didactic: "Macht die Lernbewegung sichtbar, damit die Studierenden verstehen, wie der Fall über zwei Begriffe in Forschung und Beratung überführt wird.",
   },
   "aktivierung-1": {
     content: "Lässt die Studierenden formulieren, welche Daten sie vor einer Empfehlung erheben würden.",
@@ -126,7 +126,7 @@ const slideFunctions = {
   },
   lernziele: {
     content: "Benennt das eine zentrale Lernziel: die Bedeutung individueller Unterschiede für die Schulpsychologie verstehen.",
-    didactic: "Reduziert Komplexität auf einen klaren Fokus, bevor interaktive und theoretische Vertiefungen folgen.",
+    didactic: "Reduziert Komplexität auf einen klaren Fokus, bevor die beiden Begriffe interaktiv aufgebaut und forschungsbezogen verankert werden.",
   },
   "live-klassen-demo": {
     content: "Visualisiert interindividuelle Unterschiede zwischen Schulen: Mittelwert, Streuung und Outcome können variieren.",
@@ -166,7 +166,7 @@ const slideFunctions = {
   },
   anwendung: {
     content: "Überträgt beide Perspektiven zurück auf die Empfehlung: Kontext, Vergleich und Verlauf müssen gemeinsam berücksichtigt werden.",
-    didactic: "Sichert die Beratungslogik am Ausgangsfall Mira/Lina.",
+    didactic: "Sichert die Beratungslogik an den Ausgangsfällen Mira, Anna und Nina.",
   },
   "visible-learning-ausblick": {
     content: "Verbindet die Bedeutung intra- und interindividueller Unterschiede mit dem Visible-Learning-Lehrbuchprojekt.",
@@ -216,6 +216,7 @@ const glossaryBySlide = {
     ["Beratungsanlass", "Konkrete Frage, wegen der schulpsychologische Unterstützung gesucht wird."],
   ],
   uebertrittsschwelle: [
+    ["Schullaufbahnberatung", "Schulpsychologische Beratung zur Passung von Bildungswegen, Voraussetzungen und Entwicklung."],
     ["Entscheidungsschwelle", "Grenzwert, ab dem eine formale Entscheidung anders ausfällt."],
     ["Gesamtdurchschnittsnote", "Zusammenfassender Mittelwert mehrerer Jahresfortgangsnoten."],
     ["Formale Eignungsschwelle", "Administrativ festgelegter Grenzwert; er ersetzt keine psychologische Einzelfallklärung."],
@@ -228,12 +229,12 @@ const glossaryBySlide = {
     ["Informationsbedarf", "Das, was zusätzlich erhoben werden muss, bevor eine Empfehlung begründet ist."],
   ],
   "didaktisches-konzept": [
-    ["Problem", "Ausgangspunkt: Zwei gleiche Durchschnitte reichen für die Beratung nicht aus."],
+    ["Problemfall", "Ausgangspunkt: Gleiche Durchschnitte reichen für die Beratung nicht aus."],
     ["Aktivierung", "Kurze Denkphase, in der eigene Informationsbedarfe formuliert werden."],
-    ["Strukturaufbau", "Einordnung in Studium und Lernziel, bevor Modelle folgen."],
-    ["Modell", "Visualisierung und theoretische Ordnung der individuellen Unterschiede."],
-    ["Vertiefung", "Forschungs- und Datenbeispiele, die die Bedeutung der Unterschiede zeigen."],
-    ["Sicherung", "Verdichtung in Begriffe und Beratungslogik."],
+    ["Begriff 1 interindividuell", "Vergleichsperspektive: Unterschiede zwischen Lernenden, Gruppen oder Schulen."],
+    ["Begriff 2 intraindividuell", "Verlaufsperspektive: Unterschiede innerhalb einer Person über Zeit, Fächer oder Aufgaben."],
+    ["Forschungsanker", "Empirische und theoretische Begründung, warum die beiden Perspektiven diagnostisch zählen."],
+    ["Sicherung", "Verdichtung in Beratungslogik."],
     ["Transfer", "Anschluss an Evidenzprogramm und nächste Sitzung."],
   ],
   "aktivierung-1": [
@@ -358,15 +359,15 @@ Object.assign(slideFunctions, {
     didactic: "Verbindet den Fall mit beruflicher Verantwortung statt mit abstrakter Notenkritik.",
   },
   uebertrittsschwelle: {
-    content: "Führt die formale Durchschnittsnote als institutionelle Entscheidungsschwelle im bayerischen Übertritt ein.",
-    didactic: "Erzeugt die Spannung zwischen rechtlicher Schwelle und diagnostischer Einzelfallberatung.",
+    content: "Verbindet den Auftrag der Schulpsychologie mit der formalen Durchschnittsnote als institutioneller Entscheidungsschwelle.",
+    didactic: "Erzeugt die Spannung zwischen rechtlicher Schwelle und diagnostischer Einzelfallberatung auf einer gemeinsamen Problemfolie.",
   },
   fall: {
-    content: "Stellt Mira und Lina als Beratungsfall mit gleichem Notendurchschnitt und gleicher Übergangsfrage vor.",
+    content: "Stellt Mira, Anna und Nina als Beratungsfälle mit gleichem Notendurchschnitt und gleicher Übergangsfrage vor.",
     didactic: "Macht die Problemfrage offen: Welche Daten fehlen, bevor eine Empfehlung verantwortbar ist?",
   },
   "didaktisches-konzept": {
-    content: "Erklärt die sieben Phasen der Lehrprobe: Problem, Aktivierung, Strukturaufbau, Modell, Vertiefung, Sicherung und Transfer.",
+    content: "Erklärt die sieben Phasen der Lehrprobe: Problemfall, Aktivierung, Begriff 1 interindividuell, Begriff 2 intraindividuell, Forschungsanker, Sicherung und Transfer.",
     didactic: "Macht die Lernbewegung explizit, damit die Seitenleiste als Orientierungshilfe genutzt werden kann.",
   },
   "aktivierung-1": {
@@ -419,7 +420,7 @@ Object.assign(slideFunctions, {
   },
   anwendung: {
     content: "Führt die Perspektiven zur Beratung zurück: Empfehlung braucht interindividuelle, intraindividuelle und Kontextinformationen.",
-    didactic: "Sichert den Beratungsnutzen der Stunde am Ausgangsfall Mira/Lina.",
+    didactic: "Sichert den Beratungsnutzen der Stunde an den Ausgangsfällen Mira, Anna und Nina.",
   },
   "visible-learning-ausblick": {
     content: "Verbindet die Perspektive mit dem Lehrbuchprojekt zur Erweiterung von Visible Learning mit John Hattie und Jens Möller.",
@@ -466,6 +467,7 @@ Object.assign(glossaryBySlide, {
     ["Diagnostische Befundlage", "Gesamtheit der Informationen, die eine Empfehlung stützen oder begrenzen."],
   ],
   uebertrittsschwelle: [
+    ["Schullaufbahnberatung", "Beratung zur Frage, welcher Bildungsweg zu Voraussetzungen, Entwicklung und Kontext passt."],
     ["Entscheidungsschwelle", "Grenzwert, ab dem eine formale Entscheidung anders ausfällt."],
     ["Durchschnittsnote", "Mittelwert mehrerer Leistungsurteile; verdichtet viele Einzelinformationen."],
     ["Formale Eignung", "Administrativ definierte Eignung, die psychologische Beratung nicht ersetzt."],
@@ -476,11 +478,11 @@ Object.assign(glossaryBySlide, {
     ["Informationsbedarf", "Zusätzliche Daten, die vor einer verantwortbaren Empfehlung fehlen."],
   ],
   "didaktisches-konzept": [
-    ["Problem", "Warum reicht der Durchschnitt nicht?"],
+    ["Problemfall", "Warum reicht der Durchschnitt nicht?"],
     ["Aktivierung", "Welche Information fehlt?"],
-    ["Strukturaufbau", "Warum lernen wir das?"],
-    ["Modell", "Wie lassen sich Unterschiede sichtbar machen und ordnen?"],
-    ["Vertiefung", "Welche Evidenz zeigt die Bedeutung?"],
+    ["Begriff 1 interindividuell", "Wer unterscheidet sich von wem?"],
+    ["Begriff 2 intraindividuell", "Wann unterscheidet sich eine Person von sich selbst?"],
+    ["Forschungsanker", "Welche Evidenz und welches Modell begründen die Diagnoseperspektive?"],
     ["Sicherung", "Was folgt für Beratung?"],
     ["Transfer", "Wo geht die Frage weiter?"],
   ],
@@ -579,15 +581,19 @@ delete glossaryBySlide.begriffe;
 delete glossaryBySlide.evidenz;
 
 function nearestSlideIndex() {
-  const midpoint = window.scrollY + window.innerHeight / 2;
+  if (!slides.length) return 0;
+
+  const viewportAnchor = window.innerHeight * 0.42;
   let bestIndex = 0;
-  let bestDistance = Infinity;
+  let bestScore = Infinity;
 
   slides.forEach((slide, index) => {
-    const center = slide.offsetTop + slide.offsetHeight / 2;
-    const distance = Math.abs(center - midpoint);
-    if (distance < bestDistance) {
-      bestDistance = distance;
+    const rect = slide.getBoundingClientRect();
+    const visibleHeight = Math.max(0, Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0));
+    const distance = Math.abs(rect.top - viewportAnchor);
+    const score = distance - visibleHeight * 0.18;
+    if (score < bestScore) {
+      bestScore = score;
       bestIndex = index;
     }
   });
@@ -596,19 +602,21 @@ function nearestSlideIndex() {
 }
 
 function updateChrome() {
+  if (!slides.length) return;
+
   const index = nearestSlideIndex();
   const slide = slides[index];
   const talkIndex = index - talkStartIndex;
   const isTalkSlide = talkIndex >= 0;
   const progress = talkSlideCount <= 1 ? 1 : Math.max(0, talkIndex) / (talkSlideCount - 1);
 
-  progressBar.style.width = `${Math.max(0, Math.min(1, progress)) * 100}%`;
+  if (progressBar) progressBar.style.width = `${Math.max(0, Math.min(1, progress)) * 100}%`;
   const slideLabel = isTalkSlide ? `Folie ${talkIndex + 1} / ${talkSlideCount}` : `Einordnung ${index + 1} / ${talkStartIndex}`;
   if (slideBadge) slideBadge.textContent = slideLabel;
   if (railSlideCounter) railSlideCounter.textContent = slideLabel;
 
   const stage = slide?.dataset.stage;
-  const meta = stageMeta[stage] ?? stageMeta.problem;
+  const meta = stageMeta[stage] ?? stageMeta.problemfall;
   if (currentStage) currentStage.textContent = meta.label;
   if (currentSlideTitle) {
     currentSlideTitle.textContent = slide?.querySelector("h1")?.textContent ?? "Lehrvortrag";
@@ -623,6 +631,16 @@ function updateChrome() {
 
   stageLinks.forEach((link) => {
     link.classList.toggle("is-active", isTalkSlide && link.dataset.stageLink === stage);
+  });
+}
+
+let chromeUpdateFrame = 0;
+
+function scheduleChromeUpdate() {
+  if (chromeUpdateFrame) window.cancelAnimationFrame(chromeUpdateFrame);
+  chromeUpdateFrame = window.requestAnimationFrame(() => {
+    chromeUpdateFrame = 0;
+    updateChrome();
   });
 }
 
@@ -753,19 +771,22 @@ function initLiveClassDemo() {
     const meta = outcomeMeta[activeOutcome];
     const meanDifference = Number(classMeanSlider.value);
     const spread = 4 + Number(classSpreadSlider.value) * 0.14;
-    const miraMean = 56 - meanDifference / 2;
-    const linaMean = 56 + meanDifference / 2;
+    const miraMean = 56 - meanDifference * 0.55;
+    const annaMean = 56;
+    const ninaMean = 56 + meanDifference * 0.55;
     const miraScores = distributionScores(miraMean, spread);
-    const linaScores = distributionScores(linaMean, spread);
+    const annaScores = distributionScores(annaMean, spread);
+    const ninaScores = distributionScores(ninaMean, spread);
     const miraScore = 58;
-    const linaScore = 58;
+    const annaScore = 58;
+    const ninaScore = 58;
 
     if (outcomeTitle) outcomeTitle.textContent = meta.title;
     classPlot.replaceChildren();
     classPlot.append(
-      makeSvg("line", { x1: 80, y1: 372, x2: 820, y2: 372, class: "live-guide-line" }),
-      makeSvg("text", { x: 80, y: 405, class: "live-axis-label" }),
-      makeSvg("text", { x: 748, y: 405, class: "live-axis-label" }),
+      makeSvg("line", { x1: 80, y1: 435, x2: 820, y2: 435, class: "live-guide-line" }),
+      makeSvg("text", { x: 80, y: 468, class: "live-axis-label" }),
+      makeSvg("text", { x: 748, y: 468, class: "live-axis-label" }),
       makeSvg("text", { x: 274, y: 40, class: "live-plot-label" })
     );
     classPlot.children[1].textContent = meta.low;
@@ -773,8 +794,9 @@ function initLiveClassDemo() {
     classPlot.children[3].textContent = meta.axis;
 
     [
-      { label: "Miras Schule A / Klasse 4a", scores: miraScores, meanValue: miraMean, row: 150, color: "#dfe8df", stroke: "#aebbad", hero: miraScore, name: "Mira", heroColor: "#6a2f1d" },
-      { label: "Linas Schule B / Klasse 4b", scores: linaScores, meanValue: linaMean, row: 288, color: "#e9edf4", stroke: "#b4c1d1", hero: linaScore, name: "Lina", heroColor: "#315f8f" },
+      { label: "Miras Schule A / Klasse 4a", scores: miraScores, meanValue: miraMean, row: 118, color: "#dfe8df", stroke: "#aebbad", hero: miraScore, name: "Mira", heroColor: "#6a2f1d" },
+      { label: "Annas Schule B / Klasse 4b", scores: annaScores, meanValue: annaMean, row: 252, color: "#f4e5d9", stroke: "#d6b39c", hero: annaScore, name: "Anna", heroColor: "#b6784b" },
+      { label: "Ninas Schule C / Klasse 4c", scores: ninaScores, meanValue: ninaMean, row: 386, color: "#e9edf4", stroke: "#b4c1d1", hero: ninaScore, name: "Nina", heroColor: "#315f8f" },
     ].forEach((group) => {
       const label = makeSvg("text", { x: 74, y: group.row - 38, class: "live-plot-label" });
       label.textContent = group.label;
@@ -1057,8 +1079,15 @@ if (activationResponse) {
   });
 }
 
-window.addEventListener("scroll", updateChrome, { passive: true });
-window.addEventListener("resize", updateChrome);
+window.addEventListener("scroll", scheduleChromeUpdate, { passive: true });
+window.addEventListener("resize", scheduleChromeUpdate);
+window.addEventListener("load", scheduleChromeUpdate);
+window.addEventListener("hashchange", scheduleChromeUpdate);
+document.querySelectorAll(".slide img").forEach((image) => {
+  if (!image.complete) {
+    image.addEventListener("load", scheduleChromeUpdate, { once: true });
+  }
+});
 window.addEventListener("keydown", (event) => {
   const activeElement = document.activeElement;
   const isEditable = activeElement?.matches?.("input, textarea, select, [contenteditable='true']");
@@ -1107,4 +1136,4 @@ window.addEventListener("keydown", (event) => {
 });
 
 initLiveClassDemo();
-updateChrome();
+scheduleChromeUpdate();

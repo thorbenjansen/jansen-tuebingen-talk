@@ -150,7 +150,7 @@ img {
   position: fixed;
   top: 92px;
   right: 18px;
-  width: 156px;
+  width: 208px;
   z-index: 70;
   display: grid;
   gap: 8px;
@@ -164,18 +164,20 @@ img {
 }
 
 .stage-list a {
-  min-height: 28px;
+  min-height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 12px;
+  padding: 4px 12px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.86);
   box-shadow: rgba(4, 23, 43, 0.05) 0 0 0 1px, rgba(0, 0, 0, 0.05) 0 2px 4px;
   color: var(--light-steel);
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 900;
+  line-height: 1.08;
+  text-align: center;
   text-decoration: none;
   opacity: 0.68;
   transition: background 140ms ease, border-color 140ms ease, color 140ms ease, opacity 140ms ease;
@@ -1030,8 +1032,17 @@ blockquote {
 }
 
 .threshold h1 {
-  max-width: 980px;
-  font-size: 50px;
+  max-width: 1120px;
+  font-size: 48px;
+}
+
+.threshold-combo {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 18px;
+  align-items: stretch;
+  margin-right: 44px;
 }
 
 .threshold-layout {
@@ -1042,7 +1053,9 @@ blockquote {
   align-items: stretch;
 }
 
-.threshold-frame {
+.threshold-frame,
+.threshold-mini-frame {
+  position: relative;
   margin: 0;
   padding: 18px;
   border: 1px solid var(--line);
@@ -1051,18 +1064,70 @@ blockquote {
   box-shadow: var(--shadow);
 }
 
-.threshold-frame img {
+.threshold-frame img,
+.threshold-mini-frame img {
   width: 100%;
-  height: 318px;
   border: 1px solid rgba(23, 25, 28, 0.08);
   border-radius: 16px;
   object-fit: cover;
+}
+
+.threshold-frame img {
+  height: 318px;
   object-position: center 88%;
 }
 
+.threshold-combo .threshold-frame img {
+  height: 258px;
+  object-position: center 88%;
+}
+
+.threshold-combo .threshold-law-focus {
+  overflow: hidden;
+}
+
+.threshold-combo .threshold-law-focus img {
+  width: 132%;
+  max-width: none;
+  transform: translateX(-24%);
+  object-position: 74% 88%;
+}
+
+.threshold-mini-frame img {
+  height: 330px;
+}
+
+.threshold-combo .mandate-focus {
+  grid-column: 1 / -1;
+  padding: 14px;
+}
+
+.threshold-combo .mandate-focus img {
+  height: 178px;
+}
+
+.mandate-focus img {
+  object-position: 50% 52%;
+}
+
+.threshold-mini-frame figcaption {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  padding: 10px 14px;
+  border: 1px solid rgba(232, 229, 226, 0.82);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--muted-stone);
+  font-size: 13px;
+  font-weight: 850;
+  text-align: center;
+}
+
 .threshold-callout {
-  min-height: 318px;
-  padding: 28px 26px;
+  min-height: 258px;
+  padding: 26px 24px;
   display: grid;
   align-content: center;
   border: 1px solid #edcbb9;
@@ -1078,20 +1143,10 @@ blockquote {
   text-transform: uppercase;
 }
 
-.threshold-callout strong {
-  display: block;
-  margin: 10px 0 12px;
-  color: var(--ink);
-  font-family: var(--display);
-  font-size: 96px;
-  font-weight: 400;
-  line-height: 0.9;
-}
-
 .threshold-callout span {
   display: block;
   color: var(--muted-stone);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   line-height: 1.22;
 }
@@ -1305,6 +1360,8 @@ blockquote {
   border-radius: 20px;
   background: var(--canvas);
   box-shadow: var(--shadow);
+  display: grid;
+  align-content: center;
 }
 
 .performance-card.warm {
@@ -1317,17 +1374,19 @@ blockquote {
   display: block;
   margin-bottom: 10px;
   color: var(--ink);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 900;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .performance-card p {
   color: var(--muted-stone);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.3;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .apa-citation {
@@ -1415,10 +1474,13 @@ blockquote {
 
 .vera-visual-stack {
   position: relative;
-  margin-top: 28px;
+  margin-top: 24px;
+  display: grid;
+  gap: 14px;
 }
 
 .vera-frame {
+  order: 2;
   margin: 0;
   padding: 14px;
   border: 1px solid var(--line);
@@ -1429,17 +1491,15 @@ blockquote {
 
 .vera-frame img {
   width: 100%;
-  height: 390px;
+  height: 300px;
   border-radius: 12px;
   object-fit: contain;
   background: #fff;
 }
 
 .vera-grid {
-  position: absolute;
-  left: 42px;
-  right: 42px;
-  top: 28px;
+  position: static;
+  order: 1;
   display: grid;
   grid-template-columns: minmax(260px, 0.82fr) minmax(300px, 0.92fr);
   justify-content: space-between;
@@ -1610,6 +1670,16 @@ blockquote {
   min-height: 190px;
 }
 
+#fall .three-cases {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+#fall .three-cases .case-card {
+  min-height: 170px;
+  padding: 28px;
+}
+
 .case-card h2 {
   font-family: var(--display);
   font-size: 42px;
@@ -1637,6 +1707,30 @@ blockquote {
   font-size: 22px;
   font-weight: 700;
   text-align: center;
+}
+
+.case-thread-row {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.case-thread-row span {
+  display: block;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--fog);
+  color: var(--muted-stone);
+  font-size: 13px;
+  font-weight: 850;
+  text-align: center;
+}
+
+.case-thread-row b {
+  color: var(--ink);
+  margin-right: 4px;
 }
 
 .activation .prompt {
@@ -1991,7 +2085,7 @@ ul {
 }
 
 .live-between-card {
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto auto;
 }
 
 .live-plot-card:not(.live-between-card) {
@@ -2136,7 +2230,7 @@ ul {
 
 .sevt-frame img {
   width: 100%;
-  height: 338px;
+  height: 430px;
   border-radius: 12px;
   object-fit: contain;
   background: #fff;
@@ -2154,15 +2248,15 @@ ul {
 }
 
 .sevt-coded-frame::before {
-  left: 16px;
-  width: 35%;
+  left: calc(16px + 6%);
+  width: 16%;
   background: rgba(74, 122, 97, 0.16);
   box-shadow: inset 0 0 0 2px rgba(74, 122, 97, 0.24);
 }
 
 .sevt-coded-frame::after {
-  left: 36%;
-  width: 27%;
+  left: calc(16px + 35%);
+  width: 39%;
   background: rgba(236, 178, 141, 0.19);
   box-shadow: inset 0 0 0 2px rgba(201, 93, 45, 0.2);
 }
@@ -2183,11 +2277,11 @@ ul {
 }
 
 .sevt-code-inter {
-  left: 28px;
+  left: calc(28px + 6%);
 }
 
 .sevt-code-intra {
-  left: 38%;
+  left: calc(28px + 35%);
 }
 
 .sevt-hotspot {
@@ -2213,17 +2307,17 @@ ul {
 }
 
 .sevt-hotspot-expectancy {
-  top: 68px;
-  left: 60%;
-  width: 105px;
-  height: 34px;
+  top: 78px;
+  left: 73%;
+  width: 122px;
+  height: 42px;
 }
 
 .sevt-hotspot-value {
-  top: 214px;
-  left: 62%;
-  width: 145px;
-  height: 36px;
+  top: 276px;
+  left: 70%;
+  width: 178px;
+  height: 76px;
 }
 
 .sevt-cards {
@@ -3216,6 +3310,7 @@ blockquote {
   .course-map,
   .live-demo-grid,
   .public-start,
+  .threshold-combo,
   .threshold-layout,
   .structure-flow,
   .didactic-grid,
