@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jansen | Individuelle Unterschiede im schulischen Schreiben</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css?v=theory-left-fit-20260526" />
+  </head>
+  <body class="lmu-talk">
+    <div class="progress"><div id="progressBar"></div></div>
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Jansen | Differentielle Psychologie im Kontext Schule</span></div>
+      <nav class="controls" aria-label="Foliensteuerung">
+        <a class="topbar-link" href="forschungsvortrag_literaturverzeichnis.md" target="_blank" rel="noopener" aria-label="Literaturverzeichnis öffnen">Literatur</a>
+        <button type="button" data-literature aria-label="Quellen zur aktuellen Folie anzeigen">Quellen</button>
+        <button type="button" data-prev aria-label="Vorherige Folie">↑</button>
+        <button type="button" data-next aria-label="Nächste Folie">↓</button>
+        <button type="button" data-fullscreen aria-label="Vollbild">⛶</button>
+        <button type="button" data-help aria-label="Hilfe zur aktuellen Folie und Steuerung anzeigen">?</button>
+      </nav>
+    </header>
+
+    <aside class="pathway-rail" aria-label="Vortragsstruktur">
+      <div class="pathway-group" data-stage-group="diagnosis">
+        <a class="pathway-main" href="#teacher-assessment" data-stage-link="diagnosis">
+          <b>1</b>
+          <span class="pathway-label"><span class="pathway-title">Diagnostik</span><span class="pathway-range" data-stage-range="diagnosis"></span></span>
+        </a>
+        <div class="pathway-subnav" data-stage-subnav="diagnosis"></div>
+      </div>
+      <div class="pathway-group" data-stage-group="intervention">
+        <a class="pathway-main" href="#feedback-intervention" data-stage-link="intervention">
+          <b>2</b>
+          <span class="pathway-label"><span class="pathway-title">Intervention</span><span class="pathway-range" data-stage-range="intervention"></span></span>
+        </a>
+        <div class="pathway-subnav" data-stage-subnav="intervention"></div>
+      </div>
+      <div class="pathway-group" data-stage-group="process">
+        <a class="pathway-main" href="#writing-processes" data-stage-link="process">
+          <b>3</b>
+          <span class="pathway-label"><span class="pathway-title">Prozessdaten</span><span class="pathway-range" data-stage-range="process"></span></span>
+        </a>
+        <div class="pathway-subnav" data-stage-subnav="process"></div>
+      </div>
+      <div class="pathway-group" data-stage-group="outlook">
+        <a class="pathway-main" href="#leseband" data-stage-link="outlook">
+          <b>4</b>
+          <span class="pathway-label"><span class="pathway-title">Ausblick</span><span class="pathway-range" data-stage-range="outlook"></span></span>
+        </a>
+        <div class="pathway-subnav" data-stage-subnav="outlook"></div>
+      </div>
+      <span id="slideBadge">Folie 1</span>
+    </aside>
+
+    <main class="deck">
+      <section class="slide lmu-slide lmu-title-slide" id="title" data-stage="intro">
+        <div class="lmu-title-panel">
+          <p class="eyebrow">Forschungsvortrag | LMU München</p>
+          <h1>Individuelle Unterschiede im schulischen Schreiben</h1>
+          <p class="lmu-title-subline">Diagnostik von Schreibleistung und Schreibprozessen, Textbeurteilungen durch Lehrkräfte und individuelle Förderung mithilfe künstlicher Intelligenz.</p>
+          <div class="lmu-title-question">
+            <span>Leitfrage</span>
+            <p>Wie funktioniert effektive und motivierende Schreibförderung für alle?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide lmu-slide" id="writing-context" data-stage="intro">
+        <p class="eyebrow">Ausgangslage</p>
+        <h1>Schreiben ist zentrale Kompetenz, aber schwierig zu erwerben.</h1>
+        <p class="lmu-lead">Schulisches Schreiben macht Fachverstehen, Argumentation, Sprache und Selbstregulation sichtbar.</p>
+        <div class="lmu-card-grid two">
+          <article class="lmu-card">
+            <h2>Große Unterschiede in argumentativen Schreibleistungen</h2>
+            <ul>
+            <li><strong>Naturwissenschaftliches Argumentieren:</strong> 4.589 Essays von 1.839 Schüler:innen. <span class="ref inline-ref">Schaller, Jansen et al., 2024</span></li>
+            <li><strong>Fremdsprachliches Argumentieren:</strong> 2.314 argumentative Essays. <span class="ref inline-ref">Keller, Jansen et al., 2024</span></li>
+          </ul>
+        </article>
+        <article class="lmu-card lmu-card-muted">
+          <h2>Feedback wird nicht automatisch genutzt</h2>
+          <p>Nur etwa 50 % von über 20.000 Schüler:innen nutzten KI-Feedback produktiv für die Revision.</p>
+          <div class="ref-row ref-row--after">
+            <span class="ref">Jansen et al., 2025</span>
+          </div>
+          <p>Unterschiede im Engagement können durch individuelle Unterschiede der Schüler:innen erklärt werden.</p>
+          <div class="ref-row">
+            <span class="ref">Meyer, Jansen et al., 2025</span>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <section class="slide lmu-slide" id="structure" data-stage="intro">
+        <p class="eyebrow">Struktur</p>
+        <h1>Drei differentielle Fragen zum schulischen Schreiben</h1>
+        <div class="lmu-pillars">
+          <article class="lmu-pillar">
+            <span class="lmu-number">1</span>
+            <h2>Textbeurteilung und Diagnostik</h2>
+            <p>Wie beurteilen Lehrkräfte Schreibleistungen?</p>
+          </article>
+          <article class="lmu-pillar">
+            <span class="lmu-number">2</span>
+            <h2>Personalisierte KI-Feedback-Intervention</h2>
+            <p>Welche Schüler:innen profitieren von welcher Form von Feedback, und welche Voraussetzungen erklären die Nutzung?</p>
+          </article>
+          <article class="lmu-pillar">
+            <span class="lmu-number">3</span>
+            <h2>Individuelle Schreibprozesse beim KI-gestützten Schreiben</h2>
+            <p>Wie verändern sich Schreib- und KI-Nutzungsprozesse innerhalb von Personen?</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide image-slide" id="teacher-assessment" data-stage="diagnosis">
+        <h1>Textbeurteilung und Diagnostik</h1>
+        <p class="model-subtitle">Lehrkräfte brauchen Unterstützung bei der Beurteilung argumentativer Qualität</p>
+        <figure class="full-model teacher-judgment-model">
+          <img src="assets/teacher_judgment_accuracy_model.svg" alt="Modell zur Genauigkeit von Lehrkrafturteilen" />
+          <figcaption class="model-ref model-ref--teacher">
+            <span>Jansen et al., 2021</span>
+            <span>Möller, Jansen et al., 2020</span>
+          </figcaption>
+          <figcaption class="model-ref model-ref--judgment">
+            <span>Jansen et al., 2022</span>
+          </figcaption>
+          <figcaption class="model-ref model-ref--student">
+            <span>Jansen et al., 2019</span>
+            <span>Strahl, Jansen et al., 2025</span>
+          </figcaption>
+          <figcaption class="model-ref model-ref--test">
+            <span>Jansen et al., 2021</span>
+            <span>Vögelin, Jansen et al., 2019; 2021</span>
+          </figcaption>
+          <figcaption class="model-ref model-ref--full">
+            <span>Full model: Südkamp et al., 2012</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="slide trace-tool" id="diagnostic-accuracy" data-stage="diagnosis">
+        <p class="eyebrow">Förderung von Lehrkräften</p>
+        <h1>Diagnostische Kompetenzen von Lehrkräften trainieren</h1>
+        <button class="trace-tool-open" type="button" data-open="trace-tool-modal" aria-label="Open larger TRACE Tool screenshot">
+          <img src="assets/trace_teacher_assessment_tool.png" alt="TRACE teacher assessment simulation interface" />
+        </button>
+        <div class="reference-line"><span>Jansen et al., 2023</span></div>
+      </section>
+
+      <section class="slide project" id="trace-g" data-stage="diagnosis">
+        <p class="eyebrow">Drittmittelprojekt</p>
+        <h1>TRACE-G: Training Assessment Competencies in German</h1>
+        <div class="supporter-logos supporter-logos--dfg" aria-label="TRACE-G supporter">
+          <img src="assets/dfg_logo.png" alt="DFG German Research Foundation" />
+        </div>
+        <div class="project-grid project-grid--three">
+          <article><p>Forschungsfrage: Wie koennen Lehrkraefte trainiert werden, menschlich und KI-unterstuetzt geschriebene Texte zu beurteilen?</p></article>
+          <article><p>Lehrkraftbezogenes Projekt zu Assessmenttraining und diagnostischer Kompetenz im Fach Deutsch.</p></article>
+          <article><p>Start: Ende 2026. Eigener Anteil: EUR 344.650.</p></article>
+        </div>
+      </section>
+
+      <section class="slide project" id="kiss-pro-grant" data-stage="diagnosis">
+        <p class="eyebrow">Drittmittelprojekt</p>
+        <h1>KISS-Pro: professionalizing teachers for AI in language and writing</h1>
+        <div class="supporter-logos supporter-logos--kiss" aria-label="KISS-Pro supporters">
+          <img src="assets/kiss_pro_logo.png" alt="KISS-Pro" />
+          <img src="assets/bmbf_logo.jpg" alt="Federal Ministry of Education and Research" />
+          <img src="assets/eu_nextgeneration_logo.jpg" alt="Funded by the European Union NextGenerationEU" />
+          <img src="assets/lernen_digital_logo.jpg" alt="Lernen:digital competence center" />
+        </div>
+        <div class="project-grid project-grid--three">
+          <article><p>Ziel: Professionalisierungskonzepte fuer KI-basierte Feedbacksysteme und Schreibagenten.</p></article>
+          <article><p>Projektlaufzeit: 2023-2025.</p></article>
+          <article><p>BMBF-gefoerdert. Eigener Anteil: EUR 196.546.</p></article>
+        </div>
+        <h2>Supervised team</h2>
+        <div class="people-strip">
+          <figure><img src="assets/marlene_steinbach_portrait.jpeg" alt="Marlene Steinbach" /><figcaption>Marlene Steinbach</figcaption></figure>
+          <figure><img src="assets/ute_mertens_portrait.png" alt="Ute Mertens" /><figcaption>Ute Mertens</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="slide online-course-slide" id="kiss-course" data-stage="diagnosis">
+        <p class="eyebrow">Fortbildung für Lehrkräfte</p>
+        <h1>Onlinekurs: Weniger korrigieren, mehr unterrichten</h1>
+        <div class="online-course-layout">
+          <figure class="online-course-cover">
+            <img src="assets/kiss_teacher_course_cover.png" alt="Onlinekurs-Cover: less correcting, more teaching with AI-supported feedback" />
+          </figure>
+          <aside class="online-course-reach" aria-label="Teilnehmendenzahlen für den Onlinekurs">
+            <img src="assets/kiss_teacher_course_learners.png" alt="Teilnehmendenzahlen mit 2.378 aktuellen Lernenden, 2.085 am Kursende und 1.646 am Kursstart" />
+          </aside>
+        </div>
+        <a class="course-link" href="https://open.hpi.de/courses/kifortbildung2025" target="_blank" rel="noopener">open.hpi.de/courses/kifortbildung2025</a>
+      </section>
+
+      <section class="slide corpora" id="corpora" data-stage="diagnosis">
+        <header class="section-title">
+          <p class="eyebrow">Menschliche Expert:innenratings</p>
+          <h1>Automatisiertes Assessment</h1>
+        </header>
+        <div class="two-cards">
+          <button class="corpus-card" type="button" data-open="science-ratings">
+            <p class="eyebrow">Naturwissenschaftliches Argumentieren</p>
+            <ul>
+              <li>Basiert auf fachspezifischen Learning-Progressions.</li>
+              <li>Inhalt und Struktur.</li>
+              <li>Satzebene.</li>
+              <li>Interrater-Reliabilität über Kappa = .6.</li>
+            </ul>
+            <div class="reference-line"><span>Schaller, Jansen et al., 2024a</span></div>
+          </button>
+          <article class="corpus-card">
+            <p class="eyebrow">Fremdsprachliches Argumentieren</p>
+            <ul>
+              <li>Analytische und holistische Expert:innenratings.</li>
+              <li>Inhalt, Stil und Sprache.</li>
+              <li>In Kooperation mit dem Educational Testing Service.</li>
+              <li>Interrater-Reliabilität über Kappa = .6.</li>
+            </ul>
+            <div class="reference-line"><span>Lohmann, Jansen et al., 2024</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide lmu-slide lmu-transition-slide" id="diagnosis-to-feedback" data-stage="diagnosis">
+        <p class="eyebrow">Zwischenfazit 1 | Diagnostik</p>
+        <h1>Lehrkräfte benötigen Unterstützung in der Leistungsbeurteilung. KI-Algorithmen können Beurteilungen von Expert:innen simulieren.</h1>
+        <p class="lmu-lead">Damit wird diagnostische Unterstützung zu einem Ausgangspunkt für passgenaue Förderung.</p>
+        <a class="next-block-marker" href="#feedback-intervention" aria-label="Zum nächsten Block Intervention springen">
+          <span>Nächster Block</span>
+          <strong>Intervention</strong>
+          <b aria-hidden="true">↓</b>
+        </a>
+      </section>
+
+      <section class="slide project" id="feedback-intervention" data-stage="intervention">
+        <p class="eyebrow">Drittmittelprojekt</p>
+        <h1>DARIUS: Digital argumentation instruction for science</h1>
+        <div class="supporter-logos supporter-logos--genius" aria-label="Genius supporter">
+          <img src="assets/deutsche_telekom_stiftung_logo.png" alt="Deutsche Telekom Stiftung" />
+        </div>
+        <div class="project-grid">
+          <article><p>Faire KI-Unterstuetzung fuer alle zum Schreiben in den Naturwissenschaften.</p></article>
+          <article><p>Eigener Anteil: EUR 670.000.</p></article>
+          <article><p>Team aus Psychologie, Fachdidaktik und Computerlinguistik.</p></article>
+        </div>
+        <div class="project-open-science">
+          <span>Open Science</span>
+          <p>Alle Daten und Analyseskripte sind Open Access.</p>
+        </div>
+        <h2>Supervised team</h2>
+        <div class="people-strip">
+          <figure><img src="assets/mira_tanz_portrait.jpeg" alt="Mira Tanz" /><figcaption>Mira Tanz</figcaption></figure>
+          <figure><img src="assets/jonathan_schaller_portrait.png" alt="Jonathan Schaller" /><figcaption>Jonathan Schaller</figcaption></figure>
+          <figure><img src="assets/hannah_puenjer_portrait.jpeg" alt="Hannah Puenjer" /><figcaption>Hannah Puenjer</figcaption></figure>
+          <figure><img src="assets/luca_bahr_portrait.jpeg" alt="Luca Bahr" /><figcaption>Luca Bahr</figcaption></figure>
+          <figure><img src="assets/lars_hoeft_portrait.jpg" alt="Lars Hoeft" /><figcaption>Lars Hoeft</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="slide effectiveness-question" id="effectiveness-question" data-stage="intervention">
+        <p class="eyebrow">Individuelle Feedbacknutzung</p>
+        <h1>Forschungsfrage</h1>
+        <p class="question-lead">Welche Schüler:innenmerkmale (folgend dem Student-Feedback Interaction Model) moderieren die Effekte von KI-Feedback?</p>
+        <div class="moderation-model" aria-label="Modell zur Forschungsfrage">
+          <div class="moderation-box moderation-box--moderator">Schüler:innen&shy;merkmale</div>
+          <div class="moderation-box moderation-box--predictor">Generatives KI-Feedback vs. Selbstfeedback</div>
+          <div class="moderation-arrow" aria-hidden="true"></div>
+          <div class="moderation-box moderation-box--outcome">Schreibqualität und Motivation</div>
+          <div class="moderation-link" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="slide study-procedure" id="effectiveness-procedure" data-stage="intervention">
+        <p class="eyebrow">Individuelle Feedbacknutzung</p>
+        <h1>Studiendesign</h1>
+        <button class="procedure-open" type="button" data-open="effectiveness-workspace">
+          <figure>
+            <img src="assets/effectiveness_study_procedure_diagram.png" alt="Studiendesign mit Kontrollgruppe, Experimentalgruppe, Schreibblöcken, Feedback, Revisionsblöcken und Fragebögen" />
+          </figure>
+        </button>
+      </section>
+
+      <section class="slide effectiveness-main-effect" id="effectiveness-main-effect" data-stage="intervention">
+        <p class="eyebrow">Individuelle Feedbacknutzung</p>
+        <h1>KI-Feedback erhöht Engagement während der Textrevision</h1>
+        <button class="main-effect-open" type="button" data-open="feedback-genius-example-modal" aria-label="GENIUS-Feedbackbeispiel öffnen">
+          <figure class="main-effect-figure">
+            <img src="assets/effectiveness_engagement_results_line_chart.png" alt="Liniendiagramm zum Engagement während der Textrevision nach Feedbackbedingung über fünf argumentative Elemente hinweg" />
+          </figure>
+        </button>
+      </section>
+
+      <section class="slide effectiveness-story" id="effectiveness-engagement-results" data-stage="intervention">
+        <div class="effectiveness-story-copy">
+          <p class="eyebrow">Individuelle Feedbacknutzung</p>
+          <h1>Schüler:innenmerkmale moderieren die Wirkung von KI-Feedback über Engagement</h1>
+          <p>Engagement verbindet erhaltenes Feedback damit, wie Schüler:innen revidieren und aus der Aufgabe lernen.</p>
+        </div>
+        <div class="story-model-panel">
+          <button class="story-open" type="button" data-open="feedback-story-modal" aria-label="Größeres Ergebnismodell öffnen">
+            <figure>
+              <img src="assets/feedback_engagement_story_model.png" alt="Feedback-Engagement-Modell, das Feedbackqualität, wahrgenommene Nützlichkeit, Engagement, Motivation, Revisionsleistung und Selbstüberzeugungen verbindet" />
+            </figure>
+          </button>
+          <aside class="story-reference-rail" aria-label="Referenzen zum Feedback-Engagement-Modell">
+            <article class="story-ref-pill story-ref-pill--quality">
+              <span>Feedbackqualität zu Nützlichkeit</span>
+              <p>Jansen et al. (2024)</p>
+            </article>
+            <article class="story-ref-pill story-ref-pill--moderators">
+              <span>Schüler:innenmoderatoren</span>
+              <p><strong>Rezeptivität:</strong> Bahr, Jansen et al. (2024); Jansen et al. (in Begutachtung)</p>
+              <p><strong>Motivation:</strong> Jansen et al. (im Druck); Meyer, Jansen et al. (2025a); Tanz, Jansen et al. (eingereicht)</p>
+              <p><strong>Hintergrund:</strong> Meyer, Jansen et al. (2025b)</p>
+            </article>
+            <article class="story-ref-pill story-ref-pill--engagement">
+              <span>Engagement-Mediatoren</span>
+              <p><strong>Affektiv:</strong> Jansen et al. (2025)</p>
+              <p><strong>Verhaltensbezogen:</strong> P&uuml;njer, Jansen et al. (in Begutachtung)</p>
+            </article>
+            <article class="story-ref-pill story-ref-pill--outcomes">
+              <span>Ergebnisse und Selbstüberzeugungen</span>
+              <p>Jansen et al. (im Druck)</p>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide online-course-slide student-course-slide" id="effective-argumentation-course" data-stage="intervention">
+        <p class="eyebrow">Onlinekurs für Schüler:innen der Sekundarstufe</p>
+        <div class="online-course-layout">
+          <figure class="online-course-cover">
+            <img src="assets/effective_argumentation_student_course_cover.png" alt="Startansicht des Onlinekurses zu wirksamer Argumentationsförderung" />
+          </figure>
+          <aside class="online-course-reach" aria-label="Teilnehmendenzahlen für den Schüler:innen-Onlinekurs">
+            <img src="assets/effective_argumentation_student_course_learners.png" alt="Teilnehmendenzahlen mit 2.281 aktuellen Lernenden, 1.751 am Kursende und 1.320 am Kursstart" />
+          </aside>
+        </div>
+      </section>
+
+      <section class="slide interim" id="interim-fostering" data-stage="intervention">
+        <p class="eyebrow">Zwischenfazit 2 | Individuelle Feedbacknutzung</p>
+        <h1><a href="assets/Supplement_Receptivity%20Study.html" target="_blank" rel="noopener">Schüler:innen mit geringeren Argumentationsfähigkeiten und niedrigerer Motivation profitierten stärker von pädagogischem KI-Feedback</a></h1>
+        <a class="next-block-marker" href="#writing-processes" aria-label="Zum nächsten Block Prozessdaten springen">
+          <span>Nächster Block</span>
+          <strong>Prozessdaten</strong>
+          <b aria-hidden="true">↓</b>
+        </a>
+      </section>
+
+      <section class="slide lmu-slide" id="writing-processes" data-stage="process">
+        <p class="eyebrow">Von KI-Feedback zu freier KI-Nutzung</p>
+        <h1>Wie schreiben verschiedene Schüler:innen, wenn sie generative KI frei benutzen können?</h1>
+        <div class="lmu-card-grid three">
+          <article class="lmu-card">
+            <span class="lmu-number">1</span>
+            <h2>Textprodukte</h2>
+            <p>Zeigen, welche Qualität am Ende sichtbar wird.</p>
+          </article>
+          <article class="lmu-card">
+            <span class="lmu-number">2</span>
+            <h2>Prozessdaten</h2>
+            <p>Zeigen, wie Schüler:innen schreiben, pausieren, revidieren und Unterstützung nutzen.</p>
+          </article>
+          <article class="lmu-card">
+            <span class="lmu-number">3</span>
+            <h2>KI-Nutzung</h2>
+            <p>Zeigt, ob Lernende KI zum Denken, Revidieren, Kompensieren oder Auslagern verwenden.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide pisa" id="pisa" data-stage="process">
+        <p class="eyebrow">Aktuelle Arbeit · PISA Fremdsprachenassessment</p>
+        <img class="pisa-logo" src="assets/pisa_oecd_logo.jpeg" alt="PISA OECD logo" />
+        <h1>PISA bietet ein kontrolliertes Fenster in KI-gestütztes Schreiben</h1>
+        <div class="pisa-grid">
+          <figure><figcaption>Ohne KI-Unterstützung</figcaption><img src="assets/pisa_task_without_ai_support.png" alt="PISA-Aufgabe ohne KI-Unterstützung" /></figure>
+          <a class="pisa-replay-link" href="assets/pisa/pisa_replay_preloaded_student.html" target="_blank" rel="noopener">
+            <figure class="highlight"><figcaption>Mit KI-Unterstützung</figcaption><img src="assets/pisa_task_with_ai_support.png" alt="PISA-Aufgabe mit KI-Unterstützung" /></figure>
+          </a>
+        </div>
+        <ul class="compact">
+          <li>1.699 Schüler:innen aus Deutschland, 15 Jahre alt.</li>
+          <li>Zwei Texte, jeweils 30 Minuten: einer ohne KI-Unterstützung und einer mit KI-Unterstützung.</li>
+          <li>Prozessdaten machen KI-gestütztes Schreiben nachvollziehbar.</li>
+          <li class="compact-open-access">Daten und Skripte sind ab September 2027 Open Access.</li>
+        </ul>
+      </section>
+
+      <section class="slide pisa-process pisa-distribution-slide" id="pisa-score-distributions" data-stage="process">
+        <p class="eyebrow">PISA-Schreibstudie</p>
+        <h1>Mit Chatbots geschriebene Texte erhalten höhere Bewertungen</h1>
+        <div class="pisa-plot-centered">
+          <aside class="plot-callout plot-callout-left">
+            <strong>Höhere Scoreverteilungen</strong>
+            <span>Über Inhalt, Sprachqualität, holistische Qualität und Organisation hinweg verschieben sich chatbot-gestützte Texte in höhere Bewertungsbereiche.</span>
+          </aside>
+          <button class="plot-card large-plot-card pisa-scoring-open" type="button" data-open="pisa-scoring-time-modal" aria-label="Automatisierte Bewertung über die Schreibzeit öffnen">
+            <img src="assets/pisa/chatbot_score_distribution_density_plots.png" alt="Dichteplots der Scoreverteilungen für Texte mit und ohne Chatbot-Unterstützung über Inhalt, holistische Qualität, Sprachqualität und Organisation hinweg." />
+          </button>
+          <aside class="plot-callout plot-callout-right">
+            <strong>Populationsstichprobe</strong>
+            <span>Die Verteilungen vergleichen Texte mit und ohne Chatbot-Unterstützung in der Vorstichprobe.</span>
+          </aside>
+        </div>
+        <div class="pisa-result-actions" aria-label="Weitere PISA-Ergebnisse öffnen">
+          <button type="button" data-open="pisa-keystrokes-modal">Schreibaktivität</button>
+          <button type="button" data-open="pisa-paste-events-modal">Paste Events</button>
+          <button type="button" data-open="pisa-argument-coding-slide-modal">Argumentkodierung</button>
+        </div>
+      </section>
+
+      <section class="slide lmu-slide lmu-transition-slide" id="process-to-transfer" data-stage="process">
+        <p class="eyebrow">Zwischenfazit 3 | Prozessdiagnostik</p>
+        <h1>Prozessdaten zeigen, wie individuell Schüler:innen mit KI schreiben.</h1>
+        <a class="next-block-marker" href="#leseband" aria-label="Zum Ausblick springen">
+          <span>Als Nächstes</span>
+          <strong>Ausblick</strong>
+          <b aria-hidden="true">↓</b>
+        </a>
+      </section>
+
+      <dialog id="science-ratings" class="modal">
+        <button type="button" data-close>Schließen</button>
+        <h2>Science expert ratings</h2>
+        <p>Learning progression based ratings on sentence-level content and structure.</p>
+        <figure><img src="assets/science_argumentation_rating_model.png" alt="Science argumentation expert-rating model and annotated student text." /></figure>
+      </dialog>
+
+      <dialog class="modal modal--wide pisa-process pisa-performance-slide pisa-performance-modal" id="pisa-scoring-time-modal">
+        <button type="button" data-close>Schließen</button>
+        <p class="eyebrow">Automatisierte Bewertung während des Schreibens</p>
+        <h1>Schreibprodukte können zuverlässig bewertet werden, bevor Schüler:innen fertig sind</h1>
+        <div class="pisa-plot-centered performance-plot-grid">
+          <aside class="plot-callout plot-callout-left">
+            <strong>Frühes Signal</strong>
+            <span>Die Modellgüte steigt schnell, sobald mehr Schreibzeit verfügbar ist.</span>
+          </aside>
+          <figure class="plot-card large-plot-card performance-plot-card">
+            <img src="assets/pisa/automated_scoring_performance_over_time.png" alt="Liniendiagramm zur QWK-Modellgüte über Schreibzeit-Schwellen für Text-only-, Hybrid- und Fusionsmodelle." />
+          </figure>
+          <aside class="plot-callout plot-callout-right">
+            <strong>Fusion hilft besonders früh</strong>
+            <span>Das kombinierte Modell schneidet bei kurzen Schreibzeitfenstern am besten ab und bleibt am Volltext-Endpunkt stark.</span>
+          </aside>
+        </div>
+      </dialog>
+
+      <dialog class="modal modal--wide pisa-process pisa-result-modal" id="pisa-keystrokes-modal">
+        <button type="button" data-close>Schließen</button>
+        <p class="eyebrow">Schreibprozess aus Tastaturdaten</p>
+        <h1>Texte sind stärker, wenn Schüler:innen mehr tippen</h1>
+        <div class="plot-pair">
+          <figure class="plot-card">
+            <img src="assets/pisa/keystrokes_quality_without_ai.png" alt="Textqualität nach Gruppe getippter Zeichen ohne KI-Unterstützung" />
+            <figcaption>Ohne KI-Unterstützung</figcaption>
+          </figure>
+          <figure class="plot-card">
+            <img src="assets/pisa/keystrokes_quality_with_ai.png" alt="Textqualität nach Gruppe getippter Zeichen mit KI-Unterstützung" />
+            <figcaption>Mit KI-Unterstützung</figcaption>
+          </figure>
+        </div>
+        <p class="plot-note">Keylogging macht den Schreibprozess sichtbar, nicht nur den finalen Text.</p>
+      </dialog>
+
+      <dialog class="modal modal--wide pisa-process pisa-result-modal" id="pisa-paste-events-modal">
+        <button type="button" data-close>Schließen</button>
+        <p class="eyebrow">Nutzung generierter KI-Texte beim Schreiben</p>
+        <h1>Texte sind stärker, wenn Schüler:innen mehr generierten Text einfügen</h1>
+        <div class="pisa-process-grid">
+          <figure class="plot-card">
+            <img src="assets/pisa/paste_events_quality_with_ai.png" alt="Textqualität nach Anzahl eingefügter KI-generierter Textpassagen" />
+          </figure>
+          <article class="data-summary">
+            <span>Rangkorrelation</span>
+            <strong>rho = .469, p &lt; .001</strong>
+            <p>Eingefügte generierte Textpassagen sind Teil des Schreibprozesses und können mit Textqualität verknüpft werden.</p>
+          </article>
+        </div>
+      </dialog>
+
+      <dialog class="modal modal--wide pisa-process pisa-process--argument-central pisa-result-modal" id="pisa-argument-coding-slide-modal">
+        <button type="button" data-close>Schließen</button>
+        <p class="eyebrow">Schreibstudie mit Schüler:innen</p>
+        <h1>Argumente in Schüler:innentexten kodieren</h1>
+        <p class="section-lead">Wir untersuchen, ob Schüler:innen mit Lehrkraft-Schüler:in-Beziehungen, fachlichem Wissen von Lehrkräften oder beidem argumentieren.</p>
+        <button class="argument-plot-open" type="button" data-open="argument-coding-modal" aria-label="Details zur Argumentkodierung öffnen">
+          <img src="assets/pisa/argument_type_frequency_by_ai_condition.svg" alt="Häufigkeiten von Argumenttypen in Schüler:innentexten mit und ohne KI-Unterstützung" />
+        </button>
+      </dialog>
+
+      <dialog id="argument-coding-modal" class="modal">
+        <button type="button" data-close>Schließen</button>
+        <h2>Dimensionen der Argumentkodierung</h2>
+        <div class="argument-categories argument-categories--modal">
+          <article>
+            <h2>Lehrkraft-Schüler:in-Beziehungen</h2>
+            <p>Zugehörigkeit, individuelle Unterstützung, Motivation, Vorbilder und eine sichere Lernumgebung.</p>
+          </article>
+          <article>
+            <h2>Fachliches Wissen</h2>
+            <p>Fachliche Sicherheit, klare Erklärungen, Vertrauen, Respekt und kognitive Aktivierung.</p>
+          </article>
+        </div>
+      </dialog>
+
+      <dialog id="teacher-model-modal" class="pisa-result-modal image-detail-modal">
+        <button type="button" class="modal-close" data-close aria-label="Schließen">×</button>
+        <figure class="modal-image-scroll">
+          <img src="assets/teacher_judgment_accuracy_exact_v2.svg" alt="Modell der diagnostischen Urteilsgenauigkeit von Lehrkräften." />
+        </figure>
+      </dialog>
+
+      <dialog id="trace-tool-modal" class="pisa-result-modal image-detail-modal">
+        <button type="button" class="modal-close" data-close aria-label="Schließen">×</button>
+        <figure class="modal-image-scroll">
+          <img src="assets/trace_teacher_assessment_tool.png" alt="TRACE Tool zur Beurteilung von Schülertexten." />
+        </figure>
+      </dialog>
+
+      <dialog id="effectiveness-workspace" class="modal modal--wide">
+        <button type="button" data-close>Schließen</button>
+        <h2>Schreibumgebung mit KI-Feedback</h2>
+        <p>Die Schreibumgebung macht Feedback- und Revisionsprozesse während der Studie nachvollziehbar.</p>
+        <figure><img src="assets/effectiveness_writing_workspace_screenshot.png" alt="Schreibumgebung mit Materialien, Instruktionen, Schüler:innentext, Revisionsbereich und Feedbackhinweis." /></figure>
+      </dialog>
+
+      <dialog id="feedback-genius-example-modal" class="modal modal--wide">
+        <button type="button" data-close>Schließen</button>
+        <h2>GENIUS-Feedbackbeispiel</h2>
+        <figure><img src="assets/feedback_genius_example.png" alt="Beispiel für GENIUS-Feedback zu Argumentationsbausteinen mit Hinweistext zur Verbesserung des Arguments." /></figure>
+      </dialog>
+
+      <dialog id="feedback-story-modal" class="modal modal--wide modal--story">
+        <button type="button" data-close>Schließen</button>
+        <h2>Schüler:innenmerkmale moderieren Feedbackeffekte über Engagement</h2>
+        <figure><img src="assets/feedback_engagement_story_model.png" alt="Erweitertes Feedback-Engagement-Modell mit Drafting, Feedback, wahrgenommener Nützlichkeit, Engagement, Motivation, Revisionsleistung und Selbstüberzeugungen." /></figure>
+      </dialog>
+
+      <section class="slide lmu-slide theory-extension-slide" id="theory-extensions" data-stage="outlook">
+        <p class="eyebrow">Theoretische Erweiterungen</p>
+        <h1>KI-gestütztes Lernen theoretisch erweitern</h1>
+        <div class="theory-extension-grid">
+          <article>
+            <div class="eyebrow-row">
+              <h2>Formative Assessment Theory</h2>
+              <span class="ref">Hattie &amp; Jansen, submitted</span>
+            </div>
+            <p class="theory-summary">Prozessfeedback erweitert formative Rückmeldung um den sichtbaren Lernprozess.</p>
+            <figure>
+              <button class="theory-image-open" type="button" data-open="formative-assessment-theory-modal" aria-label="Formative Assessment Theory groß anzeigen">
+                <img src="assets/formative_assessment_four_questions_full_model.png" alt="Erweiterung der formativen Assessment-Theorie: vier Fragen während der Arbeit und Unterstützung durch feed-up, feedback, feed-forward und feed-through." />
+              </button>
+            </figure>
+          </article>
+          <article>
+            <div class="eyebrow-row">
+              <h2>Situated Expectancy-Value Theory</h2>
+              <span class="ref">Jansen, Wigfield et al., 2025</span>
+            </div>
+            <p class="theory-summary">Erwartungen, Werte und KI-Erwartungen erklären gemeinsam, ob Schüler:innen handeln.</p>
+            <figure>
+              <button class="theory-image-open" type="button" data-open="sevt-theory-modal" aria-label="Situated Expectancy-Value Theory groß anzeigen">
+                <img src="assets/sevt_ai_learning_arrangements_model.png" alt="SEVT-Erweiterung für KI-Lernarrangements mit Expectancy, Value und AI Expectancy als Bedingungen für Handlung." />
+              </button>
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <dialog id="formative-assessment-theory-modal" class="modal modal--image-fullscreen">
+        <button type="button" data-close>Schließen</button>
+        <figure>
+          <img src="assets/formative_assessment_four_questions_full_model.png" alt="Erweiterung der formativen Assessment-Theorie: vier Fragen während der Arbeit und Unterstützung durch feed-up, feedback, feed-forward und feed-through." />
+        </figure>
+      </dialog>
+
+      <dialog id="sevt-theory-modal" class="modal modal--image-fullscreen">
+        <button type="button" data-close>Schließen</button>
+        <figure>
+          <img src="assets/sevt_ai_learning_arrangements_model.png" alt="SEVT-Erweiterung für KI-Lernarrangements mit Expectancy, Value und AI Expectancy als Bedingungen für Handlung." />
+        </figure>
+      </dialog>
+
+      <section class="slide project" id="leseband" data-stage="outlook">
+        <p class="eyebrow">Drittmittelprojekt</p>
+        <h1>Leseband+</h1>
+        <div class="supporter-logos supporter-logos--leseband" aria-label="Leseband+ supporters">
+          <img src="assets/auridis_stiftung_logo.png" alt="Auridis Stiftung" />
+          <img src="assets/victor_rolff_stiftung_logo.png" alt="Victor Rolff Stiftung" />
+        </div>
+        <div class="project-grid">
+          <article><p>Ziel: Lehrkraefte bei der Einschaetzung der Leseentwicklung von Grundschulkindern unterstuetzen. Start: Herbst 2026.</p></article>
+          <article><p>Gesamtfoerderung: EUR 880.000. Eigener Anteil: EUR 220.000.</p></article>
+        </div>
+      </section>
+
+      <section class="slide project" id="generational-ai" data-stage="outlook">
+        <p class="eyebrow">Drittmittelprojekt</p>
+        <h1>Generational AI: learning and well-being with generative AI</h1>
+        <div class="supporter-logos supporter-logos--horizon" aria-label="Generational AI supporter">
+          <img src="assets/horizon_europe_logo.jpeg" alt="Horizon Europe" />
+        </div>
+        <div class="project-grid project-grid--three">
+          <article><p>Forschungsfrage: Wie beeinflusst generative KI Lernen und Wohlbefinden?</p></article>
+          <article><p>Start: Ende 2026.</p></article>
+          <article><p>Projektvolumen: EUR 3.450.000. Eigener Anteil: EUR 138.000.</p></article>
+        </div>
+      </section>
+
+      <section class="slide lmu-slide" id="lmu-agenda" data-stage="outlook">
+        <h1 class="integration-research-title">Integration meiner geplanten Forschung</h1>
+        <figure class="munich-research-environment">
+          <img src="assets/munich_research_environment.png" alt="Münchener Forschungsumfeld mit LMU Schulpsychologie, SHARP TRR 419, MCLS, TUM PISA und Germanistik als Netzwerk um individuelle Unterschiede im KI-gestützten Lernen." />
+        </figure>
+      </section>
+
+      <section class="slide team" id="closing" data-stage="outlook">
+        <p class="eyebrow">Danke</p>
+        <h1>Team und Kooperationsnetzwerk</h1>
+        <div class="team-grid">
+          <section>
+            <h2>Doktorand:innen und Mitarbeitende</h2>
+            <div class="people-strip">
+              <figure><img src="assets/mira_tanz_portrait.jpeg" alt="Mira Tanz" /><figcaption>Mira Tanz</figcaption></figure>
+              <figure><img src="assets/lars_hoeft_portrait.jpg" alt="Lars Hoeft" /><figcaption>Lars Hoeft</figcaption></figure>
+              <figure><img src="assets/marlene_steinbach_portrait.jpeg" alt="Marlene Steinbach" /><figcaption>Marlene Steinbach</figcaption></figure>
+              <figure><img src="assets/ute_mertens_portrait.png" alt="Ute Mertens" /><figcaption>Ute Mertens</figcaption></figure>
+              <figure><img src="assets/jonathan_schaller_portrait.png" alt="Jonathan Schaller" /><figcaption>Jonathan Schaller</figcaption></figure>
+              <figure><img src="assets/hannah_puenjer_portrait.jpeg" alt="Hannah Puenjer" /><figcaption>Hannah Puenjer</figcaption></figure>
+            </div>
+          </section>
+          <section>
+            <h2>Kolleg:innen</h2>
+            <div class="people-strip">
+              <figure><img src="assets/jennifer_meyer_portrait.png" alt="Jennifer Meyer" /><figcaption>Jennifer Meyer</figcaption></figure>
+              <figure><img src="assets/olaf_koeller_portrait.jpeg" alt="Olaf Köller" /><figcaption>Olaf Köller</figcaption></figure>
+              <figure><img src="assets/jens_moeller_portrait.png" alt="Jens Möller" /><figcaption>Jens Möller</figcaption></figure>
+              <figure><img src="assets/johanna_fleckenstein_portrait.png" alt="Johanna Fleckenstein" /><figcaption>Johanna Fleckenstein</figcaption></figure>
+              <figure><img src="assets/andrea_horbach_portrait.jpeg" alt="Andrea Horbach" /><figcaption>Andrea Horbach</figcaption></figure>
+              <figure><img src="assets/john_hattie_portrait.jpeg" alt="John Hattie" /><figcaption>John Hattie</figcaption></figure>
+            </div>
+          </section>
+          <section>
+            <h2>Kooperationspartner</h2>
+            <div class="logo-grid">
+              <img src="assets/cau_kiel_logo.png" alt="CAU Kiel" />
+              <img src="assets/university_hildesheim_logo.jpg" alt="Universität Hildesheim" />
+              <img src="assets/university_tuebingen_logo.png" alt="Universität Tübingen" />
+              <img src="assets/ph_zurich_logo.png" alt="PH Zürich" />
+              <img src="assets/lmu_munich_logo.png" alt="LMU München" />
+              <img src="assets/monash_university_logo.png" alt="Monash University" />
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <div class="talk-popover" id="helpPopover" aria-hidden="true">
+      <button class="talk-popover-backdrop" type="button" data-popover-close aria-label="Hilfe schließen"></button>
+      <section class="talk-popover-card" role="dialog" aria-modal="true" aria-labelledby="helpTitle" tabindex="-1">
+        <div class="talk-popover-head">
+          <p>Hilfe zur aktuellen Folie</p>
+          <button type="button" data-popover-close aria-label="Hilfe schließen">×</button>
+        </div>
+        <h2 id="helpTitle">Folienhilfe</h2>
+        <p id="helpSlideTitle" class="talk-popover-subtitle"></p>
+        <div id="helpBody" class="talk-popover-body"></div>
+      </section>
+    </div>
+
+    <div class="talk-popover" id="literaturePopover" aria-hidden="true">
+      <button class="talk-popover-backdrop" type="button" data-popover-close aria-label="Quellen schließen"></button>
+      <section class="talk-popover-card" role="dialog" aria-modal="true" aria-labelledby="literatureTitle" tabindex="-1">
+        <div class="talk-popover-head">
+          <p>Literatur zur aktuellen Folie</p>
+          <button type="button" data-popover-close aria-label="Quellen schließen">×</button>
+        </div>
+        <h2 id="literatureTitle">Quellen</h2>
+        <p id="literatureSlideTitle" class="talk-popover-subtitle"></p>
+        <ul id="literatureList" class="talk-reference-list"></ul>
+        <a class="talk-popover-link" href="forschungsvortrag_literaturverzeichnis.md" target="_blank" rel="noopener">Vollständiges Literaturverzeichnis öffnen</a>
+      </section>
+    </div>
+
+    <script src="script.js?v=course-process-edits-20260526"></script>
+  </body>
+</html>
