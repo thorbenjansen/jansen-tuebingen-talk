@@ -3552,6 +3552,20 @@ body.lmu-talk #pisa .compact-open-access {
   margin: 0 auto;
 }
 
+#pisa-score-distributions .pisa-plot-centered {
+  grid-template-columns: minmax(230px, 0.58fr) minmax(500px, 1.22fr) minmax(210px, 0.52fr);
+  gap: 24px;
+}
+
+#pisa-score-distributions .large-plot-card {
+  width: min(720px, 100%);
+  padding: 12px;
+}
+
+#pisa-score-distributions .large-plot-card img {
+  max-height: 415px;
+}
+
 .performance-plot-card {
   width: min(720px, 100%);
 }
@@ -3578,6 +3592,18 @@ body.lmu-talk #pisa .compact-open-access {
   color: var(--muted);
   font-size: 18px;
   line-height: 1.35;
+}
+
+.plot-callout-list {
+  margin: 0;
+  padding-left: 22px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.32;
+}
+
+.plot-callout-list li + li {
+  margin-top: 10px;
 }
 
 .pisa-result-modal[open] {

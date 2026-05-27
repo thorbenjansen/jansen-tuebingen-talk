@@ -17,9 +17,9 @@ const structureIndex = slides.findIndex((slide) => slide.id === "structure");
 const pathwayStages = new Set(stageLinks.map((link) => link.dataset.stageLink));
 const stageLabels = {
   intro: "Einordnung und Leitfrage",
-  diagnosis: "Diagnostik",
-  intervention: "Intervention",
-  process: "Prozessdaten",
+  diagnosis: "Lehrkräfte",
+  intervention: "Instruktion",
+  process: "Schüler:innen",
   outlook: "Ausblick",
 };
 const pathwayMilestones = {
@@ -196,6 +196,7 @@ function updateChrome() {
     slide?.classList.contains("learning-progression") ||
     slide?.classList.contains("lmu-transition-slide") ||
     slide?.classList.contains("interim") ||
+    slide?.dataset.hideRail === "true" ||
     Boolean(slide?.querySelector(".mini-pathway"));
   const railAvailable = structureIndex >= 0 && index > structureIndex && pathwayStages.has(stage) && !hideRail;
   const max = document.documentElement.scrollHeight - window.innerHeight;

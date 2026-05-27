@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css?v=interim-marker-center-20260527" />
+    <link rel="stylesheet" href="style.css?v=pisa-score-layout-20260527" />
   </head>
   <body class="lmu-talk">
     <div class="progress"><div id="progressBar"></div></div>
@@ -26,19 +26,19 @@
     <aside class="pathway-rail" aria-label="Vortragsstruktur">
       <div class="pathway-group" data-stage-group="diagnosis">
         <a class="pathway-main" href="#teacher-assessment" data-stage-link="diagnosis">
-          <span class="pathway-label"><span class="pathway-title">Diagnostik</span><span class="pathway-range" data-stage-range="diagnosis"></span></span>
+          <span class="pathway-label"><span class="pathway-title">Lehrkräfte</span><span class="pathway-range" data-stage-range="diagnosis"></span></span>
         </a>
         <div class="pathway-subnav" data-stage-subnav="diagnosis"></div>
       </div>
       <div class="pathway-group" data-stage-group="intervention">
         <a class="pathway-main" href="#feedback-intervention" data-stage-link="intervention">
-          <span class="pathway-label"><span class="pathway-title">Intervention</span><span class="pathway-range" data-stage-range="intervention"></span></span>
+          <span class="pathway-label"><span class="pathway-title">Instruktion</span><span class="pathway-range" data-stage-range="intervention"></span></span>
         </a>
         <div class="pathway-subnav" data-stage-subnav="intervention"></div>
       </div>
       <div class="pathway-group" data-stage-group="process">
         <a class="pathway-main" href="#writing-processes" data-stage-link="process">
-          <span class="pathway-label"><span class="pathway-title">Prozessdaten</span><span class="pathway-range" data-stage-range="process"></span></span>
+          <span class="pathway-label"><span class="pathway-title">Schüler:innen</span><span class="pathway-range" data-stage-range="process"></span></span>
         </a>
         <div class="pathway-subnav" data-stage-subnav="process"></div>
       </div>
@@ -92,7 +92,7 @@
 
       <section class="slide lmu-slide" id="structure" data-stage="intro">
         <p class="eyebrow">Struktur</p>
-        <h1>Drei differentielle Fragen zum schulischen Schreiben</h1>
+        <h1>Differenzielle Fragen zum schulischen Schreiben auf drei Ebenen</h1>
         <div class="lmu-pillars">
           <article class="lmu-pillar">
             <span class="lmu-number lmu-number-label"><b>1</b><span>Lehrkräfte</span></span>
@@ -334,7 +334,7 @@
         <h1><a href="assets/Supplement_Receptivity%20Study.html" target="_blank" rel="noopener">Schüler:innen mit geringeren Argumentationsfähigkeiten und niedrigerer Motivation profitierten stärker von pädagogischem KI-Feedback</a></h1>
       </section>
 
-      <section class="slide online-course-slide student-course-slide" id="effective-argumentation-course" data-stage="intervention">
+      <section class="slide online-course-slide student-course-slide" id="effective-argumentation-course" data-stage="intervention" data-hide-rail="true">
         <p class="eyebrow">Onlinekurs für Schüler:innen der Sekundarstufe</p>
         <div class="online-course-layout">
           <figure class="online-course-cover">
@@ -396,8 +396,11 @@
         <h1>Mit Chatbots geschriebene Texte erhalten höhere Bewertungen</h1>
         <div class="pisa-plot-centered">
           <aside class="plot-callout plot-callout-left">
-            <strong>Höhere Scoreverteilungen</strong>
-            <span>Über Inhalt, Sprachqualität, holistische Qualität und Organisation hinweg verschieben sich chatbot-gestützte Texte in höhere Bewertungsbereiche.</span>
+            <strong>Zentrale Befunde</strong>
+            <ul class="plot-callout-list">
+              <li>Höhere Textqualität für Texte, die mit Chat-Unterstützung geschrieben wurden.</li>
+              <li>Rangkorrelation von 0,2 der Textqualität mit und ohne Chat-Unterstützung.</li>
+            </ul>
           </aside>
           <button class="plot-card large-plot-card pisa-scoring-open" type="button" data-open="pisa-scoring-time-modal" aria-label="Automatisierte Bewertung über die Schreibzeit öffnen">
             <img src="assets/pisa/chatbot_score_distribution_density_plots.png" alt="Dichteplots der Scoreverteilungen für Texte mit und ohne Chatbot-Unterstützung über Inhalt, holistische Qualität, Sprachqualität und Organisation hinweg." />
