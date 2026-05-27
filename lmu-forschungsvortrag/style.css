@@ -189,13 +189,13 @@ img { max-width: 100%; display: block; }
   min-width: 0;
   display: flex;
   align-items: center;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(15, 23, 42, 0.08);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: rgba(0, 0, 0, 0.4) 0 0 1px 0, rgba(0, 0, 0, 0.04) 0 2px 4px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
   color: var(--muted);
   text-decoration: none;
-  opacity: 0.9;
+  opacity: 0.86;
   backdrop-filter: blur(14px);
   pointer-events: auto;
 }
@@ -215,20 +215,16 @@ img { max-width: 100%; display: block; }
   padding-right: 14px;
 }
 
-.pathway-rail b {
-  display: grid;
+.pathway-main::before {
+  content: "";
   flex: 0 0 auto;
-  place-items: center;
-  width: 24px;
-  height: 24px;
+  width: 11px;
+  height: 11px;
+  margin-left: 8px;
   border: 0;
   border-radius: 50%;
-  background: var(--powder);
-  color: var(--ink);
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0.05em;
+  background: rgba(8, 34, 57, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(8, 34, 57, 0.08);
 }
 
 .pathway-label {
@@ -255,12 +251,7 @@ img { max-width: 100%; display: block; }
 }
 
 .pathway-range {
-  color: inherit;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  opacity: 0.72;
-  text-transform: none;
+  display: none;
 }
 
 .pathway-subnav {
@@ -283,9 +274,9 @@ img { max-width: 100%; display: block; }
   max-height: 280px;
   opacity: 1;
   padding: 7px;
-  border-color: var(--line);
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: rgba(0, 0, 0, 0.4) 0 0 1px 0, rgba(0, 0, 0, 0.04) 0 2px 4px;
+  border-color: rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.07);
   transform: translateX(0);
 }
 
@@ -315,21 +306,20 @@ img { max-width: 100%; display: block; }
 }
 
 .pathway-rail a.is-active {
-  border-color: var(--ink);
-  background: var(--ink);
-  color: var(--paper);
+  border-color: rgba(42, 108, 166, 0.22);
+  background: rgba(229, 241, 255, 0.92);
+  color: #12324f;
   opacity: 1;
 }
 
-.pathway-main.is-active b {
-  background: var(--paper);
-  color: var(--ink);
-  box-shadow: none;
+.pathway-main.is-active::before {
+  background: rgba(42, 108, 166, 0.48);
+  box-shadow: inset 0 0 0 1px rgba(42, 108, 166, 0.18);
 }
 
 .pathway-subnav a.is-active {
-  background: var(--powder);
-  color: var(--ink);
+  background: rgba(229, 241, 255, 0.82);
+  color: #12324f;
   opacity: 1;
 }
 
@@ -345,10 +335,10 @@ img { max-width: 100%; display: block; }
   right: 0;
   margin-top: 10px;
   padding: 7px 11px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(15, 23, 42, 0.1);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: rgba(0, 0, 0, 0.4) 0 0 1px 0, rgba(0, 0, 0, 0.04) 0 2px 4px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
   color: var(--muted);
   font-size: 13px;
   font-weight: 500;
@@ -4635,6 +4625,30 @@ body.lmu-talk .lmu-number {
   font-weight: 800;
 }
 
+body.lmu-talk #structure .lmu-number-label {
+  width: max-content;
+  max-width: 100%;
+  height: 44px;
+  grid-template-columns: 28px auto;
+  gap: 10px;
+  padding: 0 16px 0 8px;
+  border-radius: 999px;
+  font: 800 13px/1 var(--ui);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+body.lmu-talk #structure .lmu-number-label b {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.96);
+  color: #000;
+  font: inherit;
+}
+
 body.lmu-talk .lmu-picture-slide {
   display: grid;
   align-content: center;
@@ -4983,8 +4997,8 @@ body.lmu-talk .theory-extension-grid article {
   min-width: 0;
   max-width: 100%;
   display: grid;
-  grid-template-rows: auto 66px 126px;
-  gap: 9px;
+  grid-template-rows: auto minmax(152px, 1fr);
+  gap: 14px;
   justify-items: start;
   padding: 18px;
   border: 1px solid var(--line);
@@ -5019,18 +5033,6 @@ body.lmu-talk .theory-extension-grid p {
   line-height: 1.18 !important;
 }
 
-body.lmu-talk .theory-extension-grid .theory-summary {
-  width: min(310px, 76%);
-  max-height: 66px;
-  justify-self: start;
-  align-self: start;
-  padding: 9px 11px;
-  border: 1px solid rgba(4, 71, 255, 0.16);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.76);
-  overflow: hidden;
-}
-
 body.lmu-talk .theory-extension-grid figure {
   margin: 0;
   min-height: 0;
@@ -5043,9 +5045,9 @@ body.lmu-talk .theory-extension-grid figure {
 
 body.lmu-talk .theory-image-open {
   min-width: 0;
-  width: min(260px, 64%) !important;
-  max-width: 260px !important;
-  height: 96px !important;
+  width: min(390px, 92%) !important;
+  max-width: 390px !important;
+  height: 145px !important;
   justify-self: start;
   display: grid;
   place-items: center;
@@ -5069,11 +5071,12 @@ body.lmu-talk .theory-extension-grid img {
 
 body.lmu-talk .modal--image-fullscreen {
   position: fixed;
-  inset: 18px;
-  width: auto;
-  max-width: none;
-  height: auto;
-  max-height: none;
+  inset: 0;
+  width: min(1040px, 82vw);
+  max-width: 1040px;
+  height: min(660px, 78vh);
+  max-height: 660px;
+  margin: auto;
   padding: 54px 26px 26px;
 }
 
@@ -5573,6 +5576,19 @@ body.lmu-talk #diagnosis-to-feedback .next-block-marker {
   right: auto !important;
   bottom: 54px;
   justify-self: auto;
+  transform: translateX(-50%) !important;
+}
+
+body.lmu-talk .slide.interim > .next-block-marker,
+body.lmu-talk .lmu-transition-slide > .next-block-marker {
+  position: absolute !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: 54px;
+  width: auto !important;
+  min-width: 220px;
+  justify-self: auto !important;
+  align-self: auto !important;
   transform: translateX(-50%) !important;
 }
 
