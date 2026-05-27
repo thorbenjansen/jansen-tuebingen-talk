@@ -2,6 +2,7 @@ const slides = Array.from(document.querySelectorAll(".slide"));
 const progressBar = document.querySelector("#progressBar");
 const slideBadge = document.querySelector("#slideBadge");
 const railSlideCounter = document.querySelector("#railSlideCounter");
+const railQr = document.querySelector("#railQr");
 const pathwayRail = document.querySelector(".pathway-rail");
 const railInfoToggle = document.querySelector("[data-rail-info]");
 const stageLinks = Array.from(document.querySelectorAll("[data-stage-link]"));
@@ -614,6 +615,7 @@ function updateChrome() {
   const slideLabel = isTalkSlide ? `Folie ${talkIndex + 1} / ${talkSlideCount}` : `Einordnung ${index + 1} / ${talkStartIndex}`;
   if (slideBadge) slideBadge.textContent = slideLabel;
   if (railSlideCounter) railSlideCounter.textContent = slideLabel;
+  railQr?.classList.toggle("is-hidden", index > talkStartIndex);
 
   const stage = slide?.dataset.stage;
   const meta = stageMeta[stage] ?? stageMeta.problemfall;

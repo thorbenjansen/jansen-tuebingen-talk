@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jansen | Lehrprobe LMU München</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=qr-20260527" />
   </head>
   <body>
     <div class="progress"><div id="progressBar"></div></div>
@@ -36,6 +36,10 @@
         <a href="#visible-learning-ausblick" data-stage-link="transfer"><span>Transfer</span></a>
       </nav>
       <div class="rail-slide-counter" id="railSlideCounter">Folie 1 / 23</div>
+      <figure class="rail-qr" id="railQr" aria-label="QR-Code zur Lehrprobe">
+        <img src="assets/lmu-lehrprobe-qr.png" alt="QR-Code zur Lehrprobe-Website" />
+        <figcaption>Direkt zur Website</figcaption>
+      </figure>
     </aside>
 
     <main class="deck">
@@ -91,7 +95,7 @@
               </tr>
               <tr class="current-session">
                 <td class="term">2</td>
-                <td class="topic"><strong>Gleiche Note, unterschiedliche Profile: inter- und intraindividuelle Unterschiede in Schulleistung</strong></td>
+                <td class="topic"><strong>Warum gleiche Noten nicht dasselbe sind</strong></td>
                 <td class="function">Lehrprobe: zeigen, warum ein Leistungswert diagnostisch verschieden bedeuten kann</td>
               </tr>
               <tr>
@@ -325,6 +329,21 @@
         <p class="interindividual-strip">Interindividuell beantwortet Vergleichsfragen.</p>
       </section>
 
+      <section class="slide intervention-slide" id="interventionspassung" data-stage="begriff-inter">
+        <p class="eyebrow">Bedeutung individueller Unterschiede</p>
+        <h1>Individuelle Unterschiede entscheiden mit, welche Intervention passt.</h1>
+        <div class="intervention-layout">
+          <figure class="intervention-frame">
+            <img src="assets/intervention-heterogeneity-feedback.png" alt="Heatmap-Beispiel: Vorhergesagte beste und schlechteste Feedbackgruppe unterscheiden sich je nach Lernendenprofil, Zielorientierung und Vertrautheit mit Instructional GPT." />
+          </figure>
+          <div class="intervention-cards">
+            <article><b>Passung</b><span>Eine Intervention ist nicht nur gut oder schlecht. Entscheidend ist, für wen sie unter welchen Bedingungen passt.</span></article>
+            <article class="warm"><b>Diagnostik</b><span>Inter- und intraindividuelle Profile helfen zu verstehen, welche Unterstützung wahrscheinlich trägt.</span></article>
+            <article><b>Unterricht</b><span>Für Lehrkräfte wird daraus eine adaptive Frage: Welche Lernenden profitieren von welcher Form der Unterstützung?</span></article>
+          </div>
+        </div>
+      </section>
+
       <section class="slide vera-slide" id="vera-daten" data-stage="begriff-inter">
         <p class="eyebrow">Datenkompetenz | VERA 3</p>
         <h1>Lehrkräfte müssen lernen, interindividuelle Unterschiede aus Daten zu deuten.</h1>
@@ -431,21 +450,6 @@
           </div>
         </div>
         <p class="sevt-strip">Das Modell formalisiert den Gedanken: Verläufe und individuelle Unterschiede verändern, wie Leistung entsteht und gedeutet wird.</p>
-      </section>
-
-      <section class="slide intervention-slide" id="interventionspassung" data-stage="forschungsanker">
-        <p class="eyebrow">Bedeutung individueller Unterschiede</p>
-        <h1>Individuelle Unterschiede entscheiden mit, welche Intervention passt.</h1>
-        <div class="intervention-layout">
-          <figure class="intervention-frame">
-            <img src="assets/intervention-heterogeneity-feedback.png" alt="Heatmap-Beispiel: Vorhergesagte beste und schlechteste Feedbackgruppe unterscheiden sich je nach Lernendenprofil, Zielorientierung und Vertrautheit mit Instructional GPT." />
-          </figure>
-          <div class="intervention-cards">
-            <article><b>Passung</b><span>Eine Intervention ist nicht nur gut oder schlecht. Entscheidend ist, für wen sie unter welchen Bedingungen passt.</span></article>
-            <article class="warm"><b>Diagnostik</b><span>Inter- und intraindividuelle Profile helfen zu verstehen, welche Unterstützung wahrscheinlich trägt.</span></article>
-            <article><b>Unterricht</b><span>Für Lehrkräfte wird daraus eine adaptive Frage: Welche Lernenden profitieren von welcher Form der Unterstützung?</span></article>
-          </div>
-        </div>
       </section>
 
       <section class="slide" id="anwendung" data-stage="sicherung">

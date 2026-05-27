@@ -222,6 +222,42 @@ img {
   pointer-events: none;
 }
 
+.rail-qr {
+  justify-self: center;
+  width: 116px;
+  margin: 8px 0 0;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: rgba(4, 23, 43, 0.08) 0 10px 24px -18px;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 160ms ease, transform 160ms ease;
+  pointer-events: auto;
+}
+
+.rail-qr.is-hidden {
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+}
+
+.rail-qr img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.rail-qr figcaption {
+  margin-top: 5px;
+  color: var(--light-steel);
+  font-size: 9.5px;
+  font-weight: 850;
+  line-height: 1.05;
+  text-align: center;
+}
+
 .deck {
   background: var(--canvas);
 }
@@ -950,8 +986,9 @@ blockquote {
   height: 600px;
   border: 1px solid rgba(23, 25, 28, 0.08);
   border-radius: 16px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
+  background: #fff;
 }
 
 .public-bridge {
@@ -3232,6 +3269,10 @@ blockquote {
   .rail-slide-counter {
     justify-self: end;
     padding: 5px 8px;
+  }
+
+  .rail-qr {
+    display: none;
   }
 
   .stage-list {
