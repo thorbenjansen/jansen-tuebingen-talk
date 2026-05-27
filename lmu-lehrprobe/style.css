@@ -1039,8 +1039,8 @@ blockquote {
 .threshold-combo {
   margin-top: 28px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 340px;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 22px;
   align-items: stretch;
   margin-right: 44px;
 }
@@ -1098,12 +1098,12 @@ blockquote {
 }
 
 .threshold-combo .mandate-focus {
-  grid-column: 1 / -1;
-  padding: 14px;
+  grid-column: 1;
+  padding: 16px;
 }
 
 .threshold-combo .mandate-focus img {
-  height: 178px;
+  height: 326px;
 }
 
 .mandate-focus img {
@@ -1236,48 +1236,6 @@ blockquote {
   border-radius: 18px;
   background: var(--canvas);
   box-shadow: rgba(4, 23, 43, 0.04) 0 0 0 1px, rgba(0, 0, 0, 0.08) 0 16px 20px -18px;
-}
-
-.didactic-grid article:nth-child(1)::after,
-.didactic-grid article:nth-child(2)::after,
-.didactic-grid article:nth-child(4)::after,
-.didactic-grid article:nth-child(5)::after {
-  content: "→";
-  position: absolute;
-  top: 50%;
-  right: -15px;
-  z-index: 2;
-  width: 26px;
-  height: 26px;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  background: var(--canvas);
-  color: var(--ink);
-  box-shadow: var(--shadow);
-  transform: translateY(-50%);
-  font-size: 16px;
-  font-weight: 900;
-}
-
-.didactic-grid article:nth-child(3)::after,
-.didactic-grid article:nth-child(6)::after {
-  content: "↓";
-  position: absolute;
-  left: 50%;
-  bottom: -16px;
-  z-index: 2;
-  width: 26px;
-  height: 26px;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  background: var(--canvas);
-  color: var(--ink);
-  box-shadow: var(--shadow);
-  transform: translateX(-50%);
-  font-size: 16px;
-  font-weight: 900;
 }
 
 .didactic-grid article.warm {
